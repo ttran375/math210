@@ -27,7 +27,8 @@ solutions.**
 ### a) Mean
 
 $$
-\begin{equation}
-\dfrac{\sum\limits_{i=1}^{n}x_i}{n}
-\end{equation}
+\begin{align}
+\dfrac{\sum\limits_{i=1}^{n}x_i}{n} &= \dfrac{1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4}{6} \\
+&= 1.35
+\end{align}
 $$
