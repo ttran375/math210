@@ -1,0 +1,76 @@
+To find the standard deviation of the given data, follow these steps:
+
+1. **Find the mean (average) of the data:**
+
+\[
+\text{Mean} = \frac{\sum x_i}{n}
+\]
+
+Where \( x_i \) are the data points and \( n \) is the number of data points.
+
+2. **Calculate the variance:**
+
+\[
+\text{Variance} (\sigma^2) = \frac{\sum (x_i - \text{Mean})^2}{n}
+\]
+
+3. **Find the standard deviation:**
+
+\[
+\text{Standard Deviation} (\sigma) = \sqrt{\text{Variance}}
+\]
+
+Let's apply these steps to the data: \( 1.3, 1.5, 1.4, 1.3, 1.2, 1.4 \).
+
+### Step 1: Calculate the Mean
+
+\[
+\text{Mean} = \frac{1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4}{6} = \frac{8.1}{6} = 1.35
+\]
+
+### Step 2: Calculate the Variance
+
+\[
+\text{Variance} = \frac{(1.3 - 1.35)^2 + (1.5 - 1.35)^2 + (1.4 - 1.35)^2 + (1.3 - 1.35)^2 + (1.2 - 1.35)^2 + (1.4 - 1.35)^2}{6}
+\]
+
+Let's calculate each term in the numerator:
+
+\[
+(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
+\]
+\[
+(1.5 - 1.35)^2 = (0.15)^2 = 0.0225
+\]
+\[
+(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
+\]
+\[
+(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
+\]
+\[
+(1.2 - 1.35)^2 = (-0.15)^2 = 0.0225
+\]
+\[
+(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
+\]
+
+Sum of these squared differences:
+
+\[
+0.0025 + 0.0225 + 0.0025 + 0.0025 + 0.0225 + 0.0025 = 0.055
+\]
+
+Variance:
+
+\[
+\text{Variance} = \frac{0.055}{6} \approx 0.009167
+\]
+
+### Step 3: Calculate the Standard Deviation
+
+\[
+\text{Standard Deviation} = \sqrt{0.009167} \approx 0.0957
+\]
+
+Therefore, the standard deviation of the heights is approximately 0.0957 meters.
