@@ -1,7 +1,5 @@
 # Math 210 – Assignment 1 B (Statistics)
 
-## Question 1
-
 1\. For the data below, representing a sample of heights (in metres) for
 10 years old males at a certain school, find:
 
@@ -19,8 +17,6 @@ e\) The 72<sup>nd</sup> percentile
 
 **Solve by hand (without the use of software) and include full
 solutions.**
-
-## Question 2
 
 2\. The following frequency table represents the distribution of the
 ages of participants in a bike competition:
@@ -47,10 +43,8 @@ Find: **\[4 marks\]**
 **Solve by hand (without the use of software) and include full
 solutions.**
 
-## Question 3
-
-> 3\. The following data represents the ages for a sample of people
-> swimming at a community centre pool:
+3\. The following data represents the ages for a sample of people
+swimming at a community centre pool:
 
 4, 20, 23, 7, 23, 17, 27, 28, 47, 49, 23, 18, 34, 43
 
@@ -64,12 +58,10 @@ solutions.**
 **Solve by hand (without the use of software) and include full
 solutions.**
 
-## Question 4
+4\. The mean grade for a Statistics class at a certain college is
+known to be 78% with a standard deviation of 4.5 %.
 
-> 4\. The mean grade for a Statistics class at a certain college is
-> known to be 78% with a standard deviation of 4.5 %.
->
-> Find:
+Find:
 
 a\) The z – score for a grade of 95%. **\[2 marks\]**
 
@@ -78,8 +70,6 @@ mean? **\[2 marks\]**
 
 **Solve by hand (without the use of software) and include full
 solutions.**
-
-## Question 5
 
 5\. For the bivariate data below:
 
@@ -109,8 +99,6 @@ output here***).
 
 d)Find the coefficient of correlation. ***Show all the calculations***.
 (Epress your answer correct to 2 decimal places) **\[2 marks\]**
-
-## Question 6
 
 6\. **Using a statistical software,** create a histogram and generate
 descriptive statistics (at least 3 measures of central tendency, 2

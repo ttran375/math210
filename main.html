@@ -352,74 +352,105 @@ display: none;
 </div>
 
 
-<p>To find the standard deviation of the given data, follow these
-steps:</p>
-<ol style="list-style-type: decimal">
-<li><strong>Find the mean (average) of the data:</strong></li>
-</ol>
+<div id="math-210-assignment-1-b-statistics" class="section level1">
+<h1>Math 210 – Assignment 1 B (Statistics)</h1>
+<p>1. For the data below, representing a sample of heights (in metres)
+for 10 years old males at a certain school, find:</p>
+<p>Data: 1.3, 1.5, 1.4, 1.3, 1.2, 1.4 <strong><span class="math display">\[8 marks\]</span></strong></p>
+<p>a)The mean</p>
+<p>b) The median</p>
+<p>c) The mode</p>
+<p>d) The standard deviation</p>
+<p>e) The 72<sup>nd</sup> percentile</p>
+<p><strong>Solve by hand (without the use of software) and include full
+solutions.</strong></p>
+<div id="a-mean" class="section level3">
+<h3>a) Mean</h3>
 <p><span class="math display">\[
-\text{Mean} = \frac{\sum x_i}{n}
+\sum x_i = 1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4 = 8.1
 \]</span></p>
-<p>Where <span class="math inline">\(x_i\)</span> are the data points
-and <span class="math inline">\(n\)</span> is the number of data
-points.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Calculate the variance:</strong></li>
-</ol>
 <p><span class="math display">\[
-\text{Variance} (\sigma^2) = \frac{\sum (x_i - \text{Mean})^2}{n}
+n = 6
 \]</span></p>
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Find the standard deviation:</strong></li>
-</ol>
 <p><span class="math display">\[
-\text{Standard Deviation} (\sigma) = \sqrt{\text{Variance}}
-\]</span></p>
-<p>Let’s apply these steps to the data: <span class="math inline">\(1.3,
-1.5, 1.4, 1.3, 1.2, 1.4\)</span>.</p>
-<div id="step-1-calculate-the-mean" class="section level3">
-<h3>Step 1: Calculate the Mean</h3>
-<p><span class="math display">\[
-\text{Mean} = \frac{1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4}{6} =
-\frac{8.1}{6} = 1.35
+\bar{x} = \frac{8.1}{6} = 1.35
 \]</span></p>
 </div>
-<div id="step-2-calculate-the-variance" class="section level3">
-<h3>Step 2: Calculate the Variance</h3>
+<div id="b-median" class="section level3">
+<h3>b) Median</h3>
+<p>The median is the middle value when the data points are arranged in
+ascending order. If the number of data points is even, the median is the
+average of the two middle numbers.</p>
+<p>Arranging the data in ascending order: 1.2, 1.3, 1.3, 1.4, 1.4,
+1.5</p>
+<p>Since there are 6 data points (even number), the median is the
+average of the 3rd and 4th values:</p>
 <p><span class="math display">\[
-\text{Variance} = \frac{(1.3 - 1.35)^2 + (1.5 - 1.35)^2 + (1.4 - 1.35)^2
-+ (1.3 - 1.35)^2 + (1.2 - 1.35)^2 + (1.4 - 1.35)^2}{6}
-\]</span></p>
-<p>Let’s calculate each term in the numerator:</p>
-<p><span class="math display">\[
-(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
-\]</span> <span class="math display">\[
-(1.5 - 1.35)^2 = (0.15)^2 = 0.0225
-\]</span> <span class="math display">\[
-(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
-\]</span> <span class="math display">\[
-(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
-\]</span> <span class="math display">\[
-(1.2 - 1.35)^2 = (-0.15)^2 = 0.0225
-\]</span> <span class="math display">\[
-(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
-\]</span></p>
-<p>Sum of these squared differences:</p>
-<p><span class="math display">\[
-0.0025 + 0.0225 + 0.0025 + 0.0025 + 0.0225 + 0.0025 = 0.055
-\]</span></p>
-<p>Variance:</p>
-<p><span class="math display">\[
-\text{Variance} = \frac{0.055}{6} \approx 0.009167
+\text{Median} = \frac{1.3 + 1.4}{2} = \frac{2.7}{2} = 1.35
 \]</span></p>
 </div>
-<div id="step-3-calculate-the-standard-deviation" class="section level3">
-<h3>Step 3: Calculate the Standard Deviation</h3>
+<div id="c-mode" class="section level3">
+<h3>c) Mode</h3>
+<p>The mode is the value that appears most frequently in the data
+set.</p>
+<p>The frequencies are: - 1.2: 1 time - 1.3: 2 times - 1.4: 2 times -
+1.5: 1 time</p>
+<p>Both 1.3 and 1.4 appear twice, so there are two modes:</p>
 <p><span class="math display">\[
-\text{Standard Deviation} = \sqrt{0.009167} \approx 0.0957
+\text{Mode} = 1.3 \text{ and } 1.4
 \]</span></p>
-<p>Therefore, the standard deviation of the heights is approximately
-0.0957 meters.</p>
+</div>
+<div id="d-standard-deviation" class="section level3">
+<h3>d) Standard Deviation</h3>
+<p>The standard deviation measures the dispersion of the data points
+from the mean. It is calculated as follows:</p>
+<p><span class="math display">\[
+\sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n}}
+\]</span></p>
+<p>First, find the squared deviations from the mean:</p>
+<p><span class="math display">\[
+(x_i - \bar{x})^2 = (1.3 - 1.35)^2, (1.5 - 1.35)^2, (1.4 - 1.35)^2, (1.3
+- 1.35)^2, (1.2 - 1.35)^2, (1.4 - 1.35)^2
+\]</span></p>
+<p><span class="math display">\[
+= (-0.05)^2, (0.15)^2, (0.05)^2, (-0.05)^2, (-0.15)^2, (0.05)^2
+\]</span></p>
+<p><span class="math display">\[
+= 0.0025, 0.0225, 0.0025, 0.0025, 0.0225, 0.0025
+\]</span></p>
+<p><span class="math display">\[
+\sum (x_i - \bar{x})^2 = 0.0025 + 0.0225 + 0.0025 + 0.0025 + 0.0225 +
+0.0025 = 0.055
+\]</span></p>
+<p><span class="math display">\[
+\sigma = \sqrt{\frac{0.055}{6}} \approx \sqrt{0.009167} \approx 0.096
+\]</span></p>
+</div>
+<div id="e-72nd-percentile" class="section level3">
+<h3>e) 72nd Percentile</h3>
+<p>To find the 72nd percentile, we first need to determine the position
+in the ordered list.</p>
+<p><span class="math display">\[
+\text{Position} = P \times (n + 1) = 0.72 \times (6 + 1) = 0.72 \times 7
+= 5.04
+\]</span></p>
+<p>Since the position is between the 5th and 6th values in the ordered
+list, we need to interpolate between these values (1.4 and 1.5):</p>
+<p><span class="math display">\[
+\text{72nd Percentile} = 1.4 + 0.04 \times (1.5 - 1.4) = 1.4 + 0.04
+\times 0.1 = 1.4 + 0.004 = 1.404
+\]</span></p>
+</div>
+<div id="summary" class="section level3">
+<h3>Summary</h3>
+<ul>
+<li>Mean: 1.35</li>
+<li>Median: 1.35</li>
+<li>Mode: 1.3 and 1.4</li>
+<li>Standard Deviation: 0.096</li>
+<li>72nd Percentile: 1.404</li>
+</ul>
+</div>
 </div>
 
 
