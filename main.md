@@ -24,16 +24,6 @@ solutions.**
 
 ### a) Mean
 
-The mean is the average of all the data points. It is calculated as
-follows:
-
-$$
-\text{Mean} (\bar{x}) = \frac{\sum x_i}{n}
-$$
-
-Where $\sum x_i$ is the sum of all data points and $n$ is the number of
-data points.
-
 $$
 \sum x_i = 1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4 = 8.1
 $$
@@ -43,7 +33,7 @@ n = 6
 $$
 
 $$
-\text{Mean} (\bar{x}) = \frac{8.1}{6} = 1.35
+\bar{x} = \frac{8.1}{6} = 1.35
 $$
 
 ### b) Median
