@@ -9,15 +9,15 @@ Data: 1.3, 1.5, 1.4, 1.3, 1.2, 1.4
 
 \[8 marks\]
 
-a)The mean
+### a) The mean
 
-b\) The median
+### b) The median
 
-c\) The mode
+### c) The mode
 
-d\) The standard deviation
+### d) The standard deviation
 
-e\) The 72<sup>nd</sup> percentile
+### e) The 72<sup>nd</sup> percentile
 
 **Solve by hand (without the use of software) and include full
 solutions.**

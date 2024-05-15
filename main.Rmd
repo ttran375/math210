@@ -1,76 +1,122 @@
-To find the standard deviation of the given data, follow these steps:
+---
+output:
+  md_document:
+    variant: gfm
+---
 
-1. **Find the mean (average) of the data:**
+# Math 210 – Assignment 1 B (Statistics)
 
-\[
-\text{Mean} = \frac{\sum x_i}{n}
-\]
+## Question 1
 
-Where \( x_i \) are the data points and \( n \) is the number of data points.
+1\. For the data below, representing a sample of heights (in metres) for
+10 years old males at a certain school, find:
 
-2. **Calculate the variance:**
+Data: 1.3, 1.5, 1.4, 1.3, 1.2, 1.4
 
-\[
-\text{Variance} (\sigma^2) = \frac{\sum (x_i - \text{Mean})^2}{n}
-\]
+[8 marks]
 
-3. **Find the standard deviation:**
+### a) The mean
+### b) The median
+### c) The mode
+### d) The standard deviation
+### e) The 72<sup>nd</sup> percentile
 
-\[
-\text{Standard Deviation} (\sigma) = \sqrt{\text{Variance}}
-\]
+**Solve by hand (without the use of software) and include full
+solutions.**
 
-Let's apply these steps to the data: \( 1.3, 1.5, 1.4, 1.3, 1.2, 1.4 \).
+### a) Mean
 
-### Step 1: Calculate the Mean
+$$
+\sum x_i = 1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4 = 8.1
+$$
 
-\[
-\text{Mean} = \frac{1.3 + 1.5 + 1.4 + 1.3 + 1.2 + 1.4}{6} = \frac{8.1}{6} = 1.35
-\]
+$$
+n = 6
+$$
 
-### Step 2: Calculate the Variance
+$$
+\bar{x} = \frac{8.1}{6} = 1.35
+$$
 
-\[
-\text{Variance} = \frac{(1.3 - 1.35)^2 + (1.5 - 1.35)^2 + (1.4 - 1.35)^2 + (1.3 - 1.35)^2 + (1.2 - 1.35)^2 + (1.4 - 1.35)^2}{6}
-\]
+### b) Median
 
-Let's calculate each term in the numerator:
+The median is the middle value when the data points are arranged in
+ascending order. If the number of data points is even, the median is the
+average of the two middle numbers.
 
-\[
-(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
-\]
-\[
-(1.5 - 1.35)^2 = (0.15)^2 = 0.0225
-\]
-\[
-(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
-\]
-\[
-(1.3 - 1.35)^2 = (-0.05)^2 = 0.0025
-\]
-\[
-(1.2 - 1.35)^2 = (-0.15)^2 = 0.0225
-\]
-\[
-(1.4 - 1.35)^2 = (0.05)^2 = 0.0025
-\]
+Arranging the data in ascending order: 1.2, 1.3, 1.3, 1.4, 1.4, 1.5
 
-Sum of these squared differences:
+Since there are 6 data points (even number), the median is the average
+of the 3rd and 4th values:
 
-\[
-0.0025 + 0.0225 + 0.0025 + 0.0025 + 0.0225 + 0.0025 = 0.055
-\]
+$$
+\text{Median} = \frac{1.3 + 1.4}{2} = \frac{2.7}{2} = 1.35
+$$
 
-Variance:
+### c) Mode
 
-\[
-\text{Variance} = \frac{0.055}{6} \approx 0.009167
-\]
+The mode is the value that appears most frequently in the data set.
 
-### Step 3: Calculate the Standard Deviation
+The frequencies are: - 1.2: 1 time - 1.3: 2 times - 1.4: 2 times - 1.5:
+1 time
 
-\[
-\text{Standard Deviation} = \sqrt{0.009167} \approx 0.0957
-\]
+Both 1.3 and 1.4 appear twice, so there are two modes:
 
-Therefore, the standard deviation of the heights is approximately 0.0957 meters.
+$$
+\text{Mode} = 1.3 \text{ and } 1.4
+$$
+
+### d) Standard Deviation
+
+The standard deviation measures the dispersion of the data points from
+the mean. It is calculated as follows:
+
+$$
+\sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n}}
+$$
+
+First, find the squared deviations from the mean:
+
+$$
+(x_i - \bar{x})^2 = (1.3 - 1.35)^2, (1.5 - 1.35)^2, (1.4 - 1.35)^2, (1.3 - 1.35)^2, (1.2 - 1.35)^2, (1.4 - 1.35)^2
+$$
+
+$$
+= (-0.05)^2, (0.15)^2, (0.05)^2, (-0.05)^2, (-0.15)^2, (0.05)^2
+$$
+
+$$
+= 0.0025, 0.0225, 0.0025, 0.0025, 0.0225, 0.0025
+$$
+
+$$
+\sum (x_i - \bar{x})^2 = 0.0025 + 0.0225 + 0.0025 + 0.0025 + 0.0225 + 0.0025 = 0.055
+$$
+
+$$
+\sigma = \sqrt{\frac{0.055}{6}} \approx \sqrt{0.009167} \approx 0.096
+$$
+
+### e) 72nd Percentile
+
+To find the 72nd percentile, we first need to determine the position in
+the ordered list.
+
+$$
+\text{Position} = P \times (n + 1) = 0.72 \times (6 + 1) = 0.72 \times 7 = 5.04
+$$
+
+Since the position is between the 5th and 6th values in the ordered
+list, we need to interpolate between these values (1.4 and 1.5):
+
+$$
+\text{72nd Percentile} = 1.4 + 0.04 \times (1.5 - 1.4) = 1.4 + 0.04 \times 0.1 = 1.4 + 0.004 = 1.404
+$$
+
+### Summary
+
+- Mean: 1.35
+- Median: 1.35
+- Mode: 1.3 and 1.4
+- Standard Deviation: 0.096
+- 72nd Percentile: 1.404
