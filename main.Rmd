@@ -1,7 +1,6 @@
 ---
 output:
-  md_document:
-    variant: gfm
+  word_document
 ---
 
 # Math 210 – Assignment 1 B (Statistics)
@@ -244,6 +243,7 @@ $$
 \sum X^2 &= 3^2 + 9^2 + 12^2 + 13^2 + 17^2 + 21^2 = 1133
 \end{align}
 $$
+
 $$
 \begin{align}
 m &= \frac{N(\sum XY) - (\sum X)(\sum Y)}{N(\sum X^2) - (\sum X)^2} = \frac{6(2913) - (75)(197)}{6(1133) - (75)^2} = \frac{2703}{1173} \approx 2.3 \\
