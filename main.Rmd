@@ -71,7 +71,7 @@ $$
 ages of participants in a bike competition:
 
 | Age Group - Classes | Frequency | Class boundaries | Relative frequency |
-|---------------------|-----------|------------------|--------------------|
+| ------------------- | --------- | ---------------- | ------------------ |
 | 20 - 24             | 75        |                  |                    |
 | 25 - 29             | 65        |                  |                    |
 | 30 - 34             | 60        |                  |                    |
@@ -92,7 +92,7 @@ solutions.**
 ### 0. Frequency table
 
 | Age Group (Classes) | Frequency |
-|---------------------|-----------|
+| ------------------- | --------- |
 | 20 - 24             | 75        |
 | 25 - 29             | 65        |
 | 30 - 34             | 60        |
@@ -104,7 +104,6 @@ solutions.**
 
 $$\text{Class width} = 25 - 20 = 5$$
 
-
 ### 2. The number of participants in the study
 
 $$\text{Number of Participants} = 75 + 65 + 60 + 55 + 45 = 300$$
@@ -112,10 +111,9 @@ $$\text{Number of Participants} = 75 + 65 + 60 + 55 + 45 = 300$$
 ### 3. The class boundaries for the second class
 
 | Age Group (Classes) | Frequency |
-|---------------------|-----------|
+| ------------------- | --------- |
 | 25 - 29             | 65        |
 | 30 - 34             | 60        |
-
 
 A). Subtract the upper class limit from the next lower class limit and divide the result by 2:
 $$\frac{30 - 29}{2} = 0.5$$
@@ -127,7 +125,7 @@ B). Add this number to the upper of the Second Class limit and subtract it from 
 ### 4. The relative frequency for the fourth class
 
 | Age Group (Classes) | Frequency |
-|---------------------|-----------|
+| ------------------- | --------- |
 | 35 - 39             | 55        |
 | **Total**           | **300**   |
 
@@ -140,8 +138,8 @@ swimming at a community centre pool:
 
 4, 20, 23, 7, 23, 17, 27, 28, 47, 49, 23, 18, 34, 43
 
-1.  What is the interquartile range? **3 marks**
-2.  Are there any outliers in the data? Perform all necessary
+1. What is the interquartile range? **3 marks**
+2. Are there any outliers in the data? Perform all necessary
     calculations to justify your answer. Use the method involving the
     interquartile range to identify the outliers (specify if they are
     mild or severe). **3 marks**
@@ -151,7 +149,7 @@ solutions.**
 
 ### 1. What is the interquartile range?
 
-Sort: 4,7,17,18,20,23,23,23,27,28,34,43,47,49
+Sort: 4, 7, 17, 18, 20, 23, 23, 23, 27, 28, 34, 43, 47, 49
 
 $$
 \frac{25}{100} \times 14 = 3.5 \rightarrow \text{Loc} P_{25} = 4 \rightarrow P_{25} = 18 \rightarrow Q_1 = 18
@@ -188,20 +186,20 @@ mean? **2 marks**
 **Solve by hand (without the use of software) and include full
 solutions.**
 
-### a) The z – score for a grade of 95%.
+### a) The z – score for a grade of 95%
 
 $$z = \frac{x - \mu}{\sigma} = \frac{95\% - 78\%}{4.5\%} \approx 3.78$$
 
 ### b) What is the grade positioned 2.0 standard deviations below the mean?
 
-$$x = \mu + z\sigma = 78\% + (-2.0 \times 4.5\%) = 69\%$$
+$$ x = \mu + z\sigma = 78\\% + (-2.0 \times 4.5\\%) = 69\\% $$
 
 ## Question 5
 
 5\. For the bivariate data below:
 
 | X   | Y   |
-|-----|-----|
+| --- | --- |
 | 3   | 15  |
 | 9   | 21  |
 | 12  | 30  |
