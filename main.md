@@ -244,7 +244,9 @@ $$
 \sum XY &= (3 \times 15) + (9 \times 21) + (12 \times 30) + (13 \times 33) + (17 \times 42) + (21 \times 56) = 2913 \\
 \sum X^2 &= 3^2 + 9^2 + 12^2 + 13^2 + 17^2 + 21^2 = 1133
 \end{align}
-$$ $$
+$$
+
+$$
 \begin{align}
 m &= \frac{N(\sum XY) - (\sum X)(\sum Y)}{N(\sum X^2) - (\sum X)^2} = \frac{6(2913) - (75)(197)}{6(1133) - (75)^2} = \frac{2703}{1173} \approx 2.3 \\
 b &= \frac{(\sum Y)(\sum X^2) - (\sum X)(\sum XY)}{N(\sum X^2) - (\sum X)^2} = \frac{(197)(1133) - (75)(2913)}{6(1133) - (75)^2} = \frac{4726}{1173} \approx 4.0
