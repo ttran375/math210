@@ -146,7 +146,7 @@ solutions.**
 
 ### 1. What is the interquartile range?
 
-Sort: 4,7,17,18,20,23,23,23,27,28,34,43,47,49
+Sort: 4, 7, 17, 18, 20, 23, 23, 23, 27, 28, 34, 43, 47, 49
 
 $$
 \frac{25}{100} \times 14 = 3.5 \rightarrow \text{Loc} P_{25} = 4 \rightarrow P_{25} = 18 \rightarrow Q_1 = 18
@@ -186,13 +186,13 @@ b\) What is the grade positioned 2.0 standard deviations below the mean?
 **Solve by hand (without the use of software) and include full
 solutions.**
 
-### a) The z – score for a grade of 95%.
+### a) The z – score for a grade of 95%
 
 $$z = \frac{x - \mu}{\sigma} = \frac{95\% - 78\%}{4.5\%} \approx 3.78$$
 
 ### b) What is the grade positioned 2.0 standard deviations below the mean?
 
-$$x = \mu + z\sigma = 78\% + (-2.0 \times 4.5\%) = 69\%$$
+$$ x = \mu + z\sigma = 78\\% + (-2.0 \times 4.5\\%) = 69\\% $$
 
 ## Question 5
 
