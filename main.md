@@ -161,8 +161,10 @@ $$ IQR = Q_3 - Q_1 = 34−18=16$$
 ### 2. Are there any outliers in the data?
 
 $$ Q3 + 1.5 \times IQR = 34 + 1.5 \times 16 = 58 $$
-$$ Q1 - 1.5 \times IQR = 18 - 1.5 \times 16 = -6 $$ Mild outliers: (-6,
-58)
+
+$$ Q1 - 1.5 \times IQR = 18 - 1.5 \times 16 = -6 $$
+
+Mild outliers: (-6, 58)
 
 Since the minimum value (4) and the maximum value(49) fall within the
 range $[-6, 58]$, there are no mild outliers in this dataset. Since
