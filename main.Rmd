@@ -188,7 +188,7 @@ solutions.**
 
 ### a) The z – score for a grade of 95%
 
-$$z = \frac{x - \mu}{\sigma} = \frac{95\% - 78\%}{4.5\%} \approx 3.78$$
+$$z = \frac{x - \mu}{\sigma} = \frac{95\\% - 78\\%}{4.5\\%} \approx 3.78$$
 
 ### b) What is the grade positioned 2.0 standard deviations below the mean?
 
