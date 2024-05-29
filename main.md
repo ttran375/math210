@@ -166,10 +166,16 @@ $$ Q1 - 1.5 \times IQR = 18 - 1.5 \times 16 = -6 $$
 
 Mild outliers: (-6, 58)
 
+$$ Q3 + 3 \times IQR = 34 + 3 \times 16 = 82 $$
+
+$$ Q1 - 3 \times IQR = 18 - 3 \times 16 = -30 $$
+
+Mild outliers: (-6, 58)
+
+Severe outliers: (-30, 82)
+
 Since the minimum value (4) and the maximum value(49) fall within the
-range $[-6, 58]$, there are no mild outliers in this dataset. Since
-there are no mild outliers, there are also no severe outliers in this
-dataset.
+range $(-6, 58)$ and $(-30, 82)$, there are no mild and severe outliers in this dataset.
 
 ## Question 4
 
