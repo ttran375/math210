@@ -215,7 +215,7 @@ coefficients to one decimal place. ***Show all the calculations***. **5 marks**
 c\) Redo question b) ***by using Statistical software (include the
 output here***). **2 marks**
 
-d\)Find the coefficient of correlation. ***Show all the calculations***.
+<!-- d\)Find the coefficient of correlation. ***Show all the calculations***. -->
 (Epress your answer correct to 2 decimal places) **2 marks**
 
 ### a) Draw a scatter plot for the data
@@ -273,4 +273,100 @@ intercept_rounded = round(intercept, 1)
 slope_rounded = round(slope, 1)
 
 print(f'The equation of the line of best fit: y = {slope_rounded}x + {intercept_rounded}')
+```
+
+### d)Find the coefficient of correlation
+
+To find the coefficient of correlation, we will use Pearson's correlation coefficient formula, which is given by:
+
+\[ r = \frac{n(\sum XY) - (\sum X)(\sum Y)}{\sqrt{[n(\sum X^2) - (\sum X)^2][n(\sum Y^2) - (\sum Y)^2]}} \]
+
+Where:
+- \( n \) is the number of pairs of scores
+- \( \sum XY \) is the sum of the product of each pair of scores
+- \( \sum X \) is the sum of the X scores
+- \( \sum Y \) is the sum of the Y scores
+- \( \sum X^2 \) is the sum of the squares of the X scores
+- \( \sum Y^2 \) is the sum of the squares of the Y scores
+
+Let's calculate each component step by step.
+
+### Step 1. Organize the calculations in the following table.
+
+Given the data:
+
+| X   | Y   |
+|-----|-----|
+| 3   | 15  |
+| 9   | 21  |
+| 12  | 30  |
+| 13  | 33  |
+| 17  | 42  |
+| 21  | 56  |
+
+$$
+\begin{array}{|c|c|c|c|c|}
+\hline
+X & Y & XY & X^2 & Y^2 \\
+\hline
+3 & 15 & 45 & 9 & 225 \\
+9 & 21 & 189 & 81 & 441 \\
+12 & 30 & 360 & 144 & 900 \\
+13 & 33 & 429 & 169 & 1089 \\
+17 & 42 & 714 & 289 & 1764 \\
+21 & 56 & 1176 & 441 & 3136 \\
+\hline
+75 & 197 & 2913 & 1133 & 7555 \\
+\hline
+\end{array}
+$$
+
+### STEP 2. USE THE FORMULA FOR THE LINEAR CORRELATION COEFFICIENT
+
+$$
+\begin{align}
+r &= \frac{n \sum XY - \sum X \sum Y}{\sqrt{[n \sum X^2 - (\sum X)^2][n \sum Y^2 - (\sum Y)^2]}} \\
+&= \frac{6 \times 2913 - 75 \times 197}{\sqrt{[6 \times 1133 - 75^2][6 \times 7555 - 197^2]}} \\
+&= 0.98
+\end{align}
+$$
+
+6\. **Using a statistical software,** create a histogram and generate
+descriptive statistics (at least 3 measures of central tendency, 2
+measures of dispersion and all quartiles) for the following data set,
+representing the number of minutes needed to solve a certain statistics
+problem by a sample of 20 students:
+
+2.1 2.3 4.7 7.9 5.5 6.6 6.4 12.4 6.8 12.5 9.3 8.3 12.7 3.8 11.2 11.2
+11.5 11.7 14.3 23.4
+
+**4 marks**
+
+```{python}
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+
+data = [2.1, 2.3, 4.7, 7.9, 5.5, 6.6, 6.4, 12.4, 6.8, 12.5, 9.3, 8.3, 12.7, 3.8, 11.2, 11.2, 11.5, 11.7, 14.3, 23.4]
+df = pd.DataFrame(data, columns=['Minutes'])
+
+mean = df['Minutes'].mean()
+median = df['Minutes'].median()
+mode = df['Minutes'].mode()[0]
+std_dev = df['Minutes'].std()
+variance = df['Minutes'].var()
+quartiles = df['Minutes'].quantile([0.25, 0.5, 0.75])
+
+print(f"Mean: {mean}")
+print(f"Median: {median}")
+print(f"Mode: {mode}")
+print(f"Standard Deviation: {std_dev}")
+print(f"Variance: {variance}")
+print(f"Quartiles:\n{quartiles}")
+
+plt.hist(df['Minutes'], bins=10, edgecolor='black')
+plt.title('Histogram of Minutes to Solve a Problem')
+plt.xlabel('Minutes')
+plt.ylabel('Frequency')
+plt.show()
 ```
