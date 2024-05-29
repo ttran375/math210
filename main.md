@@ -284,23 +284,6 @@ print(f'The equation of the line of best fit: y = {slope_rounded}x + {intercept_
 
 ### d)Find the coefficient of correlation
 
-To find the coefficient of correlation, we will use Pearson’s
-correlation coefficient formula, which is given by:
-
-$$ r = \frac{n(\sum XY) - (\sum X)(\sum Y)}{\sqrt{[n(\sum X^2) - (\sum X)^2][n(\sum Y^2) - (\sum Y)^2]}} $$
-
-Where: - $n$ is the number of pairs of scores - $\sum XY$ is the sum of
-the product of each pair of scores - $\sum X$ is the sum of the X
-scores - $\sum Y$ is the sum of the Y scores - $\sum X^2$ is the sum of
-the squares of the X scores - $\sum Y^2$ is the sum of the squares of
-the Y scores
-
-Let’s calculate each component step by step.
-
-### Step 1. Organize the calculations in the following table.
-
-Given the data:
-
 | X   | Y   |
 |-----|-----|
 | 3   | 15  |
@@ -326,8 +309,6 @@ X & Y & XY & X^2 & Y^2 \\
 \hline
 \end{array}
 $$
-
-### STEP 2. USE THE FORMULA FOR THE LINEAR CORRELATION COEFFICIENT
 
 $$
 \begin{align}
