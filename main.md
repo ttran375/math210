@@ -188,5 +188,6 @@ general.
     - Critical value $z_{0.05} = 1.645$
     - Since $z \approx 2.48$ \> 1.645, reject $H_0$
 
-**Conclusion**: Female distance runners are taller on average than women
-in general at the 0.05 significance level.
+**Conclusion**: At the 5% level of significance, we found enough
+evidence to support the claim that that female distance runners tend to
+be taller on the average than women in general.
