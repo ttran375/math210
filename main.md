@@ -78,5 +78,5 @@ $$ \text{CI} = 75 \pm 3.3024 $$
 $$ \text{CI} = (75 - 3.3024, 75 + 3.3024) $$
 $$ \text{CI} = (71.6976, 78.3024) $$
 
-So, the 95% confidence interval for the average score is \$ (71.6976,
-78.3024) \$.
+So, the 95% confidence interval for the average score is
+$(71.6976, 78.3024)$.
