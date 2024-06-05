@@ -14,10 +14,13 @@ normally distributed.
 
 $$ \text{ME} = Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
 $$ \text{ME} = 1.96 \left( \frac{8}{\sqrt{25}} \right) $$
+
 $$ \text{ME} = 3.136 $$
 
 $$ \text{CI} = \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
-$$ \text{CI} = 75 \pm 3.136 $$ $$ \text{CI} = (71.864, 78.136) $$
+$$ \text{CI} = 75 \pm 3.136 $$
+
+$$ \text{CI} = (71.864, 78.136) $$
 
 ## Question 2 – modified
 
@@ -166,3 +169,100 @@ Therefore, the 90% confidence interval for the population mean is
 approximately:
 
 $$ (56,458, 56,978) $$
+
+## Question 6
+
+1.  An automotive engineer wants to estimate the cost of repairing a car
+    that experiences a head-on collision. He crashes 36 cars, and the
+    average repair is \$11,000. The standard deviation of the population
+    of repair costs is known to be \$2,500. A)Provide a 90% confidence
+    interval for the true mean cost of repairs. B)Provide a 98%
+    confidence interval for the true mean cost of repair.
+
+To calculate the confidence intervals, we use the formula for the
+confidence interval when the population standard deviation is known:
+
+$$ \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+
+Where: - $\bar{x}$ is the sample mean. - $Z_{\alpha/2}$ is the critical
+value from the standard normal distribution for the desired confidence
+level. - $\sigma$ is the population standard deviation. - $n$ is the
+sample size.
+
+Given: - Sample mean ($\bar{x}$) = $11,000
+- Population standard deviation ($\$) = $2,500
+- Sample size ($n\$) = 36
+
+### Part A: 90% Confidence Interval
+
+For a 90% confidence level, $\alpha = 0.10$, so $\alpha/2 = 0.05$. The
+critical value $Z_{\alpha/2}$ corresponding to 0.05 in the standard
+normal distribution is approximately 1.645.
+
+Calculate the margin of error:
+
+$$ \text{Margin of error} = Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+
+$$ \text{Margin of error} = 1.645 \left( \frac{2,500}{\sqrt{36}} \right) $$
+
+$$ \text{Margin of error} = 1.645 \left( \frac{2,500}{6} \right) $$
+
+$$ \text{Margin of error} = 1.645 \left( 416.67 \right) $$
+
+$$ \text{Margin of error} \approx 685.42 $$
+
+Now, calculate the confidence interval:
+
+$$ \text{Lower limit} = \bar{x} - \text{Margin of error} $$
+
+$$ \text{Lower limit} = 11,000 - 685.42 $$
+
+$$ \text{Lower limit} \approx 10,314.58 $$
+
+$$ \text{Upper limit} = \bar{x} + \text{Margin of error} $$
+
+$$ \text{Upper limit} = 11,000 + 685.42 $$
+
+$$ \text{Upper limit} \approx 11,685.42 $$
+
+Therefore, the 90% confidence interval for the true mean cost of repairs
+is approximately:
+
+$$ (10,314.58, 11,685.42) $$
+
+### Part B: 98% Confidence Interval
+
+For a 98% confidence level, $\alpha = 0.02$, so $\alpha/2 = 0.01$. The
+critical value $Z_{\alpha/2}$ corresponding to 0.01 in the standard
+normal distribution is approximately 2.33.
+
+Calculate the margin of error:
+
+$$ \text{Margin of error} = Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+
+$$ \text{Margin of error} = 2.33 \left( \frac{2,500}{\sqrt{36}} \right) $$
+
+$$ \text{Margin of error} = 2.33 \left( \frac{2,500}{6} \right) $$
+
+$$ \text{Margin of error} = 2.33 \left( 416.67 \right) $$
+
+$$ \text{Margin of error} \approx 970.84 $$
+
+Now, calculate the confidence interval:
+
+$$ \text{Lower limit} = \bar{x} - \text{Margin of error} $$
+
+$$ \text{Lower limit} = 11,000 - 970.84 $$
+
+$$ \text{Lower limit} \approx 10,029.16 $$
+
+$$ \text{Upper limit} = \bar{x} + \text{Margin of error} $$
+
+$$ \text{Upper limit} = 11,000 + 970.84 $$
+
+$$ \text{Upper limit} \approx 11,970.84 $$
+
+Therefore, the 98% confidence interval for the true mean cost of repairs
+is approximately:
+
+$$ (10,029.16, 11,970.84) $$
