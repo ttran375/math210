@@ -37,8 +37,6 @@ different types of incorrect decisions.
     by calculating the critical value(s). There are 3 possibilities for
     the acceptance region:
 
-![](tests.png)
-
 ### Two-tail Test
 
 $$
