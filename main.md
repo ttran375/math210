@@ -7,8 +7,6 @@ the standard deviation of the population of scores is 8. Find the
 confidence interval at 95% confidence level, assuming the scores are
 normally distributed.
 
-$$ \text{CI} = \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
-
 - $\bar{x} = 75$
 - $\sigma = 8$
 - $n = 25$
@@ -16,14 +14,10 @@ $$ \text{CI} = \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $
 
 $$ \text{ME} = Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
 $$ \text{ME} = 1.96 \left( \frac{8}{\sqrt{25}} \right) $$
-$$ \text{ME} = 1.96 \left( \frac{8}{5} \right) $$
-$$ \text{ME} = 1.96 \times 1.6 $$
-
 $$ \text{ME} = 3.136 $$
 
-$$ \text{CI} = 75 \pm 3.136 $$
-$$ \text{CI} = (75 - 3.136, 75 + 3.136) $$
-$$ \text{CI} = (71.864, 78.136) $$
+$$ \text{CI} = \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+$$ \text{CI} = 75 \pm 3.136 $$ $$ \text{CI} = (71.864, 78.136) $$
 
 ## Question 2 – modified
 
