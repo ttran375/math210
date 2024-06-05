@@ -28,43 +28,17 @@ Average score obtained by 25 students in a test is 75. The standard
 deviation for the sample of scores is 8. Find the confidence interval at
 95% confidence level, assuming the scores are normally distributed.
 
-To find the confidence interval for the mean score of the students’
-test, given that the scores are normally distributed and the standard
-deviation is for the sample, we will use the t-distribution because the
-sample size is relatively small (n \< 30).
-
-The formula for the confidence interval of the mean when the sample
-standard deviation is known is:
-
-$$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
-
-Where: - $\bar{x}$ is the sample mean - $t_{\alpha/2}$ is the t-score
-corresponding to the desired confidence level and degrees of freedom -
-$s$ is the sample standard deviation - $n$ is the sample size
-
-Given: - $\bar{x} = 75$ - $s = 8$ - $n = 25$ - Confidence level = 95%
-
-For a 95% confidence level and $n - 1 = 24$ degrees of freedom,
-$t_{\alpha/2}$ is approximately 2.064 (from t-distribution tables or
-using a t-distribution calculator).
-
-Now, we can calculate the margin of error (ME):
+- $\bar{x} = 75$
+- $s = 8$
+- $n = 25$
+- $1-\alpha = 95%$
 
 $$ \text{ME} = t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
 $$ \text{ME} = 2.064 \left( \frac{8}{\sqrt{25}} \right) $$
-$$ \text{ME} = 2.064 \left( \frac{8}{5} \right) $$
-$$ \text{ME} = 2.064 \times 1.6 $$
-
 $$ \text{ME} = 3.3024 $$
 
-Therefore, the confidence interval is:
-
-$$ \text{CI} = 75 \pm 3.3024 $$
-$$ \text{CI} = (75 - 3.3024, 75 + 3.3024) $$
-$$ \text{CI} = (71.6976, 78.3024) $$
-
-So, the 95% confidence interval for the average score is
-$(71.6976, 78.3024)$.
+$$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
+$$ \text{CI} = 75 \pm 3.3024 $$ $$ \text{CI} = (71.6976, 78.3024) $$
 
 ## Question 3
 
@@ -83,12 +57,20 @@ standard deviation is known is:
 
 $$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
 
-Where: - $\bar{x}$ is the sample mean - $t_{\alpha/2}$ is the t-score
-corresponding to the desired confidence level and degrees of freedom -
-$s$ is the sample standard deviation - $n$ is the sample size
+Where:
 
-Given: - $\bar{x} = 14.3$ miles - $s = 2$ miles - $n = 21$ - Confidence
-level = 95%
+- $\bar{x}$ is the sample mean
+- $t_{\alpha/2}$ is the t-score corresponding to the desired confidence
+  level and degrees of freedom
+- $s$ is the sample standard deviation
+- $n$ is the sample size
+
+Given:
+
+- $\bar{x} = 14.3$ miles
+- $s = 2$ miles
+- $n = 21$
+- Confidence level = 95%
 
 For a 95% confidence level and $n - 1 = 20$ degrees of freedom,
 $t_{\alpha/2}$ is approximately 2.086 (from t-distribution tables or
@@ -125,14 +107,20 @@ deviation is known. The formula is:
 
 $$ \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
 
-Where: - $\bar{x}$ is the sample mean. - $Z_{\alpha/2}$ is the critical
-value from the standard normal distribution for the desired confidence
-level. - $\sigma$ is the population standard deviation. - $n$ is the
-sample size.
+Where:
 
-Given: - Sample mean ($\bar{x}$) = \$56,718 - Population standard
-deviation ($\sigma$) = \$650 - Sample size ($n$) = 17 - Confidence level
-= 90%
+- $\bar{x}$ is the sample mean.
+- $Z_{\alpha/2}$ is the critical value from the standard normal
+  distribution for the desired confidence level.
+- $\sigma$ is the population standard deviation.
+- $n$ is the sample size.
+
+Given:
+
+- Sample mean ($\bar{x}$) = \$56,718
+- Population standard deviation ($\sigma$) = \$650
+- Sample size ($n$) = 17
+- Confidence level = 90%
 
 First, find the critical value $Z_{\alpha/2}$ for a 90% confidence
 level. For a 90% confidence level, $\alpha = 0.10$, so
@@ -184,14 +172,19 @@ confidence interval when the population standard deviation is known:
 
 $$ \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
 
-Where: - $\bar{x}$ is the sample mean. - $Z_{\alpha/2}$ is the critical
-value from the standard normal distribution for the desired confidence
-level. - $\sigma$ is the population standard deviation. - $n$ is the
-sample size.
+Where:
 
-Given: - Sample mean ($\bar{x}$) = $11,000
-- Population standard deviation ($\$) = $2,500
-- Sample size ($n\$) = 36
+- $\bar{x}$ is the sample mean.
+- $Z_{\alpha/2}$ is the critical value from the standard normal
+  distribution for the desired confidence level.
+- $\sigma$ is the population standard deviation.
+- $n$ is the sample size.
+
+Given:
+
+- Sample mean ($\bar{x}$) = \$11,000
+- Population standard deviation ($\sigma$) = \$2,500
+- Sample size ($n$) = 36
 
 ### Part A: 90% Confidence Interval
 
