@@ -36,3 +36,40 @@ different types of incorrect decisions.
 2.  Choose the level of significance and determine the critical region
     by calculating the critical value(s). There are 3 possibilities for
     the acceptance region:
+
+![](tests.png)
+
+### Two-tail Test
+
+$$
+\begin{align*}
+H_0: & \ \mu = 12 \\
+H_1: & \ \mu \neq 12
+\end{align*}
+$$
+
+- Acceptance region is between the critical values $\pm \alpha/2$.
+
+### Upper-tail Test
+
+$$
+\begin{align*}
+H_0: & \ \mu = 12 \\
+H_1: & \ \mu > 12
+\end{align*}
+$$
+
+- Rejection region is shaded in the upper tail beyond the critical value
+  $\alpha$.
+
+### Lower-tail Test
+
+$$
+\begin{align*}
+H_0: & \ \mu = 12 \\
+H_1: & \ \mu < 12
+\end{align*}
+$$
+
+- Rejection region is shaded in the lower tail beyond the critical value
+  $\alpha$.
