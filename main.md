@@ -99,3 +99,23 @@ true.
     reject the null hypothesis.
 
 5.  State a conclusion.
+
+## Example
+
+A sports biologist claims that female distance runners tend to be taller
+on average than women in general, who have an average height of 64
+inches. To study this, she obtained a sample of 55 female distance
+runners and recorded their heights, obtaining a mean of $\bar{x}$. It is
+known that the general population of female distance runners has a
+standard deviation $\sigma$. Using these results, test the claim at the
+5% level of significance ($\alpha = 0.05$).
+
+### Step 1: Formulate the Hypotheses
+
+The claim is that female distance runners are taller on average than
+women in general. Therefore, our hypotheses will be:
+
+- $H_0: \mu = 64$ inches (null hypothesis: the mean height of female
+  distance runners is 64 inches)
+- $H_a: \mu > 64$ inches (alternate hypothesis: the mean height of
+  female distance runners is greater than 64 inches)

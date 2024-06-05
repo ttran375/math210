@@ -70,3 +70,14 @@ In hypothesis testing, these 2 types of errors translate as follows:
 4. Compare the observed value of the statistic to the critical value obtained for the chosen level of significance and make a decision. Make a decision to reject/fail to reject the null hypothesis. Compare the z-score of the test statistic to the values of z that constructed the critical region. If the z-score of the test statistic falls in the critical region, we reject the null hypothesis. If it falls inside the acceptance zone, we fail to reject the null hypothesis.
 
 5. State a conclusion.
+
+## Example
+
+A sports biologist claims that female distance runners tend to be taller on average than women in general, who have an average height of 64 inches. To study this, she obtained a sample of 55 female distance runners and recorded their heights, obtaining a mean of \(\bar{x}\). It is known that the general population of female distance runners has a standard deviation \(\sigma\). Using these results, test the claim at the 5% level of significance (\(\alpha = 0.05\)).
+
+### Step 1: Formulate the Hypotheses
+
+The claim is that female distance runners are taller on average than women in general. Therefore, our hypotheses will be:
+
+- \(H_0: \mu = 64\) inches (null hypothesis: the mean height of female distance runners is 64 inches)
+- \(H_a: \mu > 64\) inches (alternate hypothesis: the mean height of female distance runners is greater than 64 inches)
