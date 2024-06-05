@@ -1,0 +1,82 @@
+## Question 2
+
+Average score obtained by 25 students in a test is 75. It is known that
+the standard deviation of the population of scores is 8. Find the
+confidence interval at 95% confidence level, assuming the scores are
+normally distributed.
+
+To find the confidence interval for the mean score of the students’
+test, given that the scores are normally distributed, we can use the
+formula for the confidence interval of the mean when the population
+standard deviation is known:
+
+$$ \text{CI} = \bar{x} \pm Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+
+Where: - $\bar{x}$ is the sample mean - $Z_{\alpha/2}$ is the Z-score
+corresponding to the desired confidence level - $\sigma$ is the
+population standard deviation - $n$ is the sample size
+
+Given: - $\bar{x} = 75$ - $\sigma = 8$ - $n = 25$ - Confidence level =
+95%
+
+For a 95% confidence level, $Z_{\alpha/2}$ is approximately 1.96.
+
+Now, we can calculate the margin of error (ME):
+
+$$ \text{ME} = Z_{\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right) $$
+$$ \text{ME} = 1.96 \left( \frac{8}{\sqrt{25}} \right) $$
+$$ \text{ME} = 1.96 \left( \frac{8}{5} \right) $$
+$$ \text{ME} = 1.96 \times 1.6 $$
+
+$$ \text{ME} = 3.136 $$
+
+Therefore, the confidence interval is:
+
+$$ \text{CI} = 75 \pm 3.136 $$
+$$ \text{CI} = (75 - 3.136, 75 + 3.136) $$
+$$ \text{CI} = (71.864, 78.136) $$
+
+So, the 95% confidence interval for the average score is
+$(71.864, 78.136)$.
+
+## Question 2 – modified
+
+Average score obtained by 25 students in a test is 75. The standard
+deviation for the sample of scores is 8. Find the confidence interval at
+95% confidence level, assuming the scores are normally distributed.
+
+To find the confidence interval for the mean score of the students’
+test, given that the scores are normally distributed and the standard
+deviation is for the sample, we will use the t-distribution because the
+sample size is relatively small (n \< 30).
+
+The formula for the confidence interval of the mean when the sample
+standard deviation is known is:
+
+$$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
+
+Where: - $\bar{x}$ is the sample mean - $t_{\alpha/2}$ is the t-score
+corresponding to the desired confidence level and degrees of freedom -
+$s$ is the sample standard deviation - $n$ is the sample size
+
+Given: - $\bar{x} = 75$ - $s = 8$ - $n = 25$ - Confidence level = 95%
+
+For a 95% confidence level and $n - 1 = 24$ degrees of freedom,
+$t_{\alpha/2}$ is approximately 2.064 (from t-distribution tables or
+using a t-distribution calculator).
+
+Now, we can calculate the margin of error (ME):
+
+$$ \text{ME} = t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
+$$ \text{ME} = 2.064 \left( \frac{8}{\sqrt{25}} \right) $$
+$$ \text{ME} = 2.064 \left( \frac{8}{5} \right) $$
+$$ \text{ME} = 2.064 \times 1.6 $$ $$ \text{ME} = 3.3024 $$
+
+Therefore, the confidence interval is:
+
+$$ \text{CI} = 75 \pm 3.3024 $$
+$$ \text{CI} = (75 - 3.3024, 75 + 3.3024) $$
+$$ \text{CI} = (71.6976, 78.3024) $$
+
+So, the 95% confidence interval for the average score is \$ (71.6976,
+78.3024) \$.
