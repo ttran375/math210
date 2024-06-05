@@ -16,8 +16,6 @@ In hypothesis testing, these 2 types of errors translate as follows:
     failing to reject the hypothesis of mean salary being \$45,000 when,
     in reality, it is not true.
 
-### In Conclusion
-
 #### Type I and II Errors:
 
 The size of $\alpha$, the rejection region, affects the risk of making
@@ -32,3 +30,9 @@ different types of incorrect decisions.
   - Failing to reject a false null hypothesis that should have been
     rejected.
   - The probability of Type II Error is $\beta$.
+
+1.  Choose $\alpha$. The value should be small, usually less than 10%.
+    Consider the consequences of both types of errors.
+2.  Choose the level of significance and determine the critical region
+    by calculating the critical value(s). There are 3 possibilities for
+    the acceptance region:
