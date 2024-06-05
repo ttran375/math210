@@ -45,6 +45,7 @@ $$ \text{ME} = 3.3024 $$
 
 $$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
 $$ \text{CI} = 75 \pm 3.3024 $$
+
 $$ \text{CI} = (71.6976, 78.3024) $$
 
 ## Question 3
@@ -54,39 +55,20 @@ miles. The standard deviation of their travel time was 2 miles. Find the
 95% confidence interval of the true mean of the population, considering
 the data is normally distributed.
 
-To find the 95% confidence interval for the true mean of the population's travel distance, given that the data is normally distributed and the standard deviation is for the sample, we will use the t-distribution.
 
-The formula for the confidence interval of the mean when the sample standard deviation is known is:
-
-$$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
-
-Where:
-
-- $\bar{x}$ is the sample mean
-- $t_{\alpha/2}$ is the t-score corresponding to the desired confidence level and degrees of freedom
-- $s$ is the sample standard deviation
-- $n$ is the sample size
-
-Given:
 
 - $\bar{x} = 14.3$ miles
 - $s = 2$ miles
 - $n = 21$
 - Confidence level = 95%
 
-For a 95% confidence level and $n - 1 = 20$ degrees of freedom, $t_{\alpha/2}$ is approximately 2.086 (from t-distribution tables or using a t-distribution calculator).
-
-Now, we can calculate the margin of error (ME):
-
 $$ \text{ME} = t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
 $$ \text{ME} = 2.086 \left( \frac{2}{\sqrt{21}} \right) $$
 $$ \text{ME} = 2.086 \left( \frac{2}{4.5826} \right) $$
 $$ \text{ME} = 2.086 \times 0.436 $$
-
 $$ \text{ME} = 0.910 $$
 
-Therefore, the confidence interval is:
-
+$$ \text{CI} = \bar{x} \pm t_{\alpha/2} \left( \frac{s}{\sqrt{n}} \right) $$
 $$ \text{CI} = 14.3 \pm 0.910 $$
 $$ \text{CI} = (14.3 - 0.910, 14.3 + 0.910) $$
 $$ \text{CI} = (13.39, 15.21) $$
