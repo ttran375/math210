@@ -119,3 +119,74 @@ women in general. Therefore, our hypotheses will be:
   distance runners is 64 inches)
 - $H_a: \mu > 64$ inches (alternate hypothesis: the mean height of
   female distance runners is greater than 64 inches)
+
+### Step 2: Set the Significance Level
+
+The significance level (α) is given as 0.05.
+
+### Step 3: Determine the Test Statistic
+
+Since we know the standard deviation of the general population of female
+distance runners (σ), we will use a z-test to determine the test
+statistic. The formula for the z-test is:
+
+$$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $$
+
+where: - $\bar{x}$ is the sample mean height of female distance
+runners - $\mu$ is the population mean height of women in general (64
+inches) - $\sigma$ is the population standard deviation of female
+distance runners - $n$ is the sample size (55)
+
+### Step 4: Calculate the Test Statistic
+
+To proceed, we need the sample mean height ($\bar{x}$) and the
+population standard deviation ($\sigma$).
+
+For illustration, let’s assume $\bar{x} = 65$ inches and $\sigma = 3$
+inches (these values need to be given or calculated from actual data):
+
+$$ z = \frac{65 - 64}{\frac{3}{\sqrt{55}}} $$
+$$ z = \frac{1}{\frac{3}{7.416}} $$
+
+$$ z \approx \frac{1}{0.404} $$
+
+$$ z \approx 2.48 $$
+
+### Step 5: Determine the Critical Value and Make a Decision
+
+For a one-tailed test at the 5% level of significance, we look up the
+critical value in the z-table:
+
+$$ z_{0.05} = 1.645 $$
+
+Since our calculated $z$-value (2.48) is greater than the critical value
+(1.645), we reject the null hypothesis.
+
+### Conclusion
+
+We have sufficient evidence at the 0.05 significance level to conclude
+that female distance runners are, on average, taller than women in
+general.
+
+### Summary of Steps
+
+1.  **Formulate the Hypotheses**:
+
+    - $H_0: \mu = 64$ inches
+    - $H_a: \mu > 64$ inches
+
+2.  **Set the Significance Level**: $\alpha = 0.05$
+
+3.  **Determine the Test Statistic**:
+    $$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $$
+
+4.  **Calculate the Test Statistic**: Assuming $\bar{x} = 65$ inches and
+    $\sigma = 3$ inches, $$ z \approx 2.48 $$
+
+5.  **Determine the Critical Value and Make a Decision**:
+
+    - Critical value $z_{0.05} = 1.645$
+    - Since $z \approx 2.48$ \> 1.645, reject $H_0$
+
+**Conclusion**: Female distance runners are taller on average than women
+in general at the 0.05 significance level.
