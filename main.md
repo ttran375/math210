@@ -176,8 +176,7 @@ general.
 
 2.  **Set the Significance Level**: $\alpha = 0.05$
 
-3.  **Determine the Test Statistic**:
-    $$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $$
+3.  **Determine the Test Statistic**: $z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}$
 
 4.  **Calculate the Test Statistic**: Assuming $\bar{x} = 65$ inches and $\sigma = 3$ inches, $z \approx 2.48$
 
