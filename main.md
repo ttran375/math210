@@ -46,11 +46,12 @@ In a court of law, there are 2 possible errors: - (a) Finding the
 defendant guilty when he is innocent. - (b) Finding the defendant
 innocent when he is guilty.
 
-In hypothesis testing, these 2 types of errors translate as follows: -
-**Type I Error**: The mistake of rejecting the null hypothesis when it
+In hypothesis testing, these 2 types of errors translate as follows:
+
+- **Type I Error**: The mistake of rejecting the null hypothesis when it
 is true. For instance, in the above example, rejecting the hypothesis of
-mean salary being \$45,000 when, in fact, it is true. - **Type II
-Error**: The mistake of failing to reject the null hypothesis when it is
+mean salary being \$45,000 when, in fact, it is true.
+- **Type II Error**: The mistake of failing to reject the null hypothesis when it is
 false. For instance, in the above example, failing to reject the
 hypothesis of mean salary being \$45,000 when, in reality, it is not
 true.
@@ -128,9 +129,7 @@ The significance level (α) is given as 0.05.
 
 Since we know the standard deviation of the general population of female
 distance runners (σ), we will use a z-test to determine the test
-statistic. The formula for the z-test is:
-
-$$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $$
+statistic. The formula for the z-test is: $ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $
 
 where: - $\bar{x}$ is the sample mean height of female distance
 runners - $\mu$ is the population mean height of women in general (64
@@ -180,8 +179,7 @@ general.
 3.  **Determine the Test Statistic**:
     $$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} $$
 
-4.  **Calculate the Test Statistic**: Assuming $\bar{x} = 65$ inches and
-    $\sigma = 3$ inches, $$ z \approx 2.48 $$
+4.  **Calculate the Test Statistic**: Assuming $\bar{x} = 65$ inches and $\sigma = 3$ inches, $z \approx 2.48$
 
 5.  **Determine the Critical Value and Make a Decision**:
 
