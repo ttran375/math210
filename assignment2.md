@@ -23,11 +23,18 @@ $$ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} $$
 
 ### a) The probability that exactly 3 of them will not use the college Gym. \[3 marks\]
 
-- $n = 12$
-- $k = 3$
-- $p = 0.03$
-
 $$ P(X = 3) = \binom{12}{3} (0.03)^3 (0.97)^9 \approx 0.0045 $$
+
+### b) At least 2 will not use the college Gym. \[4 marks\]
+
+$$
+\begin{align}
+P(X \geq 2) &= 1 - P(X < 2) \\
+&= 1 - [P(X = 0) + P(X = 1)] \\
+&= 1 - \left[ \binom{12}{0} (0.03)^0 (0.97)^{12} + \binom{12}{1} (0.03)^1 (0.97)^{11} \right] \\
+&= 0.0579
+\end{align}
+$$
 
 ## Question 2
 
