@@ -1,3 +1,9 @@
+---
+output:
+  md_document:
+    variant: gfm
+---
+
 # Math 210 – Assignment 2 B (Statistics)
 
 ## Question 1
@@ -17,6 +23,16 @@ c\) The mean for the probability distribution [1 mark]
 d\) The standard deviation for the probability distribution [1 mark]
 
 <!-- -->
+
+\[ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} \]
+
+### a) The probability that exactly 3 of them will not use the college Gym. [3 marks]
+
+- $n = 12$
+- $k = 3$
+- $p = 0.03$
+
+\[ P(X = 3) = \binom{12}{3} (0.03)^3 (0.97)^9 \approx 0.0045 \]
 
 ## Question 2
 
