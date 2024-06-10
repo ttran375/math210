@@ -59,6 +59,33 @@ that their mean weight is between 6.8 lbs and 7.3 lbs? \[4 marks\]
 
 <!-- -->
 
+### a) The probability of a randomly selected Siamese cat weighing more than 7.5 lbs
+
+- $X = 7.5$
+- $\mu = 7.2$
+- $\sigma = 1.4$
+
+$$ Z = \frac{X - \mu}{\sigma} = \frac{7.5 - 7.2}{1.4} \approx 0.2143 $$
+
+$$ P(X > 7.5) = 1 - P(X \leq 7.5) = 1 - P(Z \leq 0.2143) = 1 - 0.5856 \approx 0.4144 $$
+
+### b) The probability that the mean weight of a sample of 25 Siamese cats is between 6.8 lbs and 7.3 lbs
+
+- $\sigma = 1.4$
+- $n = 25$
+
+$$ \sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}} = \frac{1.4}{\sqrt{25}} = 0.28 $$
+
+$$ Z_{6.8} = \frac{6.8 - 7.2}{0.28} \approx -1.4286 $$
+
+$$ Z_{7.3} = \frac{7.3 - 7.2}{0.28} \approx 0.3571 $$
+
+$$ P(Z < -1.4286) \approx 0.0764 $$
+
+$$ P(Z < 0.3571) \approx 0.6392 $$
+
+$$ P(-1.4286 < Z < 0.3571) = P(Z < 0.3571) - P(Z < -1.4286) = 0.6392 - 0.0764 \approx 0.5628 $$
+
 ## Question 3
 
 Find the following **probabilities**. Provide a graph for each case. \[9
