@@ -24,11 +24,11 @@ d\) The standard deviation for the probability distribution [1 mark]
 
 <!-- -->
 
-\[ P(X = k) = C_{n}^{k} p^k (1-p)^{n-k} \]
+$$ P(X = k) = C_{n}^{k} p^k (1-p)^{n-k} $$
 
 ### a) The probability that exactly 3 of them will not use the college Gym. [3 marks]
 
-\[ P(X = 3) = C_{12}^{3} (0.03)^3 (0.97)^9 \approx 0.0045 \]
+$$ P(X = 3) = C_{12}^{3} (0.03)^3 (0.97)^9 \approx 0.0045 $$
 
 ### b) At least 2 will not use the college Gym. [4 marks]
 
@@ -37,9 +37,17 @@ $$
 P(X \geq 2) &= 1 - P(X < 2) \\
 &= 1 - [P(X = 0) + P(X = 1)] \\
 &= 1 - [ C_{12}^{0} (0.03)^0 (0.97)^{12} + C_{12}^{1} (0.03)^1 (0.97)^{11} ] \\
-&= 0.0579
+&\approx 0.0579
 \end{align}
 $$
+
+### c) The mean for the probability distribution
+
+$$ \mu = n \cdot p = 12 \times 0.03 = 0.36 $$
+
+### d) The standard deviation for the probability distribution
+
+$$ \sigma = \sqrt{n \cdot p \cdot (1 - p)} = \sqrt{12 \times 0.03 \times 0.97} \approx 0.5910 $$
 
 ## Question 2
 
@@ -54,6 +62,41 @@ b\) If a sample of 25 Siamese cats is selected, what is the probability
     that their mean weight is between 6.8 lbs and 7.3 lbs? [4 marks]
 
 <!-- -->
+
+### a) The probability of a randomly selected Siamese cat weighing more than 7.5 lbs
+
+To find this probability, we first calculate the Z-score for 7.5 lbs.
+
+The Z-score formula is:
+
+\[ Z = \frac{X - \mu}{\sigma} \]
+
+Where:
+- \( X \) = 7.5 lbs
+- \( \mu \) = 7.2 lbs
+- \( \sigma \) = 1.4 lbs
+
+\[ Z = \frac{7.5 - 7.2}{1.4} \]
+
+\[ Z = \frac{0.3}{1.4} \]
+
+\[ Z \approx 0.2143 \]
+
+Next, we look up this Z-score in the standard normal distribution table, or use a calculator to find the probability associated with this Z-score. The table or calculator gives the probability that a value is less than 7.5 lbs.
+
+Using a standard normal distribution table or a calculator:
+
+\[ P(Z < 0.2143) \approx 0.5856 \]
+
+The probability of a value being greater than 7.5 lbs is the complement:
+
+\[ P(X > 7.5) = 1 - P(Z < 0.2143) \]
+
+\[ P(X > 7.5) = 1 - 0.5856 \]
+
+\[ P(X > 7.5) \approx 0.4144 \]
+
+So, the probability of a randomly selected Siamese cat weighing more than 7.5 lbs is approximately **0.4144**.
 
 ## Question 3
 

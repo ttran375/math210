@@ -31,10 +31,18 @@ $$
 \begin{align}
 P(X \geq 2) &= 1 - P(X < 2) \\
 &= 1 - [P(X = 0) + P(X = 1)] \\
-&= 1 - \left[ C_{12}^{0} (0.03)^0 (0.97)^{12} + C_{12}^{1} (0.03)^1 (0.97)^{11} \right] \\
-&= 0.0579
+&= 1 - [ C_{12}^{0} (0.03)^0 (0.97)^{12} + C_{12}^{1} (0.03)^1 (0.97)^{11} ] \\
+&\approx 0.0579
 \end{align}
 $$
+
+### c) The mean for the probability distribution
+
+$$ \mu = n \cdot p = 12 \times 0.03 = 0.36 $$
+
+### d) The standard deviation for the probability distribution
+
+$$ \sigma = \sqrt{n \cdot p \cdot (1 - p)} = \sqrt{12 \times 0.03 \times 0.97} \approx 0.5910 $$
 
 ## Question 2
 
