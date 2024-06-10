@@ -99,31 +99,15 @@ c\) *P*(*z* \< 3.10)
 
 ### a) *P*(−1.23 \< *z* \< 1.15)
 
-```{python}
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.stats import norm
-
-# Define the Z range
-z = np.linspace(-3, 3, 1000)
-
-# Calculate the probability for the range -1.23 < z < 1.15
-prob_a = norm.cdf(1.15) - norm.cdf(-1.23)
-
-# Plot the standard normal distribution
-plt.figure(figsize=(10, 5))
-plt.plot(z, norm.pdf(z), label='Standard Normal Distribution')
-plt.fill_between(z, 0, norm.pdf(z), where=(z > -1.23) & (z < 1.15), color='skyblue', alpha=0.5)
-plt.title(f'P(-1.23 < z < 1.15) = {prob_a:.4f}')
-plt.xlabel('z')
-plt.ylabel('Probability Density')
-plt.legend()
-plt.show()
-```
+<img src="assignment2_files/figure-gfm/unnamed-chunk-1-1.png" width="960" />
 
 ### b) *P*(*z* \> 0.78)
 
+<img src="assignment2_files/figure-gfm/unnamed-chunk-2-3.png" width="960" />
+
 ### c) *P*(*z* \< 3.10)
+
+<img src="assignment2_files/figure-gfm/unnamed-chunk-3-5.png" width="960" />
 
 ## Question 4
 

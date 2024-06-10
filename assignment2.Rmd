@@ -102,13 +102,13 @@ c\) *P*(*z* \< 3.10)
 
 ### a) *P*(−1.23 \< *z* \< 1.15)
 
-```{python}
+```{python, echo=FALSE}
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 # Define the Z range
-z = np.linspace(-3, 3, 1000)
+z = np.linspace(-4, 4, 1000)
 
 # Calculate the probability for the range -1.23 < z < 1.15
 prob_a = norm.cdf(1.15) - norm.cdf(-1.23)
@@ -126,7 +126,37 @@ plt.show()
 
 ### b) *P*(*z* \> 0.78)
 
+```{python, echo=FALSE}
+# Calculate the probability for z > 0.78
+prob_b = 1 - norm.cdf(0.78)
+
+# Plot the standard normal distribution
+plt.figure(figsize=(10, 5))
+plt.plot(z, norm.pdf(z), label='Standard Normal Distribution')
+plt.fill_between(z, 0, norm.pdf(z), where=(z > 0.78), color='skyblue', alpha=0.5)
+plt.title(f'P(z > 0.78) = {prob_b:.4f}')
+plt.xlabel('z')
+plt.ylabel('Probability Density')
+plt.legend()
+plt.show()
+```
+
 ### c) *P*(*z* \< 3.10)
+
+```{python, echo=FALSE}
+# Calculate the probability for z < 3.10
+prob_c = norm.cdf(3.10)
+
+# Plot the standard normal distribution
+plt.figure(figsize=(10, 5))
+plt.plot(z, norm.pdf(z), label='Standard Normal Distribution')
+plt.fill_between(z, 0, norm.pdf(z), where=(z < 3.10), color='skyblue', alpha=0.5)
+plt.title(f'P(z < 3.10) = {prob_c:.4f}')
+plt.xlabel('z')
+plt.ylabel('Probability Density')
+plt.legend()
+plt.show()
+```
 
 ## Question 4
 
