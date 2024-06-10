@@ -177,6 +177,21 @@ b\) Find the confidence interval for the population mean [2 marks]
 
 <!-- -->
 
+To construct a 90% confidence interval for the mean number of hours per week that the students at the high school spend playing sports, we will use the sample mean (\(\bar{x} = 4.5\) hours) and the sample standard deviation (\(s = 1.1\) hours). Given that the sample size is \(n = 25\), we assume a normal distribution and use the \(t\)-distribution because the sample size is small.
+
+### a) Find the margin of error [2 marks]
+
+- $1 - \alpha = 0.9$
+- $n = 25$
+- $s = 1.1$
+- $\bar{x} = 4.5$
+
+$$ \text{ME} = t_{\frac{\alpha}{2}, n-1} \times \frac{s}{\sqrt{n}} = t_{0.05, 24} \times \frac{1.1}{\sqrt{25}} \approx 0.376 $$
+
+### b) Find the confidence interval for the population mean
+
+$$ \text{CI} = \bar{x} \pm \text{ME} = 4.5 \pm 0.376 = (4.124, 4.876) $$
+
 ## Question 5
 
 A software development team is assessing the performance of a new
