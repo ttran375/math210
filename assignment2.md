@@ -19,6 +19,9 @@ d\) The standard deviation for the probability distribution \[1 mark\]
 
 <!-- -->
 
+- $n = 12$
+- $p = 0.03$
+
 $$ P(X = k) = C_{n}^{k} p^k (1-p)^{n-k} $$
 
 ### a) The probability that exactly 3 of them will not use the college Gym. \[3 marks\]
@@ -145,14 +148,7 @@ $$ \text{ME} = t_{\frac{\alpha}{2}, n-1} \times \frac{s}{\sqrt{n}} = t_{0.05, 24
 
 ### b) Find the confidence interval for the population mean
 
-$$ \text{CI} = \bar{x} \pm \text{ME} = 4.5 \pm 0.376 = (4.124, 4.876) $$
-
-### Summary:
-
-1)  The margin of error is approximately $0.376$ hours.
-
-2)  The 90% confidence interval for the population mean is
-    $(4.124, 4.876)$ hours.
+$$ \text{CI} = \bar{x} \pm \text{ME} = 4.5 \pm 0.376 \approx (4.124, 4.876) $$
 
 ## Question 5
 
@@ -171,3 +167,29 @@ b\) Find the critical value \[1 mark\]
 c\) Find the margin of error (maximum error of estimate) \[2 marks\]
 
 d\) Find the confidence interval \[2 mark\]
+
+To calculate the 99% confidence interval for the true mean completion
+time, we will follow these steps:
+
+### a) Find the best point estimate for the population mean \[1 mark\]
+
+$$ \mu \approx \bar{x} = 25 $$
+
+### b) Find the critical value
+
+- $1 - \alpha = 0.99$
+
+$$ z_{\alpha/2} = z_{0.005} \approx 2.576 $$
+
+### c) Find the margin of error (maximum error of estimate)
+
+- $\sigma = 3.2$
+- $n = 35$
+
+$$
+\text{ME} = z_{\alpha/2} \times \frac{\sigma}{\sqrt{n}} = 2.576 \times \frac{3.2}{\sqrt{35}} \approx 1.3934
+$$
+
+### d) Find the confidence interval
+
+$$ \text{CI} = \bar{x} \pm \text{ME} = 25 \pm 1.3934 \approx (23.6068, 26.3932) $$
