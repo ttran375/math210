@@ -205,8 +205,8 @@ $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.10 - 0.20}{0.0566} \approx -1.7
 
 ### Step 4
 
-Since $Z = -1.77$ is greater than $Z_{\alpha} = -2.33$, we fail to reject the null hypothesis.
+Fail to reject $H_0$.
 
 ### Step 5
 
-At the 1% level of significance, there is not enough evidence to support the claim that the proportion of ships with contaminated cargo has decreased.
+At the 1% level of significance, there is not enough evidence to support the claim.
