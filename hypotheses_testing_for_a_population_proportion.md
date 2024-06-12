@@ -91,29 +91,29 @@ overweight.
 - If the professor uses a significance level of 0.10, what conclusion can he
 draw?
 
-### Given Data:
+### Given Data
 
-- The historical proportion $p_0 = 0.304$ (30.4% of American teenagers were overweight in 2008)
-- Sample size $n = 800$
-- Number of overweight teenagers in the sample $x = 210$
-- Significance level $\alpha = 0.10$
+- $p_0 = 0.304$
+- $n = 800$
+- $x = 210$
+- $\alpha = 0.10$
+- $ \hat{p} = \frac{x}{n} = \frac{210}{800} = 0.2625 $
 
 ### Step 1: State the Hypotheses
 
-- $H_0: p = 0.304$ (The proportion of overweight teenagers has not decreased since 2008)
-- $H_1: p < 0.304$ (The proportion of overweight teenagers has decreased since 2008)
+- $H_0: p = 0.304$
+- $H_1: p < 0.304$
 
 ### Step 2: Determine the Critical Value
 
-For a significance level of $\alpha = 0.10$ (one-tailed test), the critical value $Z_{\alpha}$ can be found from the standard normal distribution.
-
+- $\alpha = 0.10$
 - $Z_{\alpha} = Z_{0.10} \approx -1.28$
 
 ### Step 3: Calculate the Test Statistic
 
 Calculate the sample proportion $\hat{p}$:
 
-$$ \hat{p} = \frac{x}{n} = \frac{210}{800} = 0.2625 $$
+
 
 Calculate the standard error (SE):
 
