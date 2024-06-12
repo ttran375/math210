@@ -27,7 +27,7 @@ $Z_{0.01} = -2.33$
 
 $$ \hat{p} = \frac{46}{821} \approx 0.056 $$
 
-$$ \text{SE} = \sqrt{\frac{p (1 - p)}{n}} = \sqrt{\frac{0.078 \times (1 - 0.078)}{821}} \approx 0.0092 $$
+$$ \text{SE} = \sqrt{\frac{p (1 - p)}{n}} = \sqrt{\frac{0.078 \times (1 - 0.078)}{821}} \approx 0.0094 $$
 
 $$ Z = \frac{\hat{p} - p}{\text{SE}} = \frac{0.056 - 0.078}{0.0092} \approx -2.35 $$
 
@@ -111,27 +111,63 @@ draw?
 
 ### Step 3: Calculate the Test Statistic
 
-Calculate the sample proportion $\hat{p}$:
-
-
-
-Calculate the standard error (SE):
-
 $$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.304 \times (1 - 0.304)}{800}} \approx 0.0163 $$
 
-Calculate the test statistic $Z$:
-
-$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.2625 - 0.304}{0.0163} \approx -2.54 $$
+$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.2625 - 0.304}{0.0163} \approx -2.55 $$
 
 ### Step 4: Make a Decision
 
-Compare the calculated Z value with the critical value:
-
-- Calculated $Z \approx -2.54$
-- Critical value $Z_{\alpha} \approx -1.28$
-
-Since $Z \approx -2.54$ is less than $-1.28$, we reject the null hypothesis $H_0$.
+Reject the null hypothesis $H_0$.
 
 ### Step 5: State the Conclusion
 
-At the 0.10 significance level, there is sufficient evidence to support the claim that the proportion of overweight American teenagers has decreased since 2008.
+At the 10% level of significance, there is enough evidence to support the claim.
+
+## Question 3
+
+The NCHS report indicated that in 2002, 75% of children aged 2 to 17
+saw a dentist in the past year. An investigator wants to assess whether
+use of dental services is similar in children living in a certain city. A
+sample of 125 children aged 2 to 17 living in that city are surveyed and
+64 reported seeing a dentist over the past 12 months. Is there a
+significant difference in use of dental services between children living in
+that particular city and the national data?
+
+## Hypotheses Testing for Population Proportion
+
+### Given Data
+
+- $p_0 = 0.75$
+- $n = 125$
+- $x = 64$
+- $\alpha = 0.05$
+- $\hat{p} = \frac{64}{125} \approx 0.512$
+
+### Step 1: Two-tail test
+
+- $H_0: p = 0.75$
+- $H_1: p \neq 0.75$
+
+### Step 2: Determine the Critical Value
+
+- $\alpha = 0.05$
+- $Z_{\alpha/2} \approx \pm 1.96$
+
+### Step 3: Calculate the Test Statistic
+
+1. Calculate the standard error (SE):
+
+$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.75 \times (1 - 0.75)}{125}} = \sqrt{\frac{0.75 \times 0.25}{125}} = \sqrt{\frac{0.1875}{125}} \approx 0.0387 $$
+
+2. Calculate the Z-score:
+
+$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.512 - 0.75}{0.0387} \approx -6.15 $$
+
+### Step 4: Make a Decision
+
+- Compare the calculated Z-score with the critical values.
+- Since $-6.15$ is much less than $-1.96$, we reject the null hypothesis $H_0$.
+
+### Step 5: State the Conclusion
+
+- At the 5% level of significance, there is enough evidence to conclude that there is a significant difference in the use of dental services between children living in the city and the national data from 2002.
