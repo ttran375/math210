@@ -35,7 +35,7 @@ $$ Z = \frac{\hat{p} - p}{\text{SE}} = \frac{0.056 - 0.078}{0.0092} \approx -2.3
 
 Since the P-value (0.0084) is less than the significance level (0.01), we reject the null hypothesis.
 
-### Step 5: Compare the P-value with the Significance Level
+### Step 5
 
 At 1% level of significance, there is enough evidence to support the claim.
 
@@ -52,29 +52,29 @@ claim at 5 % level of significance.
 - $x = 500$
 - $\alpha = 0.05$, right tail test
 
-### Step 1: State the Hypotheses
+### Step 1
 
 - $H_0: p = 0.84$
 - $H_1: p > 0.84$
 
-### Step 2: Determine the Critical Value
+### Step 2
 
 - $\alpha = 0.05$
 - $Z_{\alpha} = Z_{0.05} \approx 1.645$
 
-### Step 3: Calculate the Test Statistic
+### Step 3
 
 $$ \hat{p} = \frac{0.86 \times 500}{500} = 0.86 $$
 
-$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.84 \times (1 - 0.84)}{500}} = \sqrt{\frac{0.84 \times 0.16}{500}} \approx 0.016 $$
+$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.84 \times (1 - 0.84)}{500}} \approx 0.016 $$
 
 $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.86 - 0.84}{0.016} \approx 1.22 $$
 
-### Step 4: Make a Decision
+### Step 4
 
 Fail to reject $H_0$ (Do not reject $H_0$)
 
-### Step 5: State the Conclusion
+### Step 5
 
 At 5% level of significance, there is not enough evidence to support the claim.
 
@@ -99,27 +99,27 @@ draw?
 - $\alpha = 0.10$
 - $ \hat{p} = \frac{x}{n} = \frac{210}{800} = 0.2625 $
 
-### Step 1: State the Hypotheses
+### Step 1
 
 - $H_0: p = 0.304$
 - $H_1: p < 0.304$
 
-### Step 2: Determine the Critical Value
+### Step 2
 
 - $\alpha = 0.10$
 - $Z_{\alpha} = Z_{0.10} \approx -1.28$
 
-### Step 3: Calculate the Test Statistic
+### Step 3
 
 $$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.304 \times (1 - 0.304)}{800}} \approx 0.0163 $$
 
 $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.2625 - 0.304}{0.0163} \approx -2.55 $$
 
-### Step 4: Make a Decision
+### Step 4
 
 Reject the null hypothesis $H_0$.
 
-### Step 5: State the Conclusion
+### Step 5
 
 At the 10% level of significance, there is enough evidence to support the claim.
 
@@ -143,31 +143,70 @@ that particular city and the national data?
 - $\alpha = 0.05$
 - $\hat{p} = \frac{64}{125} \approx 0.512$
 
-### Step 1: Two-tail test
+### Step 1
 
 - $H_0: p = 0.75$
 - $H_1: p \neq 0.75$
 
-### Step 2: Determine the Critical Value
+### Step 2
 
 - $\alpha = 0.05$
 - $Z_{\alpha/2} \approx \pm 1.96$
 
-### Step 3: Calculate the Test Statistic
+### Step 3
 
-1. Calculate the standard error (SE):
-
-$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.75 \times (1 - 0.75)}{125}} = \sqrt{\frac{0.75 \times 0.25}{125}} = \sqrt{\frac{0.1875}{125}} \approx 0.0387 $$
-
-2. Calculate the Z-score:
+$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.75 \times (1 - 0.75)}{125}} \approx 0.0387 $$
 
 $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.512 - 0.75}{0.0387} \approx -6.15 $$
 
-### Step 4: Make a Decision
+### Step 4
 
-- Compare the calculated Z-score with the critical values.
-- Since $-6.15$ is much less than $-1.96$, we reject the null hypothesis $H_0$.
+Reject the null hypothesis $H_0$.
 
-### Step 5: State the Conclusion
+### Step 5
 
-- At the 5% level of significance, there is enough evidence to conclude that there is a significant difference in the use of dental services between children living in the city and the national data from 2002.
+- At the 5% level of significance, there is enough evidence to support the claim.
+
+## Question 4
+
+Ships arriving in ports in a certain country are inspected by Customs
+officials for contaminated cargo. Assume, for a certain port, 20% of the
+ships arriving in the previous year contained cargo that was
+contaminated. A random selection of 50 ships in the current year
+included 5 that had contaminated cargo. Does the data suggest that the
+proportion of ships arriving in the port with contaminated cargoes has
+decreased in the current year? Use $\alpha = 0.01$.
+
+## Hypotheses Testing for Population Proportion
+
+### Given Data
+
+- $p_0 = 0.20$
+- $n = 50$
+- $x = 5$
+- $\alpha = 0.01$
+- $\hat{p} = \frac{5}{50} = 0.10$
+
+### Step 1
+
+- $H_0: p = 0.20$
+- $H_1: p < 0.20$
+
+### Step 2
+
+- $\alpha = 0.01$
+- $Z_{\alpha} = Z_{0.01} \approx -2.33$
+
+### Step 3
+
+$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.20 \times (1 - 0.20)}{50}} \approx 0.0566 $$
+
+$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.10 - 0.20}{0.0566} \approx -1.77 $$
+
+### Step 4
+
+Since $Z = -1.77$ is greater than $Z_{\alpha} = -2.33$, we fail to reject the null hypothesis.
+
+### Step 5
+
+At the 1% level of significance, there is not enough evidence to support the claim that the proportion of ships with contaminated cargo has decreased.
