@@ -1,17 +1,5 @@
 # Hypotheses testing for a population proportion
 
-- Testing a claim about a population proportion follows the same basic steps as we used in hypotheses testing for a population mean.
-- When testing about a population proportion we can say that we test for:
-- A proportion (Ex: Test the claim that more than ½ of the grade 12 students enroll in an extra semester);
-- A percentage (Ex: Test the claim that less than 23% of the population of Toronto has blue eyes);
-- A probability (Ex: Test the claim that there is a 0.57 probability that the voters in Toronto will vote for the Liberal Party).
-
-## Assumptions
-
-- Data is collected randomly.
-- The statements that describe a binomial experiment are true.
-- If these assumptions are satisfied, then we can test using the following formula for the test statistic:
-
 ## Question 1
 
 In a study of air-bags effectiveness, it was found that in 821 crashes of
