@@ -243,10 +243,10 @@ e\) State a conclusion
 
 Given data:
 
-- Population mean ($\mu_0$) = 50
-- Sample mean ($\bar{x}$) = 51
-- Population standard deviation ($\sigma$) = 2
-- Sample size ($n$) = 40
+- $\mu_0 = 50$
+- $\bar{x} = 51$
+- $\sigma = 2$
+- $n = 40$
 
 $$ Z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}} = \frac{51 - 50}{2/\sqrt{40}} \approx 3.16 $$
 
