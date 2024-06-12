@@ -210,3 +210,65 @@ Fail to reject $H_0$.
 ### Step 5
 
 At the 1% level of significance, there is not enough evidence to support the claim.
+
+## Question 5
+
+Suppose that we want to test the hypothesis with a significance level of .05 that
+the climate has changed since industrialization. Suppose that the mean temperature
+throughout history is 50 degrees. During the last 40 years, the mean temperature
+has been 51 degrees. Suppose the population standard deviation is 2 degrees and
+that the population is normally distributed. What can we conclude?
+
+
+a\) State the hypotheses
+
+b\) State the level of significance and construct the critical interval
+
+c\) Calculate the test statistics
+
+d\) Make a decision
+
+e\) State a conclusion
+
+### a) State the hypotheses
+
+- Null Hypothesis ($H_0$): The mean temperature has not changed since industrialization.
+  $$ H_0: \mu = 50 $$
+- Alternative Hypothesis ($H_1$): The mean temperature has changed since industrialization.
+  $$ H_1: \mu \neq 50 $$
+
+### b) State the level of significance and construct the critical interval
+
+- Significance level ($\alpha$): 0.05
+- For a two-tailed test, we need to find the critical values for $\alpha/2 = 0.025$ in each tail.
+- The critical Z value for $\alpha/2 = 0.025$ is approximately $\pm 1.96$.
+
+### c) Calculate the test statistics
+
+Given data:
+
+- Population mean ($\mu_0$) = 50
+- Sample mean ($\bar{x}$) = 51
+- Population standard deviation ($\sigma$) = 2
+- Sample size ($n$) = 40
+
+Test statistic formula for the population mean:
+$$ Z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}} $$
+
+Substitute the values:
+$$ Z = \frac{51 - 50}{2/\sqrt{40}} $$
+$$ Z = \frac{1}{2/\sqrt{40}} $$
+$$ Z = \frac{1}{2/6.32} $$
+$$ Z = \frac{1}{0.3162} $$
+$$ Z \approx 3.16 $$
+
+### d) Make a decision
+
+- The calculated test statistic $Z \approx 3.16$.
+- The critical values for a two-tailed test at $\alpha = 0.05$ are $-1.96$ and $1.96$.
+
+Since $3.16$ is greater than $1.96$, we reject the null hypothesis.
+
+### e) State a conclusion
+
+At the 5% level of significance, there is enough evidence to reject the null hypothesis. Thus, we conclude that there has been a significant change in the mean temperature since industrialization.
