@@ -33,7 +33,7 @@ $$ Z = \frac{\hat{p} - p}{\text{SE}} = \frac{0.056 - 0.078}{0.0092} \approx -2.3
 
 ### Step 4
 
-Since the P-value (0.0084) is less than the significance level (0.01), we reject the null hypothesis.
+Reject $H_0$.
 
 ### Step 5
 
@@ -117,7 +117,7 @@ $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.2625 - 0.304}{0.0163} \approx -
 
 ### Step 4
 
-Reject the null hypothesis $H_0$.
+Reject $H_0$.
 
 ### Step 5
 
@@ -161,7 +161,7 @@ $$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.512 - 0.75}{0.0387} \approx -6.
 
 ### Step 4
 
-Reject the null hypothesis $H_0$.
+Reject $H_0$.
 
 ### Step 5
 
