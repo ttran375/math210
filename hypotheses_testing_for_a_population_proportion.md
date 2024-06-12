@@ -248,7 +248,7 @@ Given data:
 - Population standard deviation ($\sigma$) = 2
 - Sample size ($n$) = 40
 
-$$ Z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}} = \frac{51 - 50}{2/\sqrt{40}} Z \approx 3.16 $$
+$$ Z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}} = \frac{51 - 50}{2/\sqrt{40}} \approx 3.16 $$
 
 ### d) Make a decision
 
