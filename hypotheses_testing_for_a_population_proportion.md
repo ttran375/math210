@@ -9,22 +9,24 @@ claim that the air bag hospitalization rate is lower than 7.8% rate for
 crashes of midsize cars equipped with automatic safety belts but no air
 bags.
 
-### Step 1: Define the Hypotheses
+- $n = 821$
+- $x = 46$
+- $\alpha = 0.01$
+- $p = 0.078$
 
-- Null Hypothesis ($H_0$): The hospitalization rate for crashes with air bags is equal to 7.8%, $ p = 0.078 $.
-- Alternative Hypothesis ($H_a$): The hospitalization rate for crashes with air bags is less than 7.8%, $ p < 0.078 $.
+
+### Step 1: Define the left tail Hypotheses
+
+- $H_0: p = 0.078$
+- $H_1: p < 0.078$
 
 ### Step 2: Calculate the Test Statistic
 
-- Sample size ($n$): 821
-- Number of hospitalizations ($x$): 46
-- Hypothesized population proportion ($p_0$): 0.078
-
 $$ \hat{p} = \frac{46}{821} \approx 0.056 $$
 
-$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.078 \times (1 - 0.078)}{821}} \approx 0.0092 $$
+$$ \text{SE} = \sqrt{\frac{p (1 - p)}{n}} = \sqrt{\frac{0.078 \times (1 - 0.078)}{821}} \approx 0.0092 $$
 
-$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.056 - 0.078}{0.0092} \approx -2.39 $$
+$$ Z = \frac{\hat{p} - p}{\text{SE}} = \frac{0.056 - 0.078}{0.0092} \approx -2.39 $$
 
 ### Step 3: Determine the P-value
 
