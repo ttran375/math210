@@ -14,7 +14,6 @@ bags.
 - $\alpha = 0.01$
 - $p = 0.078$
 
-
 ### Step 1
 
 - $H_0: p = 0.078$
@@ -38,8 +37,7 @@ Since the P-value (0.0084) is less than the significance level (0.01), we reject
 
 ### Step 5: Compare the P-value with the Significance Level
 
-At the 0.01 significance level, there is sufficient evidence to support the claim that the hospitalization rate for crashes of midsize cars equipped with air bags is lower than the 7.8% rate for crashes of midsize cars equipped with automatic safety belts but no air bags.
-
+At 1% level of significance, there is enough evidence to support the claim.
 
 ## Question 1
 
@@ -59,37 +57,81 @@ claim at 5 % level of significance.
 - $H_0: p = 0.84$
 - $H_1: p > 0.84$
 
-Here, $p$ is the proportion of children with Internet access at home in the current year.
-
 ### Step 2: Determine the Critical Value
 
-Since the significance level \(\alpha\) is 0.05 and this is a one-tailed test, we look up the critical value for a right-tailed test in the Z-table.
-
+- $\alpha = 0.05$
 - $Z_{\alpha} = Z_{0.05} \approx 1.645$
 
 ### Step 3: Calculate the Test Statistic
 
-First, we need to calculate the sample proportion:
-
 $$ \hat{p} = \frac{0.86 \times 500}{500} = 0.86 $$
-
-Next, calculate the standard error (SE) using the null hypothesis proportion:
 
 $$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.84 \times (1 - 0.84)}{500}} = \sqrt{\frac{0.84 \times 0.16}{500}} \approx 0.016 $$
 
-Now, calculate the Z-score:
-
-$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.86 - 0.84}{0.016} \approx 1.25 $$
+$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.86 - 0.84}{0.016} \approx 1.22 $$
 
 ### Step 4: Make a Decision
 
-Compare the calculated Z-score with the critical value:
-
-- If $Z \geq Z_{0.05}$, reject the null hypothesis.
-- If $Z < Z_{0.05}$, fail to reject the null hypothesis.
-
-Here, $1.25 < 1.645$, so we fail to reject the null hypothesis.
+Fail to reject $H_0$ (Do not reject $H_0$)
 
 ### Step 5: State the Conclusion
 
-At the 5% significance level, there is insufficient evidence to support the claim that the proportion of U.S. children ages 8 to 18 with Internet access at home has increased since 2009.
+At 5% level of significance, there is not enough evidence to support the claim.
+
+## Question 2
+
+Data from the Center for Disease Control estimates that about 30.4%
+of American teenagers were overweight in 2008.
+
+- A professor in public health at a major university wants to determine
+whether the proportion has decreased since 2008. He samples 800
+randomly selected incoming freshman at universities around the
+country. Using the BMI measurements, he finds that 210 of them are
+overweight.
+- If the professor uses a significance level of 0.10, what conclusion can he
+draw?
+
+### Given Data:
+
+- The historical proportion $p_0 = 0.304$ (30.4% of American teenagers were overweight in 2008)
+- Sample size $n = 800$
+- Number of overweight teenagers in the sample $x = 210$
+- Significance level $\alpha = 0.10$
+
+### Step 1: State the Hypotheses
+
+- $H_0: p = 0.304$ (The proportion of overweight teenagers has not decreased since 2008)
+- $H_1: p < 0.304$ (The proportion of overweight teenagers has decreased since 2008)
+
+### Step 2: Determine the Critical Value
+
+For a significance level of $\alpha = 0.10$ (one-tailed test), the critical value $Z_{\alpha}$ can be found from the standard normal distribution.
+
+- $Z_{\alpha} = Z_{0.10} \approx -1.28$
+
+### Step 3: Calculate the Test Statistic
+
+Calculate the sample proportion $\hat{p}$:
+
+$$ \hat{p} = \frac{x}{n} = \frac{210}{800} = 0.2625 $$
+
+Calculate the standard error (SE):
+
+$$ \text{SE} = \sqrt{\frac{p_0 (1 - p_0)}{n}} = \sqrt{\frac{0.304 \times (1 - 0.304)}{800}} \approx 0.0163 $$
+
+Calculate the test statistic $Z$:
+
+$$ Z = \frac{\hat{p} - p_0}{\text{SE}} = \frac{0.2625 - 0.304}{0.0163} \approx -2.54 $$
+
+### Step 4: Make a Decision
+
+Compare the calculated Z value with the critical value:
+
+- Calculated $Z \approx -2.54$
+- Critical value $Z_{\alpha} \approx -1.28$
+
+Since $Z \approx -2.54$ is less than $-1.28$, we reject the null hypothesis $H_0$.
+
+### Step 5: State the Conclusion
+
+At the 0.10 significance level, there is sufficient evidence to support the claim that the proportion of overweight American teenagers has decreased since 2008.
