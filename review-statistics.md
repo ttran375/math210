@@ -220,9 +220,9 @@ are obese.
 - $\hat{p} = 0.32$
 - $1 - \alpha = 0.95$
 
-$$ \hat{p} - z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $$
-
 $$ 1 - \alpha = 0.95 \rightarrow z_{\frac{\alpha}{2}} = 1.96 $$
+
+$$ \hat{p} - z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $$
 
 $$ 0.32 - 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} < p < 0.32 + 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} $$
 
