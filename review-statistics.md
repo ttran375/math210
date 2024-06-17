@@ -194,10 +194,6 @@ the 99 % confidence interval of the population mean for the
 weights of adult elephants. Assume the variable is normally
 distributed.
 
-The confidence interval for the population mean of adult elephant weights, given the sample mean, standard deviation, and size, can be computed as follows:
-
-**Given data:**
-
 - Sample size (\(n\)): 8
 - Sample mean (\(\bar{x}\)): 11,845 pounds
 - Sample standard deviation (\(s\)): 20 pounds
