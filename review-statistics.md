@@ -67,3 +67,12 @@ $$
 $$
 
 $$ IQR = Q_3 - Q_1 = 10−3=7$$
+
+## Question 3
+
+A survey found that 20% of people believe that they have seen a UFO. Choose a sample of 10 people at random. Find the probability of the following. Round intermediate calculations and final answers to at least three decimal places.
+
+
+(a) At least 3 people believe that they have seen a UFO
+(b) Exactly 2 people think they have seen an UFO
+(c) At most 2 people believe that they have seen a UFO
