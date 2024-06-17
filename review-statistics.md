@@ -34,6 +34,7 @@ The following dot plot represents number of books college students read over a s
 ![](dot-plot.png)
 
 Find the following:
+
 a) The mean
 
 b) The standard deviation
@@ -73,7 +74,9 @@ $$ IQR = Q_3 - Q_1 = 10−3=7$$
 A survey found that 20% of people believe that they have seen a UFO. Choose a sample of 10 people at random. Find the probability of the following. Round intermediate calculations and final answers to at least three decimal places.
 
 (a) At least 3 people believe that they have seen a UFO
+
 (b) Exactly 2 people think they have seen an UFO
+
 (c) At most 2 people believe that they have seen a UFO
 
 ### (a) At least 3 people believe that they have seen a UFO
@@ -144,3 +147,25 @@ A survey found that the American family generates an average of 17.2
 pounds of glass garbage each year. Assume the standard deviation of the
 distribution is 2.5 pounds. Find the probability that the mean of a sample
 of 33 families will be between 17.3 and 18.3 pounds.
+
+- $\mu = 17.2$
+- $\sigma = 2.5$
+- $n = 33$
+- $P(17.3 < \bar{x} < 18.3) = ?$
+
+$$ Z_1 = \frac{17.3 - 17.2}{\frac{2.5}{\sqrt{33}}} \approx 0.23 $$
+
+$$ Z_2 = \frac{18.3 - 17.2}{\frac{2.5}{\sqrt{33}}} \approx 2.53 $$
+
+$$ P(0.23 \leq Z \leq 2.53) = P(Z \leq 2.53) - P(Z \leq 0.23) = 0.9943 - 0.5910 = 0.4033 $$
+
+## Question 7
+
+For a random sample of 50 overweight men, the mean of the number of
+pounds that they were overweight was 31 lbs. The standard deviation of
+the population is 6 pounds.
+
+(a) Find the best point estimate of the mean.
+
+(b) Find the 84% confidence interval of the mean of these pounds.
+
