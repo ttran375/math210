@@ -72,7 +72,6 @@ $$ IQR = Q_3 - Q_1 = 10−3=7$$
 
 A survey found that 20% of people believe that they have seen a UFO. Choose a sample of 10 people at random. Find the probability of the following. Round intermediate calculations and final answers to at least three decimal places.
 
-
 (a) At least 3 people believe that they have seen a UFO
 (b) Exactly 2 people think they have seen an UFO
 (c) At most 2 people believe that they have seen a UFO
@@ -86,3 +85,30 @@ P(x \geq 3) &= 1 - [P(0) + P(1) + P(2)] \\
 &\approx 0.3222
 \end{align}
 $$
+
+### (b) Exactly 2 people think they have seen an UFO
+
+$$ P(x = 2) = C_{10}^2 \times 0.20^2 \times 0.80^8 \approx 0.3020 $$
+
+### (c) At most 2 people believe that they have seen a UFO
+
+$$
+\begin{align}
+P(x \leq 2) &= P(0) + P(1) + P(2) \\
+&= C_{10}^0 \times 0.20^0 \times 0.80^{10} + C_{10}^1 \times 0.20^1 \times 0.80^9 + C_{10}^2 \times 0.20^2 \times 0.80^8 \\
+&\approx 0.6778
+\end{align}
+$$
+
+## Question 4
+
+a) In the standard normal distribution, find the z value that
+corresponds to the 78th percentile. Use Cumulative Normal
+Distribution Table and enter the answer to 2 decimal places.
+
+b) In order for a student to be accepted to a postgraduate
+program, she needs to achieve an entrance exam mark that is
+at least at the 40% level of all marks. If the mean of marks for
+the entrance exam is known to be 82, with a standard
+deviation of 8, what is the minimum mark that she needs to
+acquire?
