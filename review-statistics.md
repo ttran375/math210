@@ -112,3 +112,11 @@ at least at the 40% level of all marks. If the mean of marks for
 the entrance exam is known to be 82, with a standard
 deviation of 8, what is the minimum mark that she needs to
 acquire?
+
+### a)
+
+$$ z \\aprox 0.77 $$
+
+### b)
+
+
