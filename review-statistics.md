@@ -130,3 +130,17 @@ suitcases that get lost a day on a certain route is approximately normal
 with a mean of 15.7 and a standard deviation of 3.6 . What is the
 probability that during a randomly selected day the airline will lose less
 than 20 suitcases?
+
+- $\mu = 15.7$
+- $\sigma = 3.6$
+
+$$ Z = \frac{X - \mu }{\sigma} = \frac{20 - 15.7}{3.6} = 1.19 $$
+
+$$ P(Z < 1.19) = 0.8830 $$
+
+## Question 6
+
+A survey found that the American family generates an average of 17.2
+pounds of glass garbage each year. Assume the standard deviation of the
+distribution is 2.5 pounds. Find the probability that the mean of a sample
+of 33 families will be between 17.3 and 18.3 pounds.
