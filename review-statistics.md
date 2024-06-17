@@ -122,3 +122,11 @@ $$ \alpha = 0.78 \rightarrow z \approx 0.77 $$
 $$ \alpha = 0.4 \rightarrow z \approx -0.25 $$
 
 $$ x = \mu + z\sigma = 82 + (-0.25) \times 8 = 80 $$
+
+## Question 5
+
+An airline knows from experience that the distribution of the number of
+suitcases that get lost a day on a certain route is approximately normal
+with a mean of 15.7 and a standard deviation of 3.6 . What is the
+probability that during a randomly selected day the airline will lose less
+than 20 suitcases?
