@@ -185,3 +185,35 @@ $$ 1 - \alpha = 0.84 \rightarrow z_{\frac{\alpha}{2}} \approx 1.41 $$
 $$ 31 - 1.41 \times \frac{6}{\sqrt{50}} < \mu < 31 + 1.41 \times \frac{6}{\sqrt{50}} $$
 
 $$ 29.80 < \mu < 32.20 $$
+
+## Question 8
+
+A sample of 8 adult elephants had an average weight of
+11,845 pounds with a standard deviation of 20 pounds. Find
+the 99 % confidence interval of the population mean for the
+weights of adult elephants. Assume the variable is normally
+distributed.
+
+The confidence interval for the population mean of adult elephant weights, given the sample mean, standard deviation, and size, can be computed as follows:
+
+**Given data:**
+
+- Sample size (\(n\)): 8
+- Sample mean (\(\bar{x}\)): 11,845 pounds
+- Sample standard deviation (\(s\)): 20 pounds
+- Confidence level: 99%
+
+**Step 1: Determine the critical t-value.**
+For a 99% confidence level with \(n-1 = 7\) degrees of freedom:
+
+- Critical \(t\) value (\(t_{0.005}\)): 3.499
+
+**Step 2: Calculate the margin of error (E).**
+\[ E = t_{\frac{\alpha}{2}} \times \frac{s}{\sqrt{n}} = 3.499 \times \frac{20}{\sqrt{8}} = 3.499 \times 7.071 = 24.74 \text{ pounds} \]
+
+**Step 3: Calculate the confidence interval.**
+\[ \text{Lower bound} = \bar{x} - E = 11845 - 24.74 = 11820.26 \text{ pounds} \]
+\[ \text{Upper bound} = \bar{x} + E = 11845 + 24.74 = 11869.74 \text{ pounds} \]
+
+**Conclusion:**
+The 99% confidence interval for the population mean weight of adult elephants is \( [11820.26, 11869.74] \) pounds.
