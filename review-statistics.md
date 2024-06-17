@@ -48,4 +48,12 @@ $$ \bar{x} = \frac{\sum{x}}{n} = \frac{2+3+3+5+5+7+7+7+10+10+11}{11} \approx 6.4
 
 ### b) The standard deviation
 
+$$
+\begin{align}
+s &= \sqrt{\dfrac{\sum\limits_{i=1}^{n} (x_i - \bar{x})^2}{n-1}} \\
+&= \sqrt{\dfrac{(1.3 - 1.35)^2 + (1.5 - 1.35)^2 + (1.4 - 1.35)^2 + (1.3 - 1.35)^2 + (1.2 - 1.35)^2 + (1.4 - 1.35)^2}{6-1}} \\
+&\approx 0.105
+\end{align}
+$$
+
 ### c) The interquartile range
