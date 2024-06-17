@@ -17,7 +17,7 @@ b) The median
 
 ### a) The 35th percentile
 
-Sort: 14, 14, 16, 23, 28, 32, 40, 41
+Data: 14, 14, 16, 23, 28, 32, 40, 41
 
 $$ \text{Loc. } P_{35} = \left(\frac{K}{100}\right) \times u = \left(\frac{35}{100}\right) \times 8 = 2.8 \rightarrow 3 $$
 $$ P_{35} = 16 \text{ days} $$
