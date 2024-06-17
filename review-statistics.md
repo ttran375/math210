@@ -76,3 +76,13 @@ A survey found that 20% of people believe that they have seen a UFO. Choose a sa
 (a) At least 3 people believe that they have seen a UFO
 (b) Exactly 2 people think they have seen an UFO
 (c) At most 2 people believe that they have seen a UFO
+
+### (a) At least 3 people believe that they have seen a UFO
+
+$$
+\begin{align}
+P(x \geq 3) &= 1 - [P(0) + P(1) + P(2)] \\
+&= 1 - [C_{10}^0 \times 0.20^0 \times 0.80^{10} + C_{10}^1 \times 0.20^1 \times 0.80^9 + C_{10}^2 \times 0.20^2 \times 0.80^8] \\
+&\approx 0.3222
+\end{align}
+$$
