@@ -169,3 +169,15 @@ the population is 6 pounds.
 
 (b) Find the 84% confidence interval of the mean of these pounds.
 
+- $n = 50$
+- $\bar{x} = 31$
+- $\sigma = 6$
+- $1 - \alpha = 0.84$
+
+### (a) Find the best point estimate of the mean
+
+The best point estimate of the mean: 31
+
+### (b) Find the 84% confidence interval of the mean of these pounds
+
+
