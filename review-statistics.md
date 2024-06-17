@@ -220,31 +220,10 @@ are obese.
 - $\hat{p} = 0.32$
 - $1 - \alpha = 0.95$
 
-To create a 95% confidence interval for the proportion of patients free of diabetes who are obese, given that 32% of the 100 sampled patients meet the obesity criteria (BMI ≥30), we can use the formula for the confidence interval of a proportion. Here’s the breakdown:
+$$ \hat{p} - z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $$
 
-1. **Sample proportion (\( \hat{p} \))**: This is the proportion of patients in the sample who are obese, which is 0.32 (32%).
+$$ 1 - \alpha = 0.95 \rightarrow z_{\frac{\alpha}{2}} = 1.96 $$
 
-2. **Sample size (\( n \))**: The total number of patients sampled, which is 100.
+$$ 0.32 - 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} < p < 0.32 + 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} $$
 
-3. **Standard error (SE)** of the proportion:
-   \[
-   SE = \sqrt{\frac{\hat{p} (1 - \hat{p})}{n}}
-   \]
-   Plugging in the numbers:
-   \[
-   SE = \sqrt{\frac{0.32 \times 0.68}{100}} = \sqrt{0.002176} \approx 0.0466
-   \]
-
-4. **Z-score** for a 95% confidence level: Approximately 1.96 (you can obtain this value from a standard normal distribution table).
-
-5. **Margin of error (ME)**:
-   \[
-   ME = Z \times SE = 1.96 \times 0.0466 \approx 0.0913
-   \]
-
-6. **Confidence interval (CI)**:
-   \[
-   CI = \hat{p} \pm ME = 0.32 \pm 0.0913 = (0.2287, 0.4113)
-   \]
-
-Therefore, the 95% confidence interval for the proportion of patients who are obese is approximately (0.2287, 0.4113). This means we are 95% confident that the true proportion of all patients free of diabetes who are obese falls within this range.
+$$ 0.2286 < p < 0.4114 $$
