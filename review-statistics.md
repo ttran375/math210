@@ -194,10 +194,10 @@ the 99 % confidence interval of the population mean for the
 weights of adult elephants. Assume the variable is normally
 distributed.
 
-- Sample size (\(n\)): 8
-- Sample mean (\(\bar{x}\)): 11,845 pounds
-- Sample standard deviation (\(s\)): 20 pounds
-- Confidence level: 99%
+- $n = 8$
+- $\bar{x} = 11845$
+- $s = 20$
+- $1 - \alpha = 0.99$
 
 **Step 1: Determine the critical t-value.**
 For a 99% confidence level with \(n-1 = 7\) degrees of freedom:
