@@ -180,8 +180,8 @@ The best point estimate of the mean: 31
 
 ### (b) Find the 84% confidence interval of the mean of these pounds
 
-$$ \bar{x} - z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} < \mu < \bar{x} + z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} $$
+$$ 1 - \alpha = 0.84 \rightarrow z_{\frac{\alpha}{2}} \approx 1.41 $$
 
-$$ 31 - z_{\frac{0.16}{2}} \times \frac{6}{\sqrt{50}} < \mu < 31 + z_{\frac{0.16}{2}} \times \frac{6}{\sqrt{50}} $$
+$$ 31 - 1.41 \times \frac{6}{\sqrt{50}} < \mu < 31 + 1.41 \times \frac{6}{\sqrt{50}} $$
 
 $$ 29.80 < \mu < 32.20 $$
