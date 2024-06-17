@@ -115,8 +115,10 @@ acquire?
 
 ### a)
 
-$$ z \\aprox 0.77 $$
+$$ \alpha = 0.78 \rightarrow z \approx 0.77 $$
 
 ### b)
 
+$$ \alpha = 0.4 \rightarrow z \approx -0.25 $$
 
+$$ x = \mu + z\sigma = 82 + (-0.25) \times 8 = 80 $$
