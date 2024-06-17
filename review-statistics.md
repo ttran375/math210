@@ -40,5 +40,12 @@ b) The standard deviation
 
 c) The interquartile range
 
+### a) The mean
 
-###
+Data: 2,3,3,5,5,7,7,7,10,10,11
+
+$$ \bar{x} = \frac{\sum{x}}{n} = \frac{2+3+3+5+5+7+7+7+10+10+11}{11} \approx 6.4 $$
+
+### b) The standard deviation
+
+### c) The interquartile range
