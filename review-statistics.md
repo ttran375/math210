@@ -216,6 +216,10 @@ obesity. Generate a 95% confidence interval for
 the proportion of patients free of diabetes who
 are obese.
 
+- $n = 100$
+- $\hat{p} = 0.32$
+- $1 - \alpha = 0.95$
+
 To create a 95% confidence interval for the proportion of patients free of diabetes who are obese, given that 32% of the 100 sampled patients meet the obesity criteria (BMI ≥30), we can use the formula for the confidence interval of a proportion. Here’s the breakdown:
 
 1. **Sample proportion (\( \hat{p} \))**: This is the proportion of patients in the sample who are obese, which is 0.32 (32%).
