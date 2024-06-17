@@ -57,3 +57,13 @@ s &= \sqrt{\dfrac{\sum\limits_{i=1}^{n} (x_i - \bar{x})^2}{n-1}} \\
 $$
 
 ### c) The interquartile range
+
+$$
+\frac{25}{100} \times 11 = 2.75 \rightarrow \text{Loc} P_{25} = 3 \rightarrow P_{25} = 3 \rightarrow Q_1 = 3
+$$
+
+$$
+\frac{75}{100} \times 14 = 8.25 \rightarrow \text{Loc} P_{75} = 9 \rightarrow P_{75} = 10 \rightarrow Q_3 = 10
+$$
+
+$$ IQR = Q_3 - Q_1 = 10−3=7$$
