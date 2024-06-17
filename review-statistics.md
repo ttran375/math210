@@ -182,6 +182,8 @@ The best point estimate of the mean: 31
 
 $$ 1 - \alpha = 0.84 \rightarrow z_{\frac{\alpha}{2}} \approx 1.41 $$
 
+$$ \bar{x} - z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} < \mu < \bar{x} + z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} $$
+
 $$ 31 - 1.41 \times \frac{6}{\sqrt{50}} < \mu < 31 + 1.41 \times \frac{6}{\sqrt{50}} $$
 
 $$ 29.80 < \mu < 32.20 $$
@@ -199,17 +201,46 @@ distributed.
 - $s = 20$
 - $1 - \alpha = 0.99$
 
-**Step 1: Determine the critical t-value.**
-For a 99% confidence level with \(n-1 = 7\) degrees of freedom:
+$$ t_{\frac{\alpha}{2}, df} = t_{0.005, 8 - 1} = 3.499 $$
 
-- Critical \(t\) value (\(t_{0.005}\)): 3.499
+$$ \bar{x} - t_{\frac{\alpha}{2}, df} \times \frac{s}{\sqrt{n}} < \mu < \bar{x} + t_{\frac{\alpha}{2}, df} \times \frac{s}{\sqrt{n}} $$
 
-**Step 2: Calculate the margin of error (E).**
-\[ E = t_{\frac{\alpha}{2}} \times \frac{s}{\sqrt{n}} = 3.499 \times \frac{20}{\sqrt{8}} = 3.499 \times 7.071 = 24.74 \text{ pounds} \]
+$$ 11845 - 3.499 \times \frac{20}{\sqrt{8}} < \mu < 11845 + 3.499 \times \frac{20}{\sqrt{8}} $$
 
-**Step 3: Calculate the confidence interval.**
-\[ \text{Lower bound} = \bar{x} - E = 11845 - 24.74 = 11820.26 \text{ pounds} \]
-\[ \text{Upper bound} = \bar{x} + E = 11845 + 24.74 = 11869.74 \text{ pounds} \]
+$$ 11820.26 < \mu < 11869.74 $$
 
-**Conclusion:**
-The 99% confidence interval for the population mean weight of adult elephants is \( [11820.26, 11869.74] \) pounds.
+## Question 9
+
+A sample 100 patients free of diabetes have their body mass index ($BMI$) measured. 32% of these patients have $BMI \geq 30$ and meet the criteria for
+obesity. Generate a 95% confidence interval for
+the proportion of patients free of diabetes who
+are obese.
+
+To create a 95% confidence interval for the proportion of patients free of diabetes who are obese, given that 32% of the 100 sampled patients meet the obesity criteria (BMI ≥30), we can use the formula for the confidence interval of a proportion. Here’s the breakdown:
+
+1. **Sample proportion (\( \hat{p} \))**: This is the proportion of patients in the sample who are obese, which is 0.32 (32%).
+
+2. **Sample size (\( n \))**: The total number of patients sampled, which is 100.
+
+3. **Standard error (SE)** of the proportion:
+   \[
+   SE = \sqrt{\frac{\hat{p} (1 - \hat{p})}{n}}
+   \]
+   Plugging in the numbers:
+   \[
+   SE = \sqrt{\frac{0.32 \times 0.68}{100}} = \sqrt{0.002176} \approx 0.0466
+   \]
+
+4. **Z-score** for a 95% confidence level: Approximately 1.96 (you can obtain this value from a standard normal distribution table).
+
+5. **Margin of error (ME)**:
+   \[
+   ME = Z \times SE = 1.96 \times 0.0466 \approx 0.0913
+   \]
+
+6. **Confidence interval (CI)**:
+   \[
+   CI = \hat{p} \pm ME = 0.32 \pm 0.0913 = (0.2287, 0.4113)
+   \]
+
+Therefore, the 95% confidence interval for the proportion of patients who are obese is approximately (0.2287, 0.4113). This means we are 95% confident that the true proportion of all patients free of diabetes who are obese falls within this range.
