@@ -10,8 +10,8 @@
 
 ## Week 3
 
-- In-Class Exercises: Continuous and Normal Probability Distributions. Central limit theorem
-- Assignments: Assignment 1
+- In-Class Exercises: [Continuous and Normal Probability Distributions. Central limit theorem](module03)
+- Assignments: [Assignment 1](assignment1)
 
 ## Week 4
 
@@ -20,6 +20,7 @@
 ## Week 5
 
 - In-Class Exercises: Hypothesis Testing about a Population Mean
+- Quizzes: Quiz 1
 
 ## Week 6
 
