@@ -227,3 +227,254 @@ $$ \hat{p} - Z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p
 $$ 0.32 - 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} < p < 0.32 + 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} $$
 
 $$ 0.2286 < p < 0.4114 $$
+
+## Question 10
+
+A researcher found that a cigarette smoker smokes
+on average of 29 cigarettes a day. She feels that the
+average is different. She selected a random sample of
+12 smokers and found that the mean number of
+cigarettes they smoked per day was 27, with a standard
+deviation of 2.7.
+At 0.10 level of significance, is there enough evidence to
+support her claim? Assume that the population is
+approximately normally distributed. Use the critical
+value method and tables.
+
+- (a) State the hypotheses and identify the claim.
+- (b) Find the critical value.
+- (c) Compute the test value.
+- (d) Make the decision.
+- (e) Summarize the results.
+
+### (a) State the hypotheses and identify the claim
+
+- **Null Hypothesis ($H_0$)**: $\mu = 29$
+- **Alternative Hypothesis ($H_1$)**: $\mu \neq 29$
+- **Claim**: The researcher believes that the average is different from 29.
+
+1. HT: $\mu$
+2. Two-tail
+3. t test
+
+- $n = 12$
+- $\mu = 29$
+- $\bar{x} = 27$
+- $s = 2.7$
+- $\alpha = 0.1$
+
+### (b) Find the critical value
+
+$$ \alpha = 0.10 $$
+
+$$ df = n - 1 = 12 - 1 = 11 $$
+
+$$ t_{\frac{\alpha}{2}, df} = t{0.1}{11} \pm 1.796 $$
+
+### (c) Compute the test value
+
+$$ t = \frac{\bar{x} - \mu}{s/\sqrt{n}} = \frac{27 - 29}{2.7/\sqrt{12}} = -2.566 $$
+
+### (d) Make the decision
+
+Reject $H_0$
+
+### (e) Summarize the results
+
+At 10% level of significance, there is enough evidence to support the claim
+
+## Question 11
+
+It is known that the average of cats’
+weight is 8.7 lbs with a population standard
+deviation of 1.8 lbs.
+A researcher thinks the weight of cats is
+lower than formerly thought. She tests a
+sample of 42 cats and finds a mean of 8.4
+lbs.
+At 0.08 level of significance, is there enough
+evidence to support her claim? Use the
+critical value method and tables.
+
+- (a) State the hypotheses and identify the claim.
+- (b) Find the critical value.
+- (c) Compute the test value.
+- (d) Make the decision.
+- (e) Draw a conclusion.
+
+### (a) State the hypotheses and identify the claim
+
+- **Null Hypothesis ($H_0$):** $\mu = 8.7$ lbs
+- **Alternative Hypothesis ($H_1$):** $\mu < 8.7$ lbs
+- **Claim:** The researcher believes that the weight of cats is lower than 8.7 lbs.
+
+1. HT: $\mu$
+2. Left-tail
+3. z test
+
+- $n = 42$
+- $\mu = 8.7$ lbs
+- $\bar{x} = 8.4$ lbs
+- $\sigma = 1.8$ lbs
+- $\alpha = 0.08$
+
+### (b) Find the critical value
+
+$$ \alpha = 0.08 \rightarrow Z_{\alpha} = -1.41 $$
+
+### (c) Compute the test value
+
+$$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} = \frac{8.4 - 8.7}{\frac{1.8}{\sqrt{42}}} \approx -1.08 $$
+
+### (d) Make the decision
+
+Fail to reject $H_0$
+
+### (e) Draw a conclusion
+
+At 0.08 level of significance, we dit not find enough evidence to support the claim.
+
+## Question 12
+
+A teacher believes that 85% of students in the class
+will want to go on a field trip to the local zoo. She
+performs a hypothesis test to determine if the
+percentage is different . The teacher samples 50
+students and 39 reply that they would want to go to
+the zoo. For the hypothesis test, use a 1% level of
+significance.
+
+- $p = 0.85$
+- $n = 50$
+- $x = 39$
+- $\alpha = 0.01$
+
+1. HT: $p$
+2. Two-tailed
+3. z test
+
+- $H_0$ $p = 0.85$
+- $H_1$ $p \neq 0.85$
+- Claim: The teacher believes that 85% of students in the class
+will want to go on a field trip to the local zoo.
+
+$$ \alpha = 0.01 \rightarrow Z_{\frac{\alpha}{2}} = \pm 2.58 $$
+
+$$z = \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.78 - 0.85}{\sqrt{\frac{0.85 \times 0.15}{50}}} = -1.39$$
+
+Fail to reject $H_0$
+
+At 1% level of significance, there is not enough evidence to support the claim.
+
+## Question 13
+
+A manufacturing company produces shampoo
+bottle with a mean weight of 330 g. Due to
+problems with the machines on the production
+line, the quality control department wishes to
+test if the weight has increased (the shampoo
+bottles are overfilled). The collect a sample of 22
+bottles and finds a mean weight of 350 g with a
+standard deviation of 27 g. Test the hypothesis at
+5% level of significance.
+
+### (a) State the hypotheses and identify the claim
+
+- $H_0$: $\mu = 330$
+- $H_1$: $\mu > 330$
+- **Claim:** The quality control department suspects that the mean weight has increased, so their claim aligns with the alternative hypothesis.
+
+1. HT: $\mu$
+2. Right-tail
+3. z-test
+
+- $n = 22$
+- $\mu = 330$
+- $\bar{x} = 350$
+- $\sigma = 27$
+- $\alpha = 0.05$
+
+### (b) Find the critical value
+
+$$ \alpha = 0.05 $$
+
+$$ df = n - 1 = 22 - 1 = 21 $$
+
+$$ t_{\alpha, df} = 1.721 $$
+
+### (c) Compute the test statistic (z-value)
+
+$$ t = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}} = \frac{350 - 330}{\frac{27}{\sqrt{22}}} \approx 3.47 $$
+
+### (d) Make the decision
+
+Reject $H_0$
+
+### (e) Draw a conclusion
+
+At 5% level of significance, there is enough evidence to support the claim.
+
+## Question 14
+
+Given the following
+sums for a bivariate set of
+data, where x represents
+the practice questions
+solved by 5 students for
+test preparation and y
+represents the grade
+received by the students on
+the test, find:
+
+- A) The slope and the y intercept
+- B) Estimate the grade obtained by a student who practiced on 10 questions.
+
+| Sum of x | Sum of y | Sum of xy | Sum of x² |
+|----------|----------|-----------|-----------|
+| 65       | 400      | 5538      | 1071      |
+
+### A) The slope and the y intercept
+
+$$ m = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2} = \frac{5 \times 5538 - 65 \times 400}{5 \times 1071 - 65^2} $$
+
+$$ m \approx 1.5 $$
+
+$$ b = \bar{y} - m  \bar{x} = \frac{400}{5} - m \times \frac{65}{5} \approx 60.6 $$
+
+$$ \hat{y} = mx + b = 1.5x + 60.6 $$
+
+### B) Estimate the grade obtained by a student who practiced on 10 questions
+
+$$ \hat{y}_{10} = 1.5 \times 10 + 60.6 = 75.6 $$
+
+## Question 16
+
+Consider the probability
+distribution shown in the
+table below:
+
+a) Find the mean
+
+b) Find the standard deviation
+
+Here's the typed version of the mathematical content from the image:
+
+a) $\mu = \sum x \cdot P(x)$
+
+b) $\sigma = \sqrt{\sum x^2 \cdot P(x) - \mu^2}$
+
+### Probability Table
+
+| x | P(x) |
+|---|------|
+| 0 | 0.20 |
+| 1 | 0.15 |
+| 2 | 0.35 |
+| 3 | 0.30 |
+| **Total** | **1** |
+
+### Calculations
+
+a) $$ \mu = 0 \times 0.20 + 1 \times 0.15 + 2 \times 0.35 + 3 \times 0.30 = 1.75 $$
+
+b) $$ V = \sqrt{(0^2 \times 0.20 + 1^2 \times 0.15 + 2^2 \times 0.35 + 3^2 \times 0.30) - 1.75^2} \approx 1.09 $$
