@@ -4,7 +4,7 @@
 
 Given the following frequency histogram, find:
 
-<img src="main/media/image2.png" style="width:6.25in;height:4.6875in" />
+<img src="media/image2.png" style="width:6.25in;height:4.6875in" />
 
 - A\) The sample size that was analyzed
 - B\) What is the cumulative frequency of class 2?
@@ -172,7 +172,7 @@ For the data in the stem and leaf graph below, find:
 - C\) The interquartile range;
 
 Key: 2\|3 means 23 lbs.
-<img src="main/media/image1.png" style="width:2.91667in;height:4.71875in" />
+<img src="media/image1.png" style="width:2.91667in;height:4.71875in" />
 
 - Stem 1: 15, 17, 18
 - Stem 2: 23, 23, 24, 25, 26
