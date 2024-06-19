@@ -118,13 +118,13 @@ acquire?
 
 ### a)
 
-$$ \alpha = 0.78 \rightarrow z \approx 0.77 $$
+$$ \alpha = 0.78 \rightarrow Z \approx 0.77 $$
 
 ### b)
 
-$$ \alpha = 0.4 \rightarrow z \approx -0.25 $$
+$$ \alpha = 0.4 \rightarrow Z \approx -0.25 $$
 
-$$ x = \mu + z\sigma = 82 + (-0.25) \times 8 = 80 $$
+$$ x = \mu + Z\sigma = 82 + (-0.25) \times 8 = 80 $$
 
 ## Question 5
 
@@ -310,7 +310,7 @@ critical value method and tables.
 
 1. HT: $\mu$
 2. Left-tail
-3. z test
+3. Z test
 
 - $n = 42$
 - $\mu = 8.7$ lbs
@@ -324,7 +324,7 @@ $$ \alpha = 0.08 \rightarrow Z_{\alpha} = -1.41 $$
 
 ### (c) Compute the test value
 
-$$ z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} = \frac{8.4 - 8.7}{\frac{1.8}{\sqrt{42}}} \approx -1.08 $$
+$$ Z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}} = \frac{8.4 - 8.7}{\frac{1.8}{\sqrt{42}}} \approx -1.08 $$
 
 ### (d) Make the decision
 
@@ -351,7 +351,7 @@ significance.
 
 1. HT: $p$
 2. Two-tailed
-3. z test
+3. Z test
 
 - $H_0$ $p = 0.85$
 - $H_1$ $p \neq 0.85$
@@ -362,7 +362,7 @@ $$ \alpha = 0.01 \rightarrow Z_{\frac{\alpha}{2}} = \pm 2.58 $$
 
 $$ \hat{p} = \frac{x}{n} = \frac{39}{50} = 0.78 $$
 
-$$z = \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.78 - 0.85}{\sqrt{\frac{0.85 \times 0.15}{50}}} = -1.39$$
+$$ Z = \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.78 - 0.85}{\sqrt{\frac{0.85 \times 0.15}{50}}} = -1.39 $$
 
 Fail to reject $H_0$
 
@@ -388,7 +388,7 @@ standard deviation of 27 g. Test the hypothesis at
 
 1. HT: $\mu$
 2. Right-tail
-3. z-test
+3. t-test
 
 - $n = 22$
 - $\mu = 330$
