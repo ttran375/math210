@@ -20,8 +20,7 @@
 
 ## Week 5
 
-- In-Class Exercises: Hypothesis Testing about a Population Mean
-
+- In-Class Exercises: [Hypothesis Testing about a Population Mean](module05)
 
 ## Week 6
 
