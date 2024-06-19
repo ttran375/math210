@@ -269,7 +269,7 @@ $$ \alpha = 0.10 $$
 
 $$ df = n - 1 = 12 - 1 = 11 $$
 
-$$ t_{\frac{\alpha}{2}, df} = t_{0.1}{11} = \pm 1.796 $$
+$$ t_{\frac{\alpha}{2}, df} = t_{0.1, 11} = \pm 1.796 $$
 
 ### (c) Compute the test value
 
