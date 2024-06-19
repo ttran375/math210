@@ -1,5 +1,5 @@
 {
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "git.autofetch": true,
     "gitdoc.autoCommitDelay": 60000,
     "gitdoc.commitMessageFormat": "ccc, LLL d, y, h:mm a '+00:00'",

@@ -15,12 +15,13 @@
 
 ## Week 4
 
-- In-Class Exercises: Confidence Intervals for a Population Mean
+- In-Class Exercises: [Confidence Intervals for a Population Mean](module04)
+- Quizzes: [Quiz 1](quiz1)
 
 ## Week 5
 
 - In-Class Exercises: Hypothesis Testing about a Population Mean
-- Quizzes: Quiz 1
+
 
 ## Week 6
 
