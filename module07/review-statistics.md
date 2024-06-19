@@ -400,7 +400,7 @@ $$ \alpha = 0.05 $$
 
 $$ df = n - 1 = 22 - 1 = 21 $$
 
-$$ t_{\alpha, df} = 1.721 $$
+$$ t_{\alpha, df} = t_{0.05, 21} = 1.721 $$
 
 ### (c) Compute the test statistic (z-value)
 
