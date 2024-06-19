@@ -24,7 +24,7 @@
 
 ## Week 6
 
-- In-Class Exercises: Confidence Intervals and Hypothesis Testing about Population Proportion
-- Assignments: Assignment 2
+- In-Class Exercises: [Confidence Intervals and Hypothesis Testing about Population Proportion](module06)
+- Assignments: [Assignment 2](assignment2)
 
 ## Week 7: Review for Test 1 (Statistics Test)
