@@ -360,6 +360,8 @@ will want to go on a field trip to the local zoo.
 
 $$ \alpha = 0.01 \rightarrow Z_{\frac{\alpha}{2}} = \pm 2.58 $$
 
+$$ \hat{p} = \frac{x}{n} = \frac{39}{50} = 0.78 $$
+
 $$z = \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.78 - 0.85}{\sqrt{\frac{0.85 \times 0.15}{50}}} = -1.39$$
 
 Fail to reject $H_0$
