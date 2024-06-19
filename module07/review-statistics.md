@@ -180,9 +180,9 @@ The best point estimate of the mean: 31
 
 ### (b) Find the 84% confidence interval of the mean of these pounds
 
-$$ 1 - \alpha = 0.84 \rightarrow z_{\frac{\alpha}{2}} \approx 1.41 $$
+$$ 1 - \alpha = 0.84 \rightarrow Z_{\frac{\alpha}{2}} \approx 1.41 $$
 
-$$ \bar{x} - z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} < \mu < \bar{x} + z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} $$
+$$ \bar{x} - Z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} < \mu < \bar{x} + Z_{\frac{\alpha}{2}} \times \frac{\sigma}{\sqrt{n}} $$
 
 $$ 31 - 1.41 \times \frac{6}{\sqrt{50}} < \mu < 31 + 1.41 \times \frac{6}{\sqrt{50}} $$
 
@@ -220,9 +220,9 @@ are obese.
 - $\hat{p} = 0.32$
 - $1 - \alpha = 0.95$
 
-$$ 1 - \alpha = 0.95 \rightarrow z_{\frac{\alpha}{2}} = 1.96 $$
+$$ 1 - \alpha = 0.95 \rightarrow Z_{\frac{\alpha}{2}} = 1.96 $$
 
-$$ \hat{p} - z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $$
+$$ \hat{p} - Z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + Z_{\frac{\alpha}{2}} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $$
 
 $$ 0.32 - 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} < p < 0.32 + 1.96 \times \sqrt{\frac{0.32 \times 0.68}{100}} $$
 
