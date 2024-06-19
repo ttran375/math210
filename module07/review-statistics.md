@@ -457,14 +457,6 @@ a) Find the mean
 
 b) Find the standard deviation
 
-Here's the typed version of the mathematical content from the image:
-
-a) $\mu = \sum x \cdot P(x)$
-
-b) $\sigma = \sqrt{\sum x^2 \cdot P(x) - \mu^2}$
-
-### Probability Table
-
 | x | P(x) |
 |---|------|
 | 0 | 0.20 |
@@ -473,8 +465,10 @@ b) $\sigma = \sqrt{\sum x^2 \cdot P(x) - \mu^2}$
 | 3 | 0.30 |
 | **Total** | **1** |
 
-### Calculations
+### a) Find the mean
 
-a) $$ \mu = 0 \times 0.20 + 1 \times 0.15 + 2 \times 0.35 + 3 \times 0.30 = 1.75 $$
+$$ \mu = 0 \times 0.20 + 1 \times 0.15 + 2 \times 0.35 + 3 \times 0.30 = 1.75 $$
 
-b) $$ V = \sqrt{(0^2 \times 0.20 + 1^2 \times 0.15 + 2^2 \times 0.35 + 3^2 \times 0.30) - 1.75^2} \approx 1.09 $$
+### b) Find the standard deviation
+
+$$ V = \sqrt{(0^2 \times 0.20 + 1^2 \times 0.15 + 2^2 \times 0.35 + 3^2 \times 0.30) - 1.75^2} \approx 1.09 $$
