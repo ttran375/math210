@@ -469,8 +469,8 @@ b) Find the standard deviation
 
 ### a) Find the mean
 
-$$ \mu = 0 \times 0.20 + 1 \times 0.15 + 2 \times 0.35 + 3 \times 0.30 = 1.75 $$
+$$ \mu = \sum x \cdot P(x) = 0 \times 0.20 + 1 \times 0.15 + 2 \times 0.35 + 3 \times 0.30 = 1.75 $$
 
 ### b) Find the standard deviation
 
-$$ V = \sqrt{(0^2 \times 0.20 + 1^2 \times 0.15 + 2^2 \times 0.35 + 3^2 \times 0.30) - 1.75^2} \approx 1.09 $$
+$$ V = \sqrt{\sum x^2 \cdot P(x) - \mu^2} = \sqrt{(0^2 \times 0.20 + 1^2 \times 0.15 + 2^2 \times 0.35 + 3^2 \times 0.30) - 1.75^2} \approx 1.09 $$
