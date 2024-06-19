@@ -242,7 +242,7 @@ plt.ylabel('Y')
 plt.show()
 ```
 
-<img src="main/figure-gfm/unnamed-chunk-1-1.png" width="672" />
+<img src="figure-gfm/unnamed-chunk-1-1.png" width="672" />
 
 ### b) Find the equation of the line of best fit
 
@@ -398,4 +398,4 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
-<img src="main/figure-gfm/unnamed-chunk-3-3.png" width="672" />
+<img src="figure-gfm/unnamed-chunk-3-3.png" width="672" />
