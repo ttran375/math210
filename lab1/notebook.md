@@ -376,6 +376,38 @@ print(B_inv)
 
 ### g) $\text{rref}(A)$
 
+$$ A = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} $$
+
+$$ R2 - 8R1 \rightarrow R2 $$
+
+$$ \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 2 & 0 \\ 0 & -15 & 2 \\ 0 & -2 & -43 \end{bmatrix} $$
+
+$$ -\frac{1}{15}R2 \rightarrow R2 $$
+
+$$ \begin{bmatrix} 1 & 2 & 0 \\ 0 & -15 & 2 \\ 0 & -2 & -43 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 2 & 0 \\ 0 & 1 & -\frac{2}{15} \\ 0 & -2 & -43 \end{bmatrix} $$
+
+$$ R1 - 2R2 \rightarrow R1 $$
+
+$$ \begin{bmatrix} 1 & 2 & 0 \\ 0 & 1 & -\frac{2}{15} \\ 0 & -2 & -43 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & -2 & -43 \end{bmatrix} $$
+
+$$ R3 + 2R2 \rightarrow R3 $$
+
+$$ \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & -2 & -43 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & -\frac{647}{15} \end{bmatrix} $$
+
+$$ -\frac{15}{647}R3 \rightarrow R3 $$
+
+$$ \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & -\frac{647}{15} \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & 1 \end{bmatrix} $$
+
+$$ R1 - \frac{4}{15}R3 \rightarrow R1 $$
+
+$$ \begin{bmatrix} 1 & 0 & \frac{4}{15} \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & 1 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & 1 \end{bmatrix} $$
+
+$$ R2 + \frac{2}{15}R3 \rightarrow R2 $$
+
+$$ \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & -\frac{2}{15} \\ 0 & 0 & 1 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} $$
+
+$$ \text{rref}(A) = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} $$
+
 ``` python
 # g) Reduced Row Echelon Form of A
 # Note: numpy does not have rref, we need to implement it or use sympy
