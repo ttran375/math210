@@ -374,6 +374,8 @@ print(B_inv)
     ##  [ 0.1147541  -0.2295082  -0.09836066]
     ##  [ 0.44262295  0.1147541   0.04918033]]
 
+### g) $\text{rref}(A)$
+
 ``` python
 # g) Reduced Row Echelon Form of A
 # Note: numpy does not have rref, we need to implement it or use sympy
