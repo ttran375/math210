@@ -271,6 +271,8 @@ print(BA)
     ##  [  45   -2  -31]
     ##  [-177   -9  -46]]
 
+### e) $3A - B'$
+
 ``` python
 # e) 3A - B'
 threeA_minus_B_transpose = 3 * A - B.T
