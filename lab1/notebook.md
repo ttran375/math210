@@ -422,6 +422,38 @@ print(np.array(A_rref))
 
 ### h) $A^3$
 
+$$
+\begin{align}
+A^2 &= \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \times \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \\
+&= \begin{bmatrix}
+1 \times 1 + 2 \times 8 + 0 \times 0 & 1 \times 2 + 2 \times 1 + 0 \times -2 & 1 \times 0 + 2 \times 2 + 0 \times -43 \\
+8 \times 1 + 1 \times 8 + 2 \times 0 & 8 \times 2 + 1 \times 1 + 2 \times -2 & 8 \times 0 + 1 \times 2 + 2 \times -43 \\
+0 \times 1 + (-2) \times 8 + (-43) \times 0 & 0 \times 2 + (-2) \times 1 + (-43) \times -2 & 0 \times 0 + (-2) \times 2 + (-43) \times -43
+\end{bmatrix} \\
+&= \begin{bmatrix}
+17 & 4 & 4 \\
+16 & 13 & -84 \\
+-16 & 84 & 1845
+\end{bmatrix}
+\end{align}
+$$
+
+$$
+\begin{align}
+A^3 &= A \times A^2 = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \times \begin{bmatrix} 17 & 4 & 4 \\ 16 & 13 & -84 \\ -16 & 84 & 1845 \end{bmatrix} \\
+&= \begin{bmatrix}
+(1 \times 17 + 2 \times 16 + 0 \times -16 & 1 \times 4 + 2 \times 13 + 0 \times 84 & 1 \times 4 + 2 \times -84 + 0 \times 1845) \\
+(8 \times 17 + 1 \times 16 + 2 \times -16 & 8 \times 4 + 1 \times 13 + 2 \times 84 & 8 \times 4 + 1 \times -84 + 2 \times 1845) \\
+(0 \times 17 + (-2) \times 16 + (-43) \times -16 & 0 \times 4 + (-2) \times 13 + (-43) \times 84 & 0 \times 4 + (-2) \times -84 + (-43) \times 1845)
+\end{bmatrix} \\
+&= \begin{bmatrix}
+49 & 30 & -164 \\
+120 & 213 & 3638 \\
+656 & -3638 & -79167
+\end{bmatrix}
+\end{align}
+$$
+
 ``` python
 # e) A^3
 A_cubed = np.linalg.matrix_power(A, 3)
