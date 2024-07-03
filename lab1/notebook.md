@@ -299,9 +299,11 @@ print(threeA_minus_B_transpose)
 
 $$ B = \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix} $$
 
-$$ 
+Step 1: Calculate the Determinant of $B$
+
+$$
 \begin{align}
-\text{det}(B) &= a(ei - fh) - b(di - fg) + c(dh - eg) \\ 
+\text{det}(B) &= a(ei - fh) - b(di - fg) + c(dh - eg) \\
 &= 0 \cdot (6 \cdot 0 - 1 \cdot (-23)) - 1 \cdot (-3 \cdot 0 - 1 \cdot 7) + 2 \cdot (-3 \cdot (-23) - 6 \cdot 7) \\
 &= 61
 \end{align}
@@ -310,10 +312,6 @@ $$
 Since the determinant is non-zero, the matrix $B$ is invertible.
 
 Step 2: Find the Adjugate of $B$
-
-The adjugate of $B$, denoted as $\text{adj}(B)$, is the transpose of the cofactor matrix of $B$. To find the cofactors, we need to calculate the minors for each element in $B$.
-
-Calculate Cofactors for Each Element
 
 **Cofactor of $b_{11}$ (top left):**
 $$ \text{Minor}_{11} = \begin{vmatrix} 6 & 1 \\ -23 & 0 \end{vmatrix} = (6 \cdot 0) - (1 \cdot (-23)) = 0 + 23 = 23 $$
@@ -351,7 +349,6 @@ $$ \text{Cofactor}_{32} = (-1)^{3+2} \cdot 6 = -6 $$
 $$ \text{Minor}_{33} = \begin{vmatrix} 0 & 1 \\ -3 & 6 \end{vmatrix} = (0 \cdot 6) - (1 \cdot (-3)) = 0 + 3 = 3 $$
 $$ \text{Cofactor}_{33} = (-1)^{3+3} \cdot 3 = 3 $$
 
-Construct the Cofactor Matrix
 $$ \text{Cofactor Matrix} = \begin{bmatrix} 23 & 7 & 27 \\ -46 & -14 & 7 \\ -11 & -6 & 3 \end{bmatrix} $$
 
 Transpose the Cofactor Matrix to get the Adjugate
@@ -359,23 +356,13 @@ $$ \text{Adjugate}(B) = \text{Transpose}(\text{Cofactor Matrix}) = \begin{bmatri
 
 Step 3: Calculate the Inverse of $B$
 
-The inverse of $B$ is given by:
-
-$$ B^{-1} = \frac{1}{\text{det}(B)} \cdot \text{Adjugate}(B) $$
-
-We found $\text{det}(B) = 61$ and the adjugate matrix is:
-
-$$ \text{Adjugate}(B) = \begin{bmatrix} 23 & -46 & -11 \\ 7 & -14 & -6 \\ 27 & 7 & 3 \end{bmatrix} $$
-
-Therefore:
-
-$$ B^{-1} = \frac{1}{61} \begin{bmatrix} 23 & -46 & -11 \\ 7 & -14 & -6 \\ 27 & 7 & 3 \end{bmatrix} $$
-
-$$ B^{-1} = \begin{bmatrix} \frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\ \frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\ \frac{27}{61} & \frac{7}{61} & \frac{3}{61} \end{bmatrix} $$
-
-Final Answer:
-
-$$ B^{-1} = \begin{bmatrix} \frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\ \frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\ \frac{27}{61} & \frac{7}{61} & \frac{3}{61} \end{bmatrix} $$
+$$
+\begin{align}
+B^{-1} &= \frac{1}{\text{det}(B)} \times \text{Adjugate}(B) \\
+&= \frac{1}{61} \times \begin{bmatrix} 23 & -46 & -11 \\ 7 & -14 & -6 \\ 27 & 7 & 3 \end{bmatrix} \\
+&= \begin{bmatrix} \frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\ \frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\ \frac{27}{61} & \frac{7}{61} & \frac{3}{61} \end{bmatrix}
+\end{align}
+$$
 
 ``` python
 # f) Inverse of B
