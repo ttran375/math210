@@ -154,23 +154,23 @@ above.
     $A = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix}$,
     $B = \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix}$
 
-    1) $A'$
+    a) $A'$
 
-    2) $\text{trace}(B)$
+    b) $\text{trace}(B)$
 
-    3) $A \times B$
+    c) $A \times B$
 
-    4) $B \times A$
+    d) $B \times A$
 
-    5) $3A - B'$
+    e) $3A - B'$
 
-    6) $\text{inv}(B)$
+    f) $\text{inv}(B)$
 
-    7) $\text{rref}(A)$
+    g) $\text{rref}(A)$
 
-    8) $A^3$
+    h) $A^3$
 
-    9) $2B - 3I$
+    j) $2B - 3I$
 
 ``` python
 import numpy as np
@@ -180,6 +180,16 @@ from numpy.linalg import inv, matrix_rank
 A = np.array([[1, 2, 0], [8, 1, 2], [0, -2, -43]])
 B = np.array([[0, 1, 2], [-3, 6, 1], [7, -23, 0]])
 ```
+
+### a) $A'$
+
+$$
+   A' = \begin{bmatrix}
+   1 & 8 & 0 \\
+   2 & 1 & -2 \\
+   0 & 2 & -43
+   \end{bmatrix}
+$$
 
 ``` python
 # a) Transpose of A
@@ -191,6 +201,12 @@ print(A_transpose)
     ##  [  2   1  -2]
     ##  [  0   2 -43]]
 
+### b) $\text{trace}(B)$
+
+$$
+   \text{trace}(B) = B_{11} + B_{22} + B_{33} = 0 + 6 + 0 = 6
+$$
+
 ``` python
 # b) Trace of B
 B_trace = np.trace(B)
@@ -198,6 +214,25 @@ print(B_trace)
 ```
 
     ## 6
+
+### c) $A \times B$
+
+$$
+\begin{align}
+A \times B &=
+\begin{bmatrix}
+1 \times 0 + 2 \times (-3) + 0 \times 7 & 1 \times 1 + 2 \times 6 + 0 \times (-23) & 1 \times 2 + 2 \times 1 + 0 \times 0 \\
+8 \times 0 + 1 \times (-3) + 2 \times 7 & 8 \times 1 + 1 \times 6 + 2 \times (-23) & 8 \times 2 + 1 \times 1 + 2 \times 0 \\
+0 \times 0 + (-2) \times (-3) + (-43) \times 7 & 0 \times 1 + (-2) \times 6 + (-43) \times (-23) & 0 \times 2 + (-2) \times 1 + (-43) \times 0
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+-6 & 13 & 4 \\
+11 & -32 & 17 \\
+-295 & 977 & -2
+\end{bmatrix}
+\end{align}
+$$
 
 ``` python
 # c) A * B
