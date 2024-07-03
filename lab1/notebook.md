@@ -351,7 +351,6 @@ $$ \text{Cofactor}_{33} = (-1)^{3+3} \cdot 3 = 3 $$
 
 $$ \text{Cofactor Matrix} = \begin{bmatrix} 23 & 7 & 27 \\ -46 & -14 & 7 \\ -11 & -6 & 3 \end{bmatrix} $$
 
-Transpose the Cofactor Matrix to get the Adjugate
 $$ \text{Adjugate}(B) = \text{Transpose}(\text{Cofactor Matrix}) = \begin{bmatrix} 23 & -46 & -11 \\ 7 & -14 & -6 \\ 27 & 7 & 3 \end{bmatrix} $$
 
 Step 3: Calculate the Inverse of $B$
@@ -465,6 +464,14 @@ print(A_cubed)
     ##  [   656  -3638 -79167]]
 
 ### j) $2B - 3I$
+
+$$
+\begin{align}
+2B - 3I &= 2 \times \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} \\
+&= \begin{bmatrix} 0 & 2 & 4 \\ -6 & 12 & 2 \\ 14 & -46 & 0 \end{bmatrix} - \begin{bmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{bmatrix} \\
+&= \begin{bmatrix} -3 & 2 & 4 \\ -6 & 9 & 2 \\ 14 & -46 & -3 \end{bmatrix}
+\end{align}
+$$
 
 ``` python
 # f) 2B - 3I
