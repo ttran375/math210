@@ -148,22 +148,22 @@ The solution of the system can be found in the last column of the matrix above.
 
 1. Given the following matrices, perform the operation:
 
-   \( A = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \), \( B = \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix} \)
+   $A = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix}$, $B = \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix}$
 
-   a) \( A' \)
+   a) $A'$
 
-   b) \( \text{trace}(B) \)
+   b) $\text{trace}(B)$
 
-   c) \( A \times B \)
+   c) $A \times B$
 
-   d) \( B \times A \)
+   d) $B \times A$
 
-   e) \( 3A - B' \)
+   e) $3A - B'$
 
-   f) \( \text{inv}(B) \)
+   f) $\text{inv}(B)$
 
-   g) \( \text{rref}(A) \)
+   g) $\text{rref}(A)$
 
-   e) \( A^3 \)
+   e) $A^3$
 
-   f) \( 2B - 3I \)
+   f) $2B - 3I$
