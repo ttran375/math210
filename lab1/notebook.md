@@ -420,6 +420,8 @@ print(np.array(A_rref))
     ##  [0 1 0]
     ##  [0 0 1]]
 
+### h) $A^3$
+
 ``` python
 # e) A^3
 A_cubed = np.linalg.matrix_power(A, 3)
@@ -429,6 +431,8 @@ print(A_cubed)
     ## [[    49     30   -164]
     ##  [   120    213   3638]
     ##  [   656  -3638 -79167]]
+
+### j) $2B - 3I$
 
 ``` python
 # f) 2B - 3I
