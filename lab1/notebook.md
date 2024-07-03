@@ -313,39 +313,39 @@ Since the determinant is non-zero, the matrix $B$ is invertible.
 
 Step 2: Find the Adjugate of $B$
 
-**Cofactor of $b_{11}$ (top left):**
+Cofactor of $b_{11}$ (top left):
 $$ \text{Minor}_{11} = \begin{vmatrix} 6 & 1 \\ -23 & 0 \end{vmatrix} = (6 \cdot 0) - (1 \cdot (-23)) = 0 + 23 = 23 $$
 $$ \text{Cofactor}_{11} = (-1)^{1+1} \cdot 23 = 23 $$
 
-**Cofactor of $b_{12}$ (top middle):**
+Cofactor of $b_{12}$ (top middle):
 $$ \text{Minor}_{12} = \begin{vmatrix} -3 & 1 \\ 7 & 0 \end{vmatrix} = (-3 \cdot 0) - (1 \cdot 7) = 0 - 7 = -7 $$
 $$ \text{Cofactor}_{12} = (-1)^{1+2} \cdot (-7) = 7 $$
 
-**Cofactor of $b_{13}$ (top right):**
+Cofactor of $b_{13}$ (top right):
 $$ \text{Minor}_{13} = \begin{vmatrix} -3 & 6 \\ 7 & -23 \end{vmatrix} = (-3 \cdot (-23)) - (6 \cdot 7) = 69 - 42 = 27 $$
 $$ \text{Cofactor}_{13} = (-1)^{1+3} \cdot 27 = 27 $$
 
-**Cofactor of $b_{21}$ (middle left):**
+Cofactor of $b_{21}$ (middle left):
 $$ \text{Minor}_{21} = \begin{vmatrix} 1 & 2 \\ -23 & 0 \end{vmatrix} = (1 \cdot 0) - (2 \cdot (-23)) = 0 + 46 = 46 $$
 $$ \text{Cofactor}_{21} = (-1)^{2+1} \cdot 46 = -46 $$
 
-**Cofactor of $b_{22}$ (middle middle):**
+Cofactor of $b_{22}$ (middle middle):
 $$ \text{Minor}_{22} = \begin{vmatrix} 0 & 2 \\ 7 & 0 \end{vmatrix} = (0 \cdot 0) - (2 \cdot 7) = 0 - 14 = -14 $$
 $$ \text{Cofactor}_{22} = (-1)^{2+2} \cdot (-14) = -14 $$
 
-**Cofactor of $b_{23}$ (middle right):**
+Cofactor of $b_{23}$ (middle right):
 $$ \text{Minor}_{23} = \begin{vmatrix} 0 & 1 \\ 7 & -23 \end{vmatrix} = (0 \cdot (-23)) - (1 \cdot 7) = 0 - 7 = -7 $$
 $$ \text{Cofactor}_{23} = (-1)^{2+3} \cdot (-7) = 7 $$
 
-**Cofactor of $b_{31}$ (bottom left):**
+Cofactor of $b_{31}$ (bottom left):
 $$ \text{Minor}_{31} = \begin{vmatrix} 1 & 2 \\ 6 & 1 \end{vmatrix} = (1 \cdot 1) - (2 \cdot 6) = 1 - 12 = -11 $$
 $$ \text{Cofactor}_{31} = (-1)^{3+1} \cdot (-11) = -11 $$
 
-**Cofactor of $b_{32}$ (bottom middle):**
+Cofactor of $b_{32}$ (bottom middle):
 $$ \text{Minor}_{32} = \begin{vmatrix} 0 & 2 \\ -3 & 1 \end{vmatrix} = (0 \cdot 1) - (2 \cdot (-3)) = 0 + 6 = 6 $$
 $$ \text{Cofactor}_{32} = (-1)^{3+2} \cdot 6 = -6 $$
 
-**Cofactor of $b_{33}$ (bottom right):**
+Cofactor of $b_{33}$ (bottom right):
 $$ \text{Minor}_{33} = \begin{vmatrix} 0 & 1 \\ -3 & 6 \end{vmatrix} = (0 \cdot 6) - (1 \cdot (-3)) = 0 + 3 = 3 $$
 $$ \text{Cofactor}_{33} = (-1)^{3+3} \cdot 3 = 3 $$
 
