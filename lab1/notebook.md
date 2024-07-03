@@ -244,6 +244,23 @@ print(AB)
     ##  [  11  -32   17]
     ##  [-295  977   -2]]
 
+### d) $B \times A$
+
+$$
+\begin{align}
+B \times A &= \begin{bmatrix}
+0 \times 1 + 1 \times 8 + 2 \times 0 & 0 \times 2 + 1 \times 1 + 2 \times (-2) & 0 \times 0 + 1 \times 2 + 2 \times (-43) \\
+-3 \times 1 + 6 \times 8 + 1 \times 0 & -3 \times 2 + 6 \times 1 + 1 \times (-2) & -3 \times 0 + 6 \times (-2) + 1 \times (-43) \\
+7 \times 1 + (-23) \times 8 + 0 \times 0 & 7 \times 2 + (-23) \times 1 + 0 \times (-2) & 7 \times 0 + (-23) \times 2 + 0 \times (-43)
+\end{bmatrix} \\
+&= \begin{bmatrix}
+8 & -3 & -84 \\
+45 & -2 & -31 \\
+-177 & -9 & -46
+\end{bmatrix}
+\end{align}
+$$
+
 ``` python
 # d) B * A
 BA = np.dot(B, A)
