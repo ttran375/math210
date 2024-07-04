@@ -31,10 +31,10 @@
 
 - In-Class Exercises: [Review for Test 1 (Statistics Test)](module07)
 
-## Week 8
+## Week 9
 
 - In-Class Exercises: Systems of linear equations, Gauss and Jordan-Gauss elimination
 
-## Week 9
+## Week 10
 
 - Labs: [Introduction to Scilab](lab1)
