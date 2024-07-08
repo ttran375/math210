@@ -352,8 +352,18 @@ Step 3: Calculate the Inverse of $B$
 $$
 \begin{align}
 B^{-1} &= \frac{1}{\text{det}(B)} \times \text{Adjugate}(B) \\
-&= \frac{1}{61} \times \begin{bmatrix} 23 & -46 & -11 \\ 7 & -14 & -6 \\ 27 & 7 & 3 \end{bmatrix} \\
-&= \begin{bmatrix} \frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\ \frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\ \frac{27}{61} & \frac{7}{61} & \frac{3}{61} \end{bmatrix}
+&= \frac{1}{61} \times
+\begin{bmatrix}
+23 & -46 & -11 \\
+7 & -14 & -6 \\ 
+27 & 7 & 3
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+\frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\
+\frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\
+\frac{27}{61} & \frac{7}{61} & \frac{3}{61}
+\end{bmatrix}
 \end{align}
 $$
 
