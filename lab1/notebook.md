@@ -140,15 +140,35 @@ print(BA)
 ### e) $3A - B'$
 
 $$
-3A = 3 \times \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} = \begin{bmatrix} 3 & 6 & 0 \\ 24 & 3 & 6 \\ 0 & -6 & -129 \end{bmatrix}
+3A = 3 \times \begin{bmatrix}
+1 & 2 & 0 \\
+8 & 1 & 2 \\
+0 & -2 & -43
+\end{bmatrix} =
+\begin{bmatrix} 3 & 6 & 0 \\
+24 & 3 & 6 \\
+0 & -6 & -129
+\end{bmatrix}
 $$
 
 $$
-B' = \begin{bmatrix} 0 & -3 & 7 \\ 1 & 6 & -23 \\ 2 & 1 & 0 \end{bmatrix}
+B' = \begin{bmatrix}
+0 & -3 & 7 \\
+1 & 6 & -23 \\
+2 & 1 & 0
+\end{bmatrix}
 $$
 
 $$
-3A - B' = \begin{bmatrix} 3 - 0 & 6 - (-3) & 0 - 7 \\ 24 - 1 & 3 - 6 & 6 - (-23) \\ 0 - 2 & -6 - 1 & -129 - 0 \end{bmatrix} = \begin{bmatrix} 3 & 9 & -7 \\ 23 & -3 & 29 \\ -2 & -7 & -129 \end{bmatrix}
+3A - B' = \begin{bmatrix}
+3 - 0 & 6 - (-3) & 0 - 7 \\
+24 - 1 & 3 - 6 & 6 - (-23) \\
+0 - 2 & -6 - 1 & -129 - 0
+\end{bmatrix} =
+\begin{bmatrix} 3 & 9 & -7 \\
+23 & -3 & 29 \\
+-2 & -7 & -129
+\end{bmatrix}
 $$
 
 ``` python
