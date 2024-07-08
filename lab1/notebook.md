@@ -205,8 +205,6 @@ Since the determinant is non-zero, the matrix $B$ is invertible.
 
 Step 2: Find the Adjugate of $B$
 
-Cofactor of $b_{11}$ (top left):
-
 $$
 \text{Minor}_{11} =
 \begin{vmatrix}
@@ -218,8 +216,6 @@ $$
 $$
 
 $$ \text{Cofactor}_{11} = (-1)^{1+1} \times 23 = 23 $$
-
-Cofactor of $b_{12}$ (top middle):
 
 $$
 \text{Minor}_{12} =
@@ -233,8 +229,6 @@ $$
 
 $$ \text{Cofactor}_{12} = (-1)^{1+2} \times (-7) = 7 $$
 
-Cofactor of $b_{13}$ (top right):
-
 $$
 \text{Minor}_{13} =
 \begin{vmatrix}
@@ -246,8 +240,6 @@ $$
 $$
 
 $$ \text{Cofactor}_{13} = (-1)^{1+3} \times 27 = 27 $$
-
-Cofactor of $b_{21}$ (middle left):
 
 $$
 \text{Minor}_{21} =
@@ -261,8 +253,6 @@ $$
 
 $$ \text{Cofactor}_{21} = (-1)^{2+1} \times 46 = -46 $$
 
-Cofactor of $b_{22}$ (middle middle):
-
 $$
 \text{Minor}_{22} =
 \begin{vmatrix}
@@ -274,8 +264,6 @@ $$
 $$
 
 $$ \text{Cofactor}_{22} = (-1)^{2+2} \times (-14) = -14 $$
-
-Cofactor of $b_{23}$ (middle right):
 
 $$
 \text{Minor}_{23} =
@@ -289,8 +277,6 @@ $$
 
 $$ \text{Cofactor}_{23} = (-1)^{2+3} \times (-7) = 7 $$
 
-Cofactor of $b_{31}$ (bottom left):
-
 $$
 \text{Minor}_{31} =
 \begin{vmatrix}
@@ -303,8 +289,6 @@ $$
 
 $$ \text{Cofactor}_{31} = (-1)^{3+1} \times (-11) = -11 $$
 
-Cofactor of $b_{32}$ (bottom middle):
-
 $$
 \text{Minor}_{32} =
 \begin{vmatrix}
@@ -316,8 +300,6 @@ $$
 $$
 
 $$ \text{Cofactor}_{32} = (-1)^{3+2} \times 6 = -6 $$
-
-Cofactor of $b_{33}$ (bottom right):
 
 $$
 \text{Minor}_{33} =
