@@ -517,7 +517,17 @@ print(np.array(A_rref))
 
 $$
 \begin{align}
-A^2 &= \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \times \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \\
+A^2 &=
+\begin{bmatrix}
+1 & 2 & 0 \\
+8 & 1 & 2 \\
+0 & -2 & -43
+\end{bmatrix} \times
+\begin{bmatrix}
+1 & 2 & 0 \\
+8 & 1 & 2 \\
+0 & -2 & -43
+\end{bmatrix} \\
 &= \begin{bmatrix}
 1 \times 1 + 2 \times 8 + 0 \times 0 & 1 \times 2 + 2 \times 1 + 0 \times -2 & 1 \times 0 + 2 \times 2 + 0 \times -43 \\
 8 \times 1 + 1 \times 8 + 2 \times 0 & 8 \times 2 + 1 \times 1 + 2 \times -2 & 8 \times 0 + 1 \times 2 + 2 \times -43 \\
