@@ -548,7 +548,8 @@ $$
 
 $$
 \begin{align}
-A^3 &= A \times A^2 =
+A^3 &= A \times A^2 \\
+&=
 \begin{bmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
