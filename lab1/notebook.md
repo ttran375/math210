@@ -525,7 +525,17 @@ $$
 
 $$
 \begin{align}
-A^3 &= A \times A^2 = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix} \times \begin{bmatrix} 17 & 4 & 4 \\ 16 & 13 & -84 \\ -16 & 84 & 1845 \end{bmatrix} \\
+A^3 &= A \times A^2 =
+\begin{bmatrix}
+1 & 2 & 0 \\
+8 & 1 & 2 \\
+0 & -2 & -43
+\end{bmatrix} \times
+\begin{bmatrix}
+17 & 4 & 4 \\
+16 & 13 & -84 \\
+-16 & 84 & 1845
+\end{bmatrix} \\
 &= \begin{bmatrix}
 (1 \times 17 + 2 \times 16 + 0 \times -16 & 1 \times 4 + 2 \times 13 + 0 \times 84 & 1 \times 4 + 2 \times -84 + 0 \times 1845) \\
 (8 \times 17 + 1 \times 16 + 2 \times -16 & 8 \times 4 + 1 \times 13 + 2 \times 84 & 8 \times 4 + 1 \times -84 + 2 \times 1845) \\
