@@ -4,39 +4,39 @@
 
 1. Given the following matrices, perform the operation:
 
-    $$
-    A =
-    \begin{bmatrix}
-    1 & 2 & 0 \\
-    8 & 1 & 2 \\
-    0 & -2 & -43
-    \end{bmatrix}
-    $$
+$$
+A =
+\begin{bmatrix}
+1 & 2 & 0 \\
+8 & 1 & 2 \\
+0 & -2 & -43
+\end{bmatrix}
+$$
 
-    $$ B = \begin{bmatrix}
-    0 & 1 & 2 \\
-    -3 & 6 & 1 \\
-    7 & -23 & 0
-    \end{bmatrix}
-    $$
+$$ B = \begin{bmatrix}
+0 & 1 & 2 \\
+-3 & 6 & 1 \\
+7 & -23 & 0
+\end{bmatrix}
+$$
 
-    a) $A'$
+a) $A'$
 
-    b) $\text{trace}(B)$
+b) $\text{trace}(B)$
 
-    c) $A \times B$
+c) $A \times B$
 
-    d) $B \times A$
+d) $B \times A$
 
-    e) $3A - B'$
+e) $3A - B'$
 
-    f) $\text{inv}(B)$
+f) $\text{inv}(B)$
 
-    g) $\text{rref}(A)$
+g) $\text{rref}(A)$
 
-    h) $A^3$
+h) $A^3$
 
-    j) $2B - 3I$
+j) $2B - 3I$
 
 ``` python
 import numpy as np
@@ -561,9 +561,30 @@ print(A_cubed)
 
 $$
 \begin{align}
-2B - 3I &= 2 \times \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} \\
-&= \begin{bmatrix} 0 & 2 & 4 \\ -6 & 12 & 2 \\ 14 & -46 & 0 \end{bmatrix} - \begin{bmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{bmatrix} \\
-&= \begin{bmatrix} -3 & 2 & 4 \\ -6 & 9 & 2 \\ 14 & -46 & -3 \end{bmatrix}
+2B - 3I &= 2 \times
+\begin{bmatrix}
+0 & 1 & 2 \\
+-3 & 6 & 1 \\
+7 & -23 & 0
+\end{bmatrix} - 3 \times
+\begin{bmatrix} 1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \end{bmatrix} \\
+&= \begin{bmatrix}
+0 & 2 & 4 \\
+-6 & 12 & 2 \\
+14 & -46 & 0
+\end{bmatrix} -
+\begin{bmatrix}
+3 & 0 & 0 \\
+0 & 3 & 0 \\
+0 & 0 & 3 \end{bmatrix} \\
+&=
+\begin{bmatrix}
+-3 & 2 & 4 \\
+-6 & 9 & 2 \\
+14 & -46 & -3
+\end{bmatrix}
 \end{align}
 $$
 
