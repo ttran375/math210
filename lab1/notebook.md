@@ -207,7 +207,13 @@ Step 2: Find the Adjugate of $B$
 
 Cofactor of $b_{11}$ (top left):
 
-$$ \text{Minor}_{11} = \begin{vmatrix} 6 & 1 \\ -23 & 0 \end{vmatrix} = (6 \cdot 0) - (1 \cdot (-23)) = 0 + 23 = 23 $$
+$$
+\text{Minor}_{11} =
+\begin{vmatrix} 6 & 1 \\ -23 & 0 \end{vmatrix} =
+(6 \cdot 0) - (1 \cdot (-23))
+= 0 + 23
+= 23
+$$
 
 $$ \text{Cofactor}_{11} = (-1)^{1+1} \cdot 23 = 23 $$
 
