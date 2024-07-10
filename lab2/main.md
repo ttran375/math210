@@ -65,7 +65,7 @@ x - 4z = b_3
 
 We will solve this system for both cases (a) and (b).
 
-#### Case (a)
+a)
 
 $$ \begin{cases}
 b_1 = 1 \\
@@ -73,7 +73,7 @@ b_2 = -1 \\
 b_3 = 7
 \end{cases} $$
 
-The system becomes:
+#### a)
 
 $$ \begin{cases}
 3x - y + z = 1 \\
@@ -81,19 +81,13 @@ $$ \begin{cases}
 x - 4z = 7
 \end{cases} $$
 
-To solve this system, we use matrix methods.
-
-Step 1: Write the augmented matrix.
+Augmented matrix
 
 $$ \begin{pmatrix}
 3 & -1 & 1 & | & 1 \\
 -1 & 2 & 3 & | & -1 \\
 1 & 0 & -4 & | & 7
 \end{pmatrix} $$
-
-Step 2: Perform row operations to get the matrix in row-echelon form.
-
-1. Swap Row 1 and Row 3:
 
 $$ R1 \leftrightarrow R3 $$
 
@@ -103,10 +97,15 @@ $$ \begin{pmatrix}
 3 & -1 & 1 & | & 1
 \end{pmatrix} $$
 
-2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
-
 $$ R2 + R1 \rightarrow R2 $$
-$$ 3R1 - R3 \rightarrow R3 $$
+
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 7 \\
+0 & 2 & -1 & | & 6 \\
+3 & -1 & 1 & | & 1
+\end{pmatrix} $$
+
+$$ -3R1 + R3 \rightarrow R3 $$
 
 $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
@@ -116,52 +115,53 @@ $$ \begin{pmatrix}
 
 3. Add Row 2 to Row 3:
 
-$$ R3 + R2 \rightarrow R3 $$
+$$ 2R3 + R2 \rightarrow R3 $$
 
 $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
-0 & 0 & 12 & | & -14
+0 & 0 & 25 & | & -34
 \end{pmatrix} $$
 
-Step 3: Back-substitute to find \( z \).
+$$ \frac{1}{12}R3 \rightarrow R3 $$
 
-$$ 12z = -14 $$
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 7 \\
+0 & 2 & -1 & | & 6 \\
+0 & 0 & 1 & | & -\frac{7}{6}
+\end{pmatrix} $$
 
-$$ z = -\frac{14}{12} $$
+$$ R1 + 4R3 \rightarrow R1 $$
 
-$$ z = -\frac{7}{6} $$
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{7}{3} \\
+0 & 2 & -1 & | & 6 \\
+0 & 0 & 1 & | & -\frac{7}{6}
+\end{pmatrix} $$
 
-Step 4: Substitute \( z = -\frac{7}{6} \) into Row 2 to find \( y \).
+$$ R2 + R3 \rightarrow R2 $$
 
-$$ 2y - (-\frac{7}{6}) = 6 $$
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{49}{6} \\
+0 & 2 & 0 & | & \frac{5}{6} \\
+0 & 0 & 1 & | & -\frac{7}{6}
+\end{pmatrix} $$
 
-$$ 2y + \frac{7}{6} = 6 $$
+$$ \frac{1}{2}R2 \rightarrow R2 $$
 
-$$ 2y = 6 - \frac{7}{6} $$
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{49}{6} \\
+0 & 1 & 0 & | & \frac{5}{12} \\
+0 & 0 & 1 & | & -\frac{7}{6}
+\end{pmatrix} $$
 
-$$ 2y = \frac{36}{6} - \frac{7}{6} $$
-
-$$ 2y = \frac{29}{6} $$
-
-$$ y = \frac{29}{12} $$
-
-Step 5: Substitute \( y = \frac{29}{12} \) and \( z = -\frac{7}{6} \) into Row 1 to find \( x \).
-
-$$ x - 4(-\frac{7}{6}) = 7 $$
-
-$$ x + \frac{28}{6} = 7 $$
-
-$$ x + \frac{14}{3} = 7 $$
-
-$$ x = 7 - \frac{14}{3} $$
-
-$$ x = \frac{21}{3} - \frac{14}{3} $$
-
-$$ x = \frac{7}{3} $$
-
-So, the solution for case (a) is:
-$$ x = \frac{7}{3}, \quad y = \frac{29}{12}, \quad z = -\frac{7}{6} $$
+$$
+\begin{cases}
+x = \frac{49}{6} \\
+y = \frac{5}{12} \\
+z = -\frac{7}{6}
+\end{cases}
+$$
 
 #### Case (b)
 
