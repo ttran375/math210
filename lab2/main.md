@@ -1,9 +1,3 @@
-# Math 210: Lab #2
-
-## Solving Linear Systems with Scilab: Practice
-
-Perform the indicated operations using Scilab.
-
 ### Example 1
 
 Solve the following system:
@@ -12,7 +6,31 @@ $$ \begin{cases}
 3x - 2y = 8 \\
 x + 4y = -3 \end{cases} $$
 
-**Solution:**
+To solve this system, we can use the method of substitution or elimination. Here, we will use the elimination method.
+
+Step 1: Multiply the second equation by 3 to make the coefficients of \( x \) in both equations the same.
+
+$$ 3(x + 4y) = 3(-3) $$
+$$ 3x + 12y = -9 $$
+
+Step 2: Subtract the second equation from the first to eliminate \( x \).
+
+$$ (3x - 2y) - (3x + 12y) = 8 - (-9) $$
+$$ 3x - 2y - 3x - 12y = 8 + 9 $$
+$$ -14y = 17 $$
+$$ y = -\frac{17}{14} $$
+
+Step 3: Substitute \( y = -\frac{17}{14} \) back into the second equation to find \( x \).
+
+$$ x + 4\left(-\frac{17}{14}\right) = -3 $$
+$$ x - \frac{68}{14} = -3 $$
+$$ x - \frac{34}{7} = -3 $$
+$$ x = -3 + \frac{34}{7} $$
+$$ x = -\frac{21}{7} + \frac{34}{7} $$
+$$ x = \frac{13}{7} $$
+
+So, the solution to the system is:
+$$ x = \frac{13}{7}, \quad y = -\frac{17}{14} $$
 
 ### Example 2
 
@@ -24,6 +42,8 @@ $$ \begin{cases}
 x - 4z = b_3
 \end{cases} $$
 
+We will solve this system for both cases (a) and (b).
+
 #### Case (a)
 
 $$ \begin{cases}
@@ -31,6 +51,77 @@ b_1 = 1 \\
 b_2 = -1 \\
 b_3 = 7
 \end{cases} $$
+
+The system becomes:
+
+$$ \begin{cases}
+3x - y + z = 1 \\
+-x + 2y + 3z = -1 \\
+x - 4z = 7
+\end{cases} $$
+
+To solve this system, we can use matrix methods or substitution/elimination. Here we use matrix methods.
+
+Write the augmented matrix:
+
+$$ \begin{bmatrix}
+3 & -1 & 1 & | & 1 \\
+-1 & 2 & 3 & | & -1 \\
+1 & 0 & -4 & | & 7
+\end{bmatrix} $$
+
+Perform row operations to get the matrix in row-echelon form:
+
+1. Swap Row 1 and Row 3 to place a 1 in the top left corner:
+
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 7 \\
+-1 & 2 & 3 & | & -1 \\
+3 & -1 & 1 & | & 1
+\end{bmatrix} $$
+
+2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
+
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 7 \\
+0 & 2 & -1 & | & 6 \\
+0 & -1 & 13 & | & -20
+\end{bmatrix} $$
+
+3. Add Row 2 to Row 3:
+
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 7 \\
+0 & 2 & -1 & | & 6 \\
+0 & 0 & 12 & | & -14
+\end{bmatrix} $$
+
+Back-substitution to find \( z \):
+
+$$ 12z = -14 $$
+$$ z = -\frac{14}{12} $$
+$$ z = -\frac{7}{6} $$
+
+Substitute \( z = -\frac{7}{6} \) into Row 2 to find \( y \):
+
+$$ 2y - (-\frac{7}{6}) = 6 $$
+$$ 2y + \frac{7}{6} = 6 $$
+$$ 2y = 6 - \frac{7}{6} $$
+$$ 2y = \frac{36}{6} - \frac{7}{6} $$
+$$ 2y = \frac{29}{6} $$
+$$ y = \frac{29}{12} $$
+
+Substitute \( y = \frac{29}{12} \) and \( z = -\frac{7}{6} \) into Row 1 to find \( x \):
+
+$$ x - 4(-\frac{7}{6}) = 7 $$
+$$ x + \frac{28}{6} = 7 $$
+$$ x + \frac{14}{3} = 7 $$
+$$ x = 7 - \frac{14}{3} $$
+$$ x = \frac{21}{3} - \frac{14}{3} $$
+$$ x = \frac{7}{3} $$
+
+So, the solution for case (a) is:
+$$ x = \frac{7}{3}, \quad y = \frac{29}{12}, \quad z = -\frac{7}{6} $$
 
 #### Case (b)
 
@@ -40,35 +131,72 @@ b_2 = 3 \\
 b_3 = 1
 \end{cases} $$
 
-**Solution:**
-
-## Practice
-
-1. Solve the following systems of equations using the method from Example 1.
-
-a)
+The system becomes:
 
 $$ \begin{cases}
-3x_1 - 5x_2 = 7 \\
-x_1 + 9x_2 = 11
+3x - y + z = -2 \\
+-x + 2y + 3z = 3 \\
+x - 4z = 1
 \end{cases} $$
 
-b)
+We follow the same matrix method:
 
-$$ \begin{cases}
-3x_1 + 2x_2 - x_3 = 8 \\
-2x_1 - 5x_2 + x_3 = 3 \\
-6x_1 + x_3 = 2
-\end{cases} $$
+Write the augmented matrix:
 
-2. Solve the systems simultaneously using the method from Example 2.
+$$ \begin{bmatrix}
+3 & -1 & 1 & | & -2 \\
+-1 & 2 & 3 & | & 3 \\
+1 & 0 & -4 & | & 1
+\end{bmatrix} $$
 
-$$ \begin{cases}
-3x_1 + 2x_2 - x_3 = b_1 \\
-2x_1 - 5x_2 + x_3 = b_2 \\
-6x_1 + x_3 = b_3
-\end{cases} $$
+Perform row operations to get the matrix in row-echelon form:
 
-a) For $b_1 = 2$, $b_2 = 6$, $b_3 = 8$
+1. Swap Row 1 and Row 3:
 
-b) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 1 \\
+-1 & 2 & 3 & | & 3 \\
+3 & -1 & 1 & | & -2
+\end{bmatrix} $$
+
+2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
+
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+0 & -1 & 13 & | & -5
+\end{bmatrix} $$
+
+3. Add Row 2 to Row 3:
+
+$$ \begin{bmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+0 & 0 & 12 & | & -1
+\end{bmatrix} $$
+
+Back-substitution to find \( z \):
+
+$$ 12z = -1 $$
+$$ z = -\frac{1}{12} $$
+
+Substitute \( z = -\frac{1}{12} \) into Row 2 to find \( y \):
+
+$$ 2y - (-\frac{1}{12}) = 4 $$
+$$ 2y + \frac{1}{12} = 4 $$
+$$ 2y = 4 - \frac{1}{12} $$
+$$ 2y = \frac{48}{12} - \frac{1}{12} $$
+$$ 2y = \frac{47}{12} $$
+$$ y = \frac{47}{24} $$
+
+Substitute \( y = \frac{47}{24} \) and \( z = -\frac{1}{12} \) into Row 1 to find \( x \):
+
+$$ x - 4(-\frac{1}{12}) = 1 $$
+$$ x + \frac{4}{12} = 1 $$
+$$ x + \frac{1}{3} = 1 $$
+$$ x = 1 - \frac{1}{3} $$
+$$ x = \frac{3}{3} - \frac{1}{3} $$
+$$ x = \frac{2}{3} $$
+
+So, the solution for case (b) is:
+$$ x = \frac{2}{3}, \quad y = \frac{47}{24}, \quad z = -\frac{1}{12} $$
