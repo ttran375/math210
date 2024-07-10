@@ -187,3 +187,72 @@ $$ \begin{pmatrix}
 1 & 0 & -4 & | & 1
 \end{pmatrix} $$
 
+Gauss-Jordan Elimination
+
+1. Swap \(R1\) and \(R3\):
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 1 \\
+-1 & 2 & 3 & | & 3 \\
+3 & -1 & 1 & | & -2
+\end{pmatrix} $$
+
+2. \(R2 = R2 + R1\):
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+3 & -1 & 1 & | & -2
+\end{pmatrix} $$
+
+3. \(R3 = R3 - 3R1\):
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+0 & -1 & 13 & | & -5
+\end{pmatrix} $$
+
+4. \(R3 = R3 + \frac{1}{2}R2\):
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+0 & 0 & \frac{25}{2} & | & \frac{-3}{2}
+\end{pmatrix} $$
+
+5. \(R3 = \frac{2}{25}R3\):
+$$ \begin{pmatrix}
+1 & 0 & -4 & | & 1 \\
+0 & 2 & -1 & | & 4 \\
+0 & 0 & 1 & | & -\frac{3}{25}
+\end{pmatrix} $$
+
+6. \(R1 = R1 + 4R3\):
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{1}{25} \\
+0 & 2 & -1 & | & 4 \\
+0 & 0 & 1 & | & -\frac{3}{25}
+\end{pmatrix} $$
+
+7. \(R2 = R2 + R3\):
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{1}{25} \\
+0 & 2 & 0 & | & \frac{97}{25} \\
+0 & 0 & 1 & | & -\frac{3}{25}
+\end{pmatrix} $$
+
+8. \(R2 = \frac{1}{2}R2\):
+$$ \begin{pmatrix}
+1 & 0 & 0 & | & \frac{1}{25} \\
+0 & 1 & 0 & | & \frac{47}{25} \\
+0 & 0 & 1 & | & -\frac{3}{25}
+\end{pmatrix} $$
+
+The final solution is:
+$$
+\begin{cases}
+x = \frac{1}{25} \\
+y = \frac{47}{25} \\
+z = -\frac{3}{25}
+\end{cases}
+$$
+
+So the solution to part (b) is:
+$$ x = \frac{1}{25}, \; y = \frac{47}{25}, \; z = -\frac{3}{25} $$
