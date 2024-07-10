@@ -6,18 +6,18 @@
 
 $$
 A =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 $$
 
-$$ B = \begin{bmatrix}
+$$ B = \begin{pmatrix}
 0 & 1 & 2 \\
 -3 & 6 & 1 \\
 7 & -23 & 0
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 a) $A'$
@@ -50,11 +50,11 @@ B = np.array([[0, 1, 2], [-3, 6, 1], [7, -23, 0]])
 ### a) $A'$
 
 $$
-   A' = \begin{bmatrix}
+   A' = \begin{pmatrix}
    1 & 8 & 0 \\
    2 & 1 & -2 \\
    0 & 2 & -43
-   \end{bmatrix}
+   \end{pmatrix}
 $$
 
 ``` python
@@ -86,28 +86,28 @@ print(B_trace)
 $$
 \begin{align}
 A \times B &=
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 \times
-\begin{bmatrix}
+\begin{pmatrix}
 0 & 1 & 2 \\
 -3 & 6 & 1 \\
 7 & -23 & 0
-\end{bmatrix} \\
-&=\begin{bmatrix}
+\end{pmatrix} \\
+&=\begin{pmatrix}
 1 \times 0 + 2 \times (-3) + 0 \times 7 & 1 \times 1 + 2 \times 6 + 0 \times (-23) & 1 \times 2 + 2 \times 1 + 0 \times 0 \\
 8 \times 0 + 1 \times (-3) + 2 \times 7 & 8 \times 1 + 1 \times 6 + 2 \times (-23) & 8 \times 2 + 1 \times 1 + 2 \times 0 \\
 0 \times 0 + (-2) \times (-3) + (-43) \times 7 & 0 \times 1 + (-2) \times 6 + (-43) \times (-23) & 0 \times 2 + (-2) \times 1 + (-43) \times 0
-\end{bmatrix} \\
+\end{pmatrix} \\
 &=
-\begin{bmatrix}
+\begin{pmatrix}
 -6 & 13 & 4 \\
 11 & -32 & 17 \\
 -295 & 977 & -2
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 
@@ -126,27 +126,27 @@ print(AB)
 $$
 \begin{align}
 B \times A &=
-\begin{bmatrix}
+\begin{pmatrix}
 0 & 1 & 2 \\
 -3 & 6 & 1 \\
 7 & -23 & 0
-\end{bmatrix}
+\end{pmatrix}
 \times
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \\
-&=\begin{bmatrix}
+\end{pmatrix} \\
+&=\begin{pmatrix}
 0 \times 1 + 1 \times 8 + 2 \times 0 & 0 \times 2 + 1 \times 1 + 2 \times (-2) & 0 \times 0 + 1 \times 2 + 2 \times (-43) \\
 -3 \times 1 + 6 \times 8 + 1 \times 0 & -3 \times 2 + 6 \times 1 + 1 \times (-2) & -3 \times 0 + 6 \times (-2) + 1 \times (-43) \\
 7 \times 1 + (-23) \times 8 + 0 \times 0 & 7 \times 2 + (-23) \times 1 + 0 \times (-2) & 7 \times 0 + (-23) \times 2 + 0 \times (-43)
-\end{bmatrix} \\
-&= \begin{bmatrix}
+\end{pmatrix} \\
+&= \begin{pmatrix}
 8 & -3 & -84 \\
 45 & -2 & -31 \\
 -177 & -9 & -46
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 
@@ -163,35 +163,35 @@ print(BA)
 ### e) $3A - B'$
 
 $$
-3A = 3 \times \begin{bmatrix}
+3A = 3 \times \begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} =
-\begin{bmatrix} 3 & 6 & 0 \\
+\end{pmatrix} =
+\begin{pmatrix} 3 & 6 & 0 \\
 24 & 3 & 6 \\
 0 & -6 & -129
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$
-B' = \begin{bmatrix}
+B' = \begin{pmatrix}
 0 & -3 & 7 \\
 1 & 6 & -23 \\
 2 & 1 & 0
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$
-3A - B' = \begin{bmatrix}
+3A - B' = \begin{pmatrix}
 3 - 0 & 6 - (-3) & 0 - 7 \\
 24 - 1 & 3 - 6 & 6 - (-23) \\
 0 - 2 & -6 - 1 & -129 - 0
-\end{bmatrix} =
-\begin{bmatrix} 3 & 9 & -7 \\
+\end{pmatrix} =
+\begin{pmatrix} 3 & 9 & -7 \\
 23 & -3 & 29 \\
 -2 & -7 & -129
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 ``` python
@@ -207,11 +207,11 @@ print(threeA_minus_B_transpose)
 ### f) $\text{inv}(B)$
 
 $$
-B = \begin{bmatrix}
+B = \begin{pmatrix}
 0 & 1 & 2 \\
 -3 & 6 & 1 \\
 7 & -23 & 0
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 Step 1: Calculate the Determinant of $B$
@@ -338,18 +338,18 @@ $$ \text{Cofactor}_{33} = (-1)^{3+3} \times 3 = 3 $$
 
 $$
 \text{Cofactor Matrix} =
-\begin{bmatrix}
+\begin{pmatrix}
 23 & 7 & 27 \\
 -46 & -14 & 7 \\
 -11 & -6 & 3
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ \text{Adjugate}(B) = \text{Transpose}(\text{Cofactor Matrix}) =
-\begin{bmatrix}
+\begin{pmatrix}
 23 & -46 & -11 \\
 7 & -14 & -6 \\
-27 & 7 & 3 \end{bmatrix}
+27 & 7 & 3 \end{pmatrix}
 $$
 
 Step 3: Calculate the Inverse of $B$
@@ -358,17 +358,17 @@ $$
 \begin{align}
 B^{-1} &= \frac{1}{\text{det}(B)} \times \text{Adjugate}(B) \\
 &= \frac{1}{61} \times
-\begin{bmatrix}
+\begin{pmatrix}
 23 & -46 & -11 \\
 7 & -14 & -6 \\
 27 & 7 & 3
-\end{bmatrix} \\
+\end{pmatrix} \\
 &=
-\begin{bmatrix}
+\begin{pmatrix}
 \frac{23}{61} & \frac{-46}{61} & \frac{-11}{61} \\
 \frac{7}{61} & \frac{-14}{61} & \frac{-6}{61} \\
 \frac{27}{61} & \frac{7}{61} & \frac{3}{61}
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 
@@ -386,124 +386,124 @@ print(B_inv)
 
 $$
 A =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ R2 - 8R1 \rightarrow R2 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 2 & 0 \\
 0 & -15 & 2 \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ -\frac{1}{15}R2 \rightarrow R2 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 0 & -15 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 2 & 0 \\
 0 & 1 & -\frac{2}{15} \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ R1 - 2R2 \rightarrow R1 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 0 & 1 & -\frac{2}{15} \\
 0 & -2 & -43
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & -2 & -43
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ R3 + 2R2 \rightarrow R3 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & -2 & -43
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & -\frac{647}{15}
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ -\frac{15}{647}R3 \rightarrow R3 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & -\frac{647}{15}
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & 1
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ R1 - \frac{4}{15}R3 \rightarrow R1 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 & \frac{4}{15} \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & 1
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & 1
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ R2 + \frac{2}{15}R3 \rightarrow R2 $$
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & -\frac{2}{15} \\
 0 & 0 & 1
-\end{bmatrix} \rightarrow
-\begin{bmatrix}
+\end{pmatrix} \rightarrow
+\begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$ \text{rref}(A) =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 ``` python
@@ -523,26 +523,26 @@ print(np.array(A_rref))
 $$
 \begin{align}
 A^2 &=
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \times
-\begin{bmatrix}
+\end{pmatrix} \times
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \\
-&= \begin{bmatrix}
+\end{pmatrix} \\
+&= \begin{pmatrix}
 1 \times 1 + 2 \times 8 + 0 \times 0 & 1 \times 2 + 2 \times 1 + 0 \times -2 & 1 \times 0 + 2 \times 2 + 0 \times -43 \\
 8 \times 1 + 1 \times 8 + 2 \times 0 & 8 \times 2 + 1 \times 1 + 2 \times -2 & 8 \times 0 + 1 \times 2 + 2 \times -43 \\
 0 \times 1 + (-2) \times 8 + (-43) \times 0 & 0 \times 2 + (-2) \times 1 + (-43) \times -2 & 0 \times 0 + (-2) \times 2 + (-43) \times -43
-\end{bmatrix} \\
-&= \begin{bmatrix}
+\end{pmatrix} \\
+&= \begin{pmatrix}
 17 & 4 & 4 \\
 16 & 13 & -84 \\
 -16 & 84 & 1845
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 
@@ -550,26 +550,26 @@ $$
 \begin{align}
 A^3 &= A \times A^2 \\
 &=
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 2 & 0 \\
 8 & 1 & 2 \\
 0 & -2 & -43
-\end{bmatrix} \times
-\begin{bmatrix}
+\end{pmatrix} \times
+\begin{pmatrix}
 17 & 4 & 4 \\
 16 & 13 & -84 \\
 -16 & 84 & 1845
-\end{bmatrix} \\
-&= \begin{bmatrix}
+\end{pmatrix} \\
+&= \begin{pmatrix}
 (1 \times 17 + 2 \times 16 + 0 \times -16 & 1 \times 4 + 2 \times 13 + 0 \times 84 & 1 \times 4 + 2 \times -84 + 0 \times 1845) \\
 (8 \times 17 + 1 \times 16 + 2 \times -16 & 8 \times 4 + 1 \times 13 + 2 \times 84 & 8 \times 4 + 1 \times -84 + 2 \times 1845) \\
 (0 \times 17 + (-2) \times 16 + (-43) \times -16 & 0 \times 4 + (-2) \times 13 + (-43) \times 84 & 0 \times 4 + (-2) \times -84 + (-43) \times 1845)
-\end{bmatrix} \\
-&= \begin{bmatrix}
+\end{pmatrix} \\
+&= \begin{pmatrix}
 49 & 30 & -164 \\
 120 & 213 & 3638 \\
 656 & -3638 & -79167
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 
@@ -588,29 +588,29 @@ print(A_cubed)
 $$
 \begin{align}
 2B - 3I &= 2 \times
-\begin{bmatrix}
+\begin{pmatrix}
 0 & 1 & 2 \\
 -3 & 6 & 1 \\
 7 & -23 & 0
-\end{bmatrix} - 3 \times
-\begin{bmatrix} 1 & 0 & 0 \\
+\end{pmatrix} - 3 \times
+\begin{pmatrix} 1 & 0 & 0 \\
 0 & 1 & 0 \\
-0 & 0 & 1 \end{bmatrix} \\
-&= \begin{bmatrix}
+0 & 0 & 1 \end{pmatrix} \\
+&= \begin{pmatrix}
 0 & 2 & 4 \\
 -6 & 12 & 2 \\
 14 & -46 & 0
-\end{bmatrix} -
-\begin{bmatrix}
+\end{pmatrix} -
+\begin{pmatrix}
 3 & 0 & 0 \\
 0 & 3 & 0 \\
-0 & 0 & 3 \end{bmatrix} \\
+0 & 0 & 3 \end{pmatrix} \\
 &=
-\begin{bmatrix}
+\begin{pmatrix}
 -3 & 2 & 4 \\
 -6 & 9 & 2 \\
 14 & -46 & -3
-\end{bmatrix}
+\end{pmatrix}
 \end{align}
 $$
 

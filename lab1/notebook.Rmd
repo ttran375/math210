@@ -154,7 +154,7 @@ The solution of the system can be found in the last column of the matrix above.
 
 1. Given the following matrices, perform the operation:
 
-   $A = \begin{bmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{bmatrix}$, $B = \begin{bmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{bmatrix}$
+   $A = \begin{pmatrix} 1 & 2 & 0 \\ 8 & 1 & 2 \\ 0 & -2 & -43 \end{pmatrix}$, $B = \begin{pmatrix} 0 & 1 & 2 \\ -3 & 6 & 1 \\ 7 & -23 & 0 \end{pmatrix}$
 
    a) $A'$
 

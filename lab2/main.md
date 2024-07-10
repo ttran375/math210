@@ -11,40 +11,40 @@ $$
 
 Augmented matrix
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & -2 & | & 8 \\
 1 & 4 & | & -3
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 Gauss-Jordan Elimination
 
 $$ 3R2 - R1 \rightarrow R2 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & -2 & | & 8 \\
 0 & 14 & | & -17
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 $$ \frac{1}{14}R2 \rightarrow R2 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & -2 & | & 8 \\
 0 & 1 & | & -\frac{17}{14}
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 $$ R1 + 2R2 \rightarrow R1 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & 0 & | & \frac{39}{7} \\
 0 & 1 & | & -\frac{17}{14}
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 $$ \frac{1}{3}R1 \rightarrow R1 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & | & \frac{13}{7} \\
 0 & 1 & | & -\frac{17}{14}
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 $$
 \begin{cases}
@@ -85,11 +85,11 @@ To solve this system, we use matrix methods.
 
 Step 1: Write the augmented matrix.
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & -1 & 1 & | & 1 \\
 -1 & 2 & 3 & | & -1 \\
 1 & 0 & -4 & | & 7
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 Step 2: Perform row operations to get the matrix in row-echelon form.
 
@@ -97,32 +97,32 @@ Step 2: Perform row operations to get the matrix in row-echelon form.
 
 $$ R1 \leftrightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
 -1 & 2 & 3 & | & -1 \\
 3 & -1 & 1 & | & 1
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
 
 $$ R2 + R1 \rightarrow R2 $$
 $$ 3R1 - R3 \rightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
 0 & -1 & 13 & | & -20
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 3. Add Row 2 to Row 3:
 
 $$ R3 + R2 \rightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
 0 & 0 & 12 & | & -14
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 Step 3: Back-substitute to find \( z \).
 
@@ -183,11 +183,11 @@ We follow the same matrix method:
 
 Step 1: Write the augmented matrix.
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 3 & -1 & 1 & | & -2 \\
 -1 & 2 & 3 & | & 3 \\
 1 & 0 & -4 & | & 1
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 Step 2: Perform row operations to get the matrix in row-echelon form.
 
@@ -195,32 +195,32 @@ Step 2: Perform row operations to get the matrix in row-echelon form.
 
 $$ R1 \leftrightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 1 \\
 -1 & 2 & 3 & | & 3 \\
 3 & -1 & 1 & | & -2
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
 
 $$ R2 + R1 \rightarrow R2 $$
 $$ 3R1 - R3 \rightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 1 \\
 0 & 2 & -1 & | & 4 \\
 0 & -1 & 13 & | & -5
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 3. Add Row 2 to Row 3:
 
 $$ R3 + R2 \rightarrow R3 $$
 
-$$ \begin{bmatrix}
+$$ \begin{pmatrix}
 1 & 0 & -4 & | & 1 \\
 0 & 2 & -1 & | & 4 \\
 0 & 0 & 12 & | & -1
-\end{bmatrix} $$
+\end{pmatrix} $$
 
 Step 3: Back-substitute to find \( z \).
 
