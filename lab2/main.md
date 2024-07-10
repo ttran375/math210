@@ -89,6 +89,8 @@ $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7
 \end{pmatrix} $$
 
+Gauss-Jordan Elimination
+
 $$ R1 \leftrightarrow R3 $$
 
 $$ \begin{pmatrix}
@@ -97,7 +99,7 @@ $$ \begin{pmatrix}
 3 & -1 & 1 & | & 1
 \end{pmatrix} $$
 
-$$ R2 + R1 \rightarrow R2 $$
+$$ R1 + R2 \rightarrow R2 $$
 
 $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
@@ -113,9 +115,7 @@ $$ \begin{pmatrix}
 0 & -1 & 13 & | & -20
 \end{pmatrix} $$
 
-3. Add Row 2 to Row 3:
-
-$$ 2R3 + R2 \rightarrow R3 $$
+$$ R2 + 2R3 \rightarrow R3 $$
 
 $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
@@ -136,30 +136,30 @@ $$ R1 + 4R3 \rightarrow R1 $$
 $$ \begin{pmatrix}
 1 & 0 & 0 & | & \frac{39}{25} \\
 0 & 2 & -1 & | & 6 \\
-0 & 0 & 1 & | & -\frac{7}{6}
+0 & 0 & 1 & | & -\frac{34}{25}
 \end{pmatrix} $$
 
 $$ R2 + R3 \rightarrow R2 $$
 
 $$ \begin{pmatrix}
 1 & 0 & 0 & | & \frac{39}{25} \\
-0 & 2 & 0 & | & \frac{116}{26} \\
-0 & 0 & 1 & | & -\frac{7}{6}
+0 & 2 & 0 & | & \frac{116}{25} \\
+0 & 0 & 1 & | & -\frac{34}{25}
 \end{pmatrix} $$
 
 $$ \frac{1}{2}R2 \rightarrow R2 $$
 
 $$ \begin{pmatrix}
-1 & 0 & 0 & | & \frac{49}{6} \\
-0 & 2 & 0 & | & \frac{58}{26} \\
-0 & 0 & 1 & | & -\frac{7}{6}
+1 & 0 & 0 & | & \frac{39}{25} \\
+0 & 1 & 0 & | & \frac{58}{25} \\
+0 & 0 & 1 & | & -\frac{34}{25}
 \end{pmatrix} $$
 
 $$
 \begin{cases}
-x = \frac{49}{6} \\
-y = \frac{5}{12} \\
-z = -\frac{7}{6}
+x = \frac{39}{25} \\
+y = \frac{58}{25} \\
+z = -\frac{34}{25}
 \end{cases}
 $$
 
