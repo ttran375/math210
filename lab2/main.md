@@ -2,9 +2,12 @@
 
 Solve the following system:
 
-$$ \begin{cases}
+$$
+\begin{cases}
 3x - 2y = 8 \\
-x + 4y = -3 \end{cases} $$
+x + 4y = -3
+\end{cases}
+$$
 
 Augmented matrix
 
@@ -32,19 +35,23 @@ $$ \begin{bmatrix}
 $$ R1 + 2R2 \rightarrow R1 $$
 
 $$ \begin{bmatrix}
-3 & -2 & | & 8 \\
+3 & 0 & | & \frac{39}{7} \\
 0 & 1 & | & -\frac{17}{14}
 \end{bmatrix} $$
 
-Solve for $y$
+$$ \frac{1}{3}R1 \rightarrow R1 $$
 
-$$ y = -\frac{17}{14} $$
+$$ \begin{bmatrix}
+1 & 0 & | & \frac{13}{7} \\
+0 & 1 & | & -\frac{17}{14}
+\end{bmatrix} $$
 
-Solve for $x$
-
-$$ 3x - 2\left(-\frac{17}{14}\right) = 8 $$
-
-$$ x = \frac{13}{7} $$
+$$
+\begin{cases}
+x = \frac{13}{7} \\
+y = -\frac{17}{14}
+\end{cases}
+$$
 
 ### Example 2
 
