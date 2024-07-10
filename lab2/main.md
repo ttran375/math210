@@ -13,6 +13,8 @@ $$ \begin{bmatrix}
 1 & 4 & | & -3
 \end{bmatrix} $$
 
+Gauss-Jordan Elimination
+
 $$ 3R2 - R1 \rightarrow R2 $$
 
 $$ \begin{bmatrix}
@@ -21,6 +23,13 @@ $$ \begin{bmatrix}
 \end{bmatrix} $$
 
 $$ \frac{1}{14}R2 \rightarrow R2 $$
+
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+0 & 1 & | & -\frac{17}{14}
+\end{bmatrix} $$
+
+$$ R1 + 2R2 \rightarrow R1 $$
 
 $$ \begin{bmatrix}
 3 & -2 & | & 8 \\
