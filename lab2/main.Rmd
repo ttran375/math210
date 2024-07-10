@@ -2,12 +2,22 @@
 
 Solve the following system:
 
+a)
+
 $$
 \begin{cases}
 3x - 2y = 8 \\
 x + 4y = -3
 \end{cases}
 $$
+
+b)
+
+$$ \begin{cases}
+3x - y + z = b_1 \\
+-x + 2y + 3z = b_2 \\
+x - 4z = b_3
+\end{cases} $$
 
 ### Example 2
 
