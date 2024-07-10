@@ -6,49 +6,36 @@ $$ \begin{cases}
 3x - 2y = 8 \\
 x + 4y = -3 \end{cases} $$
 
-We will solve this system using matrix methods.
-
-Step 1: Write the augmented matrix for the system.
+Augmented matrix
 
 $$ \begin{bmatrix}
 3 & -2 & | & 8 \\
 1 & 4 & | & -3
 \end{bmatrix} $$
 
-Step 2: Perform row operations to get the matrix in row-echelon form.
-
-1. Multiply the second row by 3 to make the coefficient of \( x \) in the second row match the coefficient of \( x \) in the first row:
-
-$$ \begin{bmatrix}
-3 & -2 & | & 8 \\
-3 & 12 & | & -9
-\end{bmatrix} $$
-
-2. Subtract the first row from the second row to eliminate \( x \):
+$$ 3R2 - R1 \rightarrow R2 $$
 
 $$ \begin{bmatrix}
 3 & -2 & | & 8 \\
 0 & 14 & | & -17
 \end{bmatrix} $$
 
-Step 3: Solve for \( y \) from the second row.
+$$ \frac{1}{14}R2 \rightarrow R2 $$
 
-$$ 14y = -17 $$
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+0 & 1 & | & -\frac{17}{14}
+\end{bmatrix} $$
+
+Solve for $y$
+
 $$ y = -\frac{17}{14} $$
 
-Step 4: Substitute \( y = -\frac{17}{14} \) back into the first row to find \( x \).
+Solve for $x$
 
 $$ 3x - 2\left(-\frac{17}{14}\right) = 8 $$
-$$ 3x + \frac{34}{14} = 8 $$
-$$ 3x + \frac{17}{7} = 8 $$
-$$ 3x = 8 - \frac{17}{7} $$
-$$ 3x = \frac{56}{7} - \frac{17}{7} $$
-$$ 3x = \frac{39}{7} $$
-$$ x = \frac{39}{21} $$
-$$ x = \frac{13}{7} $$
 
-So, the solution to the system is:
-$$ x = \frac{13}{7}, \quad y = -\frac{17}{14} $$
+$$ x = \frac{13}{7} $$
 
 ### Example 2
 
@@ -78,9 +65,9 @@ $$ \begin{cases}
 x - 4z = 7
 \end{cases} $$
 
-To solve this system, we can use matrix methods or substitution/elimination. Here we use matrix methods.
+To solve this system, we use matrix methods.
 
-Write the augmented matrix:
+Step 1: Write the augmented matrix.
 
 $$ \begin{bmatrix}
 3 & -1 & 1 & | & 1 \\
@@ -88,9 +75,11 @@ $$ \begin{bmatrix}
 1 & 0 & -4 & | & 7
 \end{bmatrix} $$
 
-Perform row operations to get the matrix in row-echelon form:
+Step 2: Perform row operations to get the matrix in row-echelon form.
 
-1. Swap Row 1 and Row 3 to place a 1 in the top left corner:
+1. Swap Row 1 and Row 3:
+
+$$ R1 \leftrightarrow R3 $$
 
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 7 \\
@@ -100,6 +89,9 @@ $$ \begin{bmatrix}
 
 2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
 
+$$ R2 + R1 \rightarrow R2 $$
+$$ 3R1 - R3 \rightarrow R3 $$
+
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
@@ -108,34 +100,48 @@ $$ \begin{bmatrix}
 
 3. Add Row 2 to Row 3:
 
+$$ R3 + R2 \rightarrow R3 $$
+
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
 0 & 0 & 12 & | & -14
 \end{bmatrix} $$
 
-Back-substitution to find \( z \):
+Step 3: Back-substitute to find \( z \).
 
 $$ 12z = -14 $$
+
 $$ z = -\frac{14}{12} $$
+
 $$ z = -\frac{7}{6} $$
 
-Substitute \( z = -\frac{7}{6} \) into Row 2 to find \( y \):
+Step 4: Substitute \( z = -\frac{7}{6} \) into Row 2 to find \( y \).
 
 $$ 2y - (-\frac{7}{6}) = 6 $$
+
 $$ 2y + \frac{7}{6} = 6 $$
+
 $$ 2y = 6 - \frac{7}{6} $$
+
 $$ 2y = \frac{36}{6} - \frac{7}{6} $$
+
 $$ 2y = \frac{29}{6} $$
+
 $$ y = \frac{29}{12} $$
 
-Substitute \( y = \frac{29}{12} \) and \( z = -\frac{7}{6} \) into Row 1 to find \( x \):
+Step 5: Substitute \( y = \frac{29}{12} \) and \( z = -\frac{7}{6} \) into Row 1 to find \( x \).
 
 $$ x - 4(-\frac{7}{6}) = 7 $$
+
 $$ x + \frac{28}{6} = 7 $$
+
 $$ x + \frac{14}{3} = 7 $$
+
 $$ x = 7 - \frac{14}{3} $$
+
 $$ x = \frac{21}{3} - \frac{14}{3} $$
+
 $$ x = \frac{7}{3} $$
 
 So, the solution for case (a) is:
@@ -159,7 +165,7 @@ x - 4z = 1
 
 We follow the same matrix method:
 
-Write the augmented matrix:
+Step 1: Write the augmented matrix.
 
 $$ \begin{bmatrix}
 3 & -1 & 1 & | & -2 \\
@@ -167,9 +173,11 @@ $$ \begin{bmatrix}
 1 & 0 & -4 & | & 1
 \end{bmatrix} $$
 
-Perform row operations to get the matrix in row-echelon form:
+Step 2: Perform row operations to get the matrix in row-echelon form.
 
 1. Swap Row 1 and Row 3:
+
+$$ R1 \leftrightarrow R3 $$
 
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 1 \\
@@ -179,6 +187,9 @@ $$ \begin{bmatrix}
 
 2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
 
+$$ R2 + R1 \rightarrow R2 $$
+$$ 3R1 - R3 \rightarrow R3 $$
+
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 1 \\
 0 & 2 & -1 & | & 4 \\
@@ -187,33 +198,46 @@ $$ \begin{bmatrix}
 
 3. Add Row 2 to Row 3:
 
+$$ R3 + R2 \rightarrow R3 $$
+
 $$ \begin{bmatrix}
 1 & 0 & -4 & | & 1 \\
 0 & 2 & -1 & | & 4 \\
 0 & 0 & 12 & | & -1
 \end{bmatrix} $$
 
-Back-substitution to find \( z \):
+Step 3: Back-substitute to find \( z \).
 
 $$ 12z = -1 $$
+
 $$ z = -\frac{1}{12} $$
 
-Substitute \( z = -\frac{1}{12} \) into Row 2 to find \( y \):
+Step 4: Substitute \( z = -\frac{1}{12} \) into Row 2 to find \( y \).
 
 $$ 2y - (-\frac{1}{12}) = 4 $$
+
 $$ 2y + \frac{1}{12} = 4 $$
+
 $$ 2y = 4 - \frac{1}{12} $$
+
 $$ 2y = \frac{48}{12} - \frac{1}{12} $$
+
 $$ 2y = \frac{47}{12} $$
+
 $$ y = \frac{47}{24} $$
 
-Substitute \( y = \frac{47}{24} \) and \( z = -\frac{1}{12} \) into Row 1 to find \( x \):
+Step 5: Substitute \( y = \frac{47}{24} \) and \( z = -\frac{1}{12} \) into Row 1 to find \( x \).
 
 $$ x - 4(-\frac{1}{12}) = 1 $$
+
 $$ x + \frac{4}{12} = 1 $$
+
 $$ x + \frac{1}{3} = 1 $$
+
 $$ x = 1 - \frac{1}{3} $$
+
 $$ x = \frac{3}{3} - \frac{1}{3} $$
+
 $$ x = \frac{2}{3} $$
 
 So, the solution for case (b) is:
