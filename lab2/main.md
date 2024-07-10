@@ -123,18 +123,18 @@ $$ \begin{pmatrix}
 0 & 0 & 25 & | & -34
 \end{pmatrix} $$
 
-$$ \frac{1}{12}R3 \rightarrow R3 $$
+$$ \frac{1}{25}R3 \rightarrow R3 $$
 
 $$ \begin{pmatrix}
 1 & 0 & -4 & | & 7 \\
 0 & 2 & -1 & | & 6 \\
-0 & 0 & 1 & | & -\frac{7}{6}
+0 & 0 & 1 & | & -\frac{34}{25}
 \end{pmatrix} $$
 
 $$ R1 + 4R3 \rightarrow R1 $$
 
 $$ \begin{pmatrix}
-1 & 0 & 0 & | & \frac{7}{3} \\
+1 & 0 & 0 & | & \frac{39}{25} \\
 0 & 2 & -1 & | & 6 \\
 0 & 0 & 1 & | & -\frac{7}{6}
 \end{pmatrix} $$
