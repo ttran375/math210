@@ -6,27 +6,45 @@ $$ \begin{cases}
 3x - 2y = 8 \\
 x + 4y = -3 \end{cases} $$
 
-To solve this system, we can use the method of substitution or elimination. Here, we will use the elimination method.
+We will solve this system using matrix methods.
 
-Step 1: Multiply the second equation by 3 to make the coefficients of \( x \) in both equations the same.
+Step 1: Write the augmented matrix for the system.
 
-$$ 3(x + 4y) = 3(-3) $$
-$$ 3x + 12y = -9 $$
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+1 & 4 & | & -3
+\end{bmatrix} $$
 
-Step 2: Subtract the second equation from the first to eliminate \( x \).
+Step 2: Perform row operations to get the matrix in row-echelon form.
 
-$$ (3x - 2y) - (3x + 12y) = 8 - (-9) $$
-$$ 3x - 2y - 3x - 12y = 8 + 9 $$
-$$ -14y = 17 $$
+1. Multiply the second row by 3 to make the coefficient of \( x \) in the second row match the coefficient of \( x \) in the first row:
+
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+3 & 12 & | & -9
+\end{bmatrix} $$
+
+2. Subtract the first row from the second row to eliminate \( x \):
+
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+0 & 14 & | & -17
+\end{bmatrix} $$
+
+Step 3: Solve for \( y \) from the second row.
+
+$$ 14y = -17 $$
 $$ y = -\frac{17}{14} $$
 
-Step 3: Substitute \( y = -\frac{17}{14} \) back into the second equation to find \( x \).
+Step 4: Substitute \( y = -\frac{17}{14} \) back into the first row to find \( x \).
 
-$$ x + 4\left(-\frac{17}{14}\right) = -3 $$
-$$ x - \frac{68}{14} = -3 $$
-$$ x - \frac{34}{7} = -3 $$
-$$ x = -3 + \frac{34}{7} $$
-$$ x = -\frac{21}{7} + \frac{34}{7} $$
+$$ 3x - 2\left(-\frac{17}{14}\right) = 8 $$
+$$ 3x + \frac{34}{14} = 8 $$
+$$ 3x + \frac{17}{7} = 8 $$
+$$ 3x = 8 - \frac{17}{7} $$
+$$ 3x = \frac{56}{7} - \frac{17}{7} $$
+$$ 3x = \frac{39}{7} $$
+$$ x = \frac{39}{21} $$
 $$ x = \frac{13}{7} $$
 
 So, the solution to the system is:
