@@ -163,7 +163,7 @@ z = -\frac{34}{25}
 \end{cases}
 $$
 
-#### Case (b)
+b)
 
 $$ \begin{cases}
 b_1 = -2 \\
@@ -171,7 +171,7 @@ b_2 = 3 \\
 b_3 = 1
 \end{cases} $$
 
-The system becomes:
+#### b)
 
 $$ \begin{cases}
 3x - y + z = -2 \\
@@ -179,9 +179,7 @@ $$ \begin{cases}
 x - 4z = 1
 \end{cases} $$
 
-We follow the same matrix method:
-
-Step 1: Write the augmented matrix.
+Augmented matrix
 
 $$ \begin{pmatrix}
 3 & -1 & 1 & | & -2 \\
@@ -189,72 +187,3 @@ $$ \begin{pmatrix}
 1 & 0 & -4 & | & 1
 \end{pmatrix} $$
 
-Step 2: Perform row operations to get the matrix in row-echelon form.
-
-1. Swap Row 1 and Row 3:
-
-$$ R1 \leftrightarrow R3 $$
-
-$$ \begin{pmatrix}
-1 & 0 & -4 & | & 1 \\
--1 & 2 & 3 & | & 3 \\
-3 & -1 & 1 & | & -2
-\end{pmatrix} $$
-
-2. Add Row 1 to Row 2 and multiply Row 1 by 3 and subtract Row 3:
-
-$$ R2 + R1 \rightarrow R2 $$
-$$ 3R1 - R3 \rightarrow R3 $$
-
-$$ \begin{pmatrix}
-1 & 0 & -4 & | & 1 \\
-0 & 2 & -1 & | & 4 \\
-0 & -1 & 13 & | & -5
-\end{pmatrix} $$
-
-3. Add Row 2 to Row 3:
-
-$$ R3 + R2 \rightarrow R3 $$
-
-$$ \begin{pmatrix}
-1 & 0 & -4 & | & 1 \\
-0 & 2 & -1 & | & 4 \\
-0 & 0 & 12 & | & -1
-\end{pmatrix} $$
-
-Step 3: Back-substitute to find \( z \).
-
-$$ 12z = -1 $$
-
-$$ z = -\frac{1}{12} $$
-
-Step 4: Substitute \( z = -\frac{1}{12} \) into Row 2 to find \( y \).
-
-$$ 2y - (-\frac{1}{12}) = 4 $$
-
-$$ 2y + \frac{1}{12} = 4 $$
-
-$$ 2y = 4 - \frac{1}{12} $$
-
-$$ 2y = \frac{48}{12} - \frac{1}{12} $$
-
-$$ 2y = \frac{47}{12} $$
-
-$$ y = \frac{47}{24} $$
-
-Step 5: Substitute \( y = \frac{47}{24} \) and \( z = -\frac{1}{12} \) into Row 1 to find \( x \).
-
-$$ x - 4(-\frac{1}{12}) = 1 $$
-
-$$ x + \frac{4}{12} = 1 $$
-
-$$ x + \frac{1}{3} = 1 $$
-
-$$ x = 1 - \frac{1}{3} $$
-
-$$ x = \frac{3}{3} - \frac{1}{3} $$
-
-$$ x = \frac{2}{3} $$
-
-So, the solution for case (b) is:
-$$ x = \frac{2}{3}, \quad y = \frac{47}{24}, \quad z = -\frac{1}{12} $$
