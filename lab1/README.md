@@ -6,52 +6,32 @@ $$ \begin{cases}
 3x - 2y = 8 \\
 x + 4y = -3 \end{cases} $$
 
-We will solve this system using matrix methods.
-
-Step 1: Write the augmented matrix for the system.
-
 $$ \begin{bmatrix}
 3 & -2 & | & 8 \\
 1 & 4 & | & -3
 \end{bmatrix} $$
 
-Step 2: Perform row operations to get the matrix in row-echelon form.
-
-1. Multiply the second row by 3:
-
-$$ 3R2 \rightarrow R2 $$
-
-$$ \begin{bmatrix}
-3 & -2 & | & 8 \\
-3 & 12 & | & -9
-\end{bmatrix} $$
-
-2. Subtract the first row from the second row to eliminate \( x \):
-
-$$ R2 - R1 \rightarrow R2 $$
+$$ 3R2 - R1 \rightarrow R2 $$
 
 $$ \begin{bmatrix}
 3 & -2 & | & 8 \\
 0 & 14 & | & -17
 \end{bmatrix} $$
 
-Step 3: Solve for \( y \) from the second row.
+$$ \frac{1}{14}R2 \rightarrow R2 $$
+
+$$ \begin{bmatrix}
+3 & -2 & | & 8 \\
+0 & 1 & | & -\frac{17}{14}
+\end{bmatrix} $$
+
+Solve for $y$
 
 $$ y = -\frac{17}{14} $$
 
-Step 4: Substitute \( y = -\frac{17}{14} \) back into the first row to find \( x \).
+Solve for $x$
 
 $$ 3x - 2\left(-\frac{17}{14}\right) = 8 $$
-
-$$ 3x + \frac{34}{14} = 8 $$
-
-$$ 3x + \frac{17}{7} = 8 $$
-
-$$ 3x = 8 - \frac{17}{7} $$
-
-$$ 3x = \frac{56}{7} - \frac{17}{7} $$
-
-$$ 3x = \frac{39}{7} $$
 
 $$ x = \frac{13}{7} $$
 
