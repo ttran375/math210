@@ -142,8 +142,8 @@ $$ \begin{pmatrix}
 $$ R2 + R3 \rightarrow R2 $$
 
 $$ \begin{pmatrix}
-1 & 0 & 0 & | & \frac{49}{6} \\
-0 & 2 & 0 & | & \frac{5}{6} \\
+1 & 0 & 0 & | & \frac{39}{25} \\
+0 & 2 & 0 & | & \frac{116}{26} \\
 0 & 0 & 1 & | & -\frac{7}{6}
 \end{pmatrix} $$
 
@@ -151,7 +151,7 @@ $$ \frac{1}{2}R2 \rightarrow R2 $$
 
 $$ \begin{pmatrix}
 1 & 0 & 0 & | & \frac{49}{6} \\
-0 & 1 & 0 & | & \frac{5}{12} \\
+0 & 2 & 0 & | & \frac{58}{26} \\
 0 & 0 & 1 & | & -\frac{7}{6}
 \end{pmatrix} $$
 
