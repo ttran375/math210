@@ -1,4 +1,6 @@
-### Example 1
+# Math 210: Lab #2
+
+## Example 1
 
 Solve the following system:
 
@@ -53,7 +55,7 @@ y = -\frac{17}{14}
 \end{cases}
 $$
 
-### Example 2
+## Example 2
 
 Solve the system simultaneously:
 
@@ -73,7 +75,7 @@ b_2 = -1 \\
 b_3 = 7
 \end{cases} $$
 
-#### a)
+### a)
 
 $$ \begin{cases}
 3x - y + z = 1 \\
@@ -171,7 +173,7 @@ b_2 = 3 \\
 b_3 = 1
 \end{cases} $$
 
-#### b)
+### b)
 
 $$ \begin{cases}
 3x - y + z = -2 \\
