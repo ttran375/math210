@@ -33,8 +33,9 @@
 
 ## Week 9
 
-- In-Class Exercises: Systems of linear equations, Gauss and Jordan-Gauss elimination
+- In-Class Exercises: [Systems of linear equations](module8)
 
 ## Week 10
 
-- Labs: [Introduction to Scilab](lab1)
+- In-Class Exercises: [Matrix Operations](module9)
+- Labs: [Introduction to Scilab](lab1), [Systems of Equations](lab2)
