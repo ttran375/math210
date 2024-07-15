@@ -372,7 +372,7 @@ B1b = np.array([8, 3, 2])
 
 # Solving the system
 solution1b = np.linalg.solve(A1b, B1b)
-print("Solution for Practice 1b:", solution1b)
+print(solution1b)
 ```
 
 ## Practice 2
@@ -402,7 +402,7 @@ B2a = np.array([2, 6, 8])
 
 # Solving the system
 solution2a = np.linalg.solve(A2, B2a)
-print("Solution for Practice 2a:", solution2a)
+print(solution2a)
 ```
 
 ### b\) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
@@ -413,5 +413,5 @@ B2b = np.array([-2, -6, -8])
 
 # Solving the system
 solution2b = np.linalg.solve(A2, B2b)
-print("Solution for Practice 2b:", solution2b)
+print(solution2b)
 ```
