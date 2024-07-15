@@ -1,11 +1,4 @@
 {
-    "name": "R (rocker/r-ver base)",
-    "image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
-    "features": {
-        "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
-        "ghcr.io/devcontainers/features/python:1": {},
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
     "customizations": {
         "vscode": {
             "extensions": [
