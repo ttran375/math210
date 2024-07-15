@@ -89,7 +89,7 @@ A2 = np.array([[ 3, -1,  1],
                [ 1,  0, -4]])
 ```
 
-1)  
+a\)  
 
 $$ \begin{cases}
 b_1 = 1 \\
@@ -198,7 +198,7 @@ print(solution2a)
 
     ## [ 1.56  2.32 -1.36]
 
-2)  
+b\)
 
 $$ \begin{cases}
 b_1 = -2 \\
@@ -323,6 +323,8 @@ print(solution2b)
 
     ## [ 0.04  1.88 -0.24]
 
+## Practice 1
+
 ### a)
 
 $$
@@ -414,10 +416,10 @@ B1b = np.array([8, 3, 2])
 
 # Solving the system
 solution1b = np.linalg.solve(A1b, B1b)
-print("Solution for Practice 1b:", solution1b)
+print(solution1b)
 ```
 
-    ## Solution for Practice 1b: [ 1.40540541 -1.32432432 -6.43243243]
+    ## [ 1.40540541 -1.32432432 -6.43243243]
 
 ## Practice 2
 
@@ -446,10 +448,10 @@ B2a = np.array([2, 6, 8])
 
 # Solving the system
 solution2a = np.linalg.solve(A2, B2a)
-print("Solution for Practice 2a:", solution2a)
+print(solution2a)
 ```
 
-    ## Solution for Practice 2a: [ 1.24324324 -0.59459459  0.54054054]
+    ## [ 1.24324324 -0.59459459  0.54054054]
 
 ### b) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
 
@@ -459,7 +461,7 @@ B2b = np.array([-2, -6, -8])
 
 # Solving the system
 solution2b = np.linalg.solve(A2, B2b)
-print("Solution for Practice 2b:", solution2b)
+print(solution2b)
 ```
 
-    ## Solution for Practice 2b: [-1.24324324  0.59459459 -0.54054054]
+    ## [-1.24324324  0.59459459 -0.54054054]
