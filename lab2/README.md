@@ -403,6 +403,96 @@ $$
 \end{cases}
 $$
 
+Augmented matrix
+
+$$ \begin{pmatrix}
+3 & 2 & -1 & | & 8 \\
+2 & -5 & 1 & | & 3 \\
+6 & 0 & 1 & | & 2
+\end{pmatrix} $$
+
+Gauss-Jordan Elimination
+
+$$ \frac{1}{6}R3 \rightarrow R3 $$
+
+$$ \begin{pmatrix}
+3 & 2 & -1 & | & 8 \\
+2 & -5 & 1 & | & 3 \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ 3R3 - R1 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+0 & 2 & -\frac{11}{6} & | & 7 \\
+2 & -5 & 1 & | & 3 \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ 2R3 - R2 \rightarrow R2 $$
+
+$$ \begin{pmatrix}
+0 & 2 & -\frac{11}{6} & | & 7 \\
+0 & -5 & \frac{2}{3} & | & \frac{7}{3} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ R1 + \frac{11}{6}R2 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+0 & 2 & 0 & | & \frac{67}{18} \\
+0 & -5 & \frac{2}{3} & | & \frac{7}{3} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ -\frac{1}{5}R2 \rightarrow R2 $$
+
+$$ \begin{pmatrix}
+0 & 2 & 0 & | & \frac{67}{18} \\
+0 & 1 & -\frac{2}{15} & | & -\frac{7}{15} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ R1 - 2R2 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+0 & 0 & \frac{4}{15} & | & \frac{67}{18} \\
+0 & 1 & -\frac{2}{15} & | & -\frac{7}{15} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ \frac{15}{4}R1 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+0 & 0 & 1 & | & \frac{67}{18} \\
+0 & 1 & -\frac{2}{15} & | & -\frac{7}{15} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ R2 + \frac{2}{15}R1 \rightarrow R2 $$
+
+$$ \begin{pmatrix}
+0 & 0 & 1 & | & \frac{67}{18} \\
+0 & 1 & 0 & | & -\frac{77}{45} \\
+1 & 0 & \frac{1}{6} & | & \frac{1}{3}
+\end{pmatrix} $$
+
+$$ R3 - \frac{1}{6}R1 \rightarrow R3 $$
+
+$$ \begin{pmatrix}
+0 & 0 & 1 & | & \frac{67}{18} \\
+0 & 1 & 0 & | & -\frac{77}{45} \\
+1 & 0 & 0 & | & -\frac{23}{18}
+\end{pmatrix} $$
+
+$$
+\begin{cases}
+x_1 = -\frac{23}{18} \\
+x_2 = -\frac{77}{45} \\
+x_3 = \frac{67}{18}
+\end{cases}
+$$
+
 ``` python
 # Coefficients matrix
 A1b = np.array([[ 3,  2, -1],
