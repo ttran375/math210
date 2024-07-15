@@ -323,17 +323,56 @@ print(solution2b)
 
     ## [ 0.04  1.88 -0.24]
 
-## Practice 1
-
-Solve the following systems of equations using the method from Example
-1.
-
 ### a)
 
 $$
 \begin{cases}
 3x_1 - 5x_2 = 7 \\
 x_1 + 9x_2 = 11
+\end{cases}
+$$
+
+Augmented matrix
+
+$$ \begin{pmatrix}
+3 & -5 & | & 7 \\
+1 & 9 & | & 11
+\end{pmatrix} $$
+
+Gauss-Jordan Elimination
+
+$$ 3R2 - R1 \rightarrow R2 $$
+
+$$ \begin{pmatrix}
+3 & -5 & | & 7 \\
+0 & 32 & | & 26
+\end{pmatrix} $$
+
+$$ \frac{1}{32}R2 \rightarrow R2 $$
+
+$$ \begin{pmatrix}
+3 & -5 & | & 7 \\
+0 & 1 & | & \frac{13}{16}
+\end{pmatrix} $$
+
+$$ R1 + 5R2 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+3 & 0 & | & \frac{89}{16} \\
+0 & 1 & | & \frac{13}{16}
+\end{pmatrix} $$
+
+$$ \frac{1}{3}R1 \rightarrow R1 $$
+
+$$ \begin{pmatrix}
+1 & 0 & | & \frac{89}{48} \\
+0 & 1 & | & \frac{13}{16}
+\end{pmatrix} $$
+
+$$
+\begin{cases}
+x_1 = \frac{89}{48} \\
+x_2 = \frac{13}{16}
 \end{cases}
 $$
 
@@ -352,7 +391,7 @@ solution1a = np.linalg.solve(A1a, B1a)
 print("Solution for Practice 1a:", solution1a)
 ```
 
-    ## Solution for Practice 1a: [3.6875 0.8125]
+    ## Solution for Practice 1a: [1.85416667 0.8125]
 
 ### b)
 
