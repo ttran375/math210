@@ -325,7 +325,8 @@ print(solution2b)
 
 ## Practice 1
 
-Solve the following systems of equations using the method from Example 1.
+Solve the following systems of equations using the method from Example
+1.
 
 ### a)
 
@@ -384,9 +385,11 @@ print("Solution for Practice 1b:", solution1b)
 Solve the systems simultaneously using the method from Example 2.
 
 $$
+\begin{cases}
 3x_1 + 2x_2 - x_3 = b_1 \\
 2x_1 - 5x_2 + x_3 = b_2 \\
 6x_1 + x_3 = b_3
+\end{cases}
 $$
 
 ``` python
