@@ -87,29 +87,3 @@ solution2b = np.linalg.solve(A2, B2b)
 x2b, y2b, z2b = solution2b
 print(f"Example 2b Solution: x = {x2b}, y = {y2b}, z = {z2b}")
 ```
-
-## Practice
-
-1. Solve the following systems of equations using the method from Example 1.
-
-   1. $$
-      3x_1 - 5x_2 = 7 \\
-      x_1 + 9x_2 = 11
-      $$
-
-   2. $$
-      3x_1 + 2x_2 - x_3 = 8 \\
-      2x_1 - 5x_2 + x_3 = 3 \\
-      6x_1 + x_3 = 2
-      $$
-
-2. Solve the systems simultaneously using the method from Example 2.
-
-   $$
-   3x_1 + 2x_2 - x_3 = b_1 \\
-   2x_1 - 5x_2 + x_3 = b_2 \\
-   6x_1 + x_3 = b_3
-   $$
-
-   1. For $b_1 = 2$, $b_2 = 6$, $b_3 = 8$
-   2. For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$

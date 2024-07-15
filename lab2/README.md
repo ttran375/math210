@@ -278,3 +278,36 @@ y = \frac{47}{25} \\
 z = -\frac{6}{25}
 \end{cases}
 $$
+
+## Practice
+
+1. Solve the following systems of equations using the method from Example 1.
+
+a)
+
+$$
+3x_1 - 5x_2 = 7 \\
+x_1 + 9x_2 = 11
+$$
+
+b)
+
+$$
+3x_1 + 2x_2 - x_3 = 8 \\
+2x_1 - 5x_2 + x_3 = 3 \\
+6x_1 + x_3 = 2
+$$
+
+2. Solve the systems simultaneously using the method from Example 2.
+
+a)
+
+$$
+3x_1 + 2x_2 - x_3 = b_1 \\
+2x_1 - 5x_2 + x_3 = b_2 \\
+6x_1 + x_3 = b_3
+$$
+
+a) For $b_1 = 2$, $b_2 = 6$, $b_3 = 8$
+
+b) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
