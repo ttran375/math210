@@ -1,4 +1,4 @@
-# Math 210: Lab #2
+# Math 210: Lab \#2
 
 ## Example 1
 
@@ -55,6 +55,23 @@ y = -\frac{17}{14}
 \end{cases}
 $$
 
+``` python
+import numpy as np
+
+# Coefficients matrix
+A1 = np.array([[3, -2],
+               [1,  4]])
+
+# Constants vector
+B1 = np.array([8, -3])
+
+# Solving the system
+solution1 = np.linalg.solve(A1, B1)
+print(solution1)
+```
+
+    ## [ 1.85714286 -1.21428571]
+
 ## Example 2
 
 Solve the system simultaneously:
@@ -65,9 +82,14 @@ $$ \begin{cases}
 x - 4z = b_3
 \end{cases} $$
 
-We will solve this system for both cases (a) and (b).
+``` python
+# Coefficients matrix
+A2 = np.array([[ 3, -1,  1],
+               [-1,  2,  3],
+               [ 1,  0, -4]])
+```
 
-a)
+1)  
 
 $$ \begin{cases}
 b_1 = 1 \\
@@ -165,7 +187,18 @@ z = -\frac{34}{25}
 \end{cases}
 $$
 
-b)
+``` python
+# Constants vector for a)
+B2a = np.array([1, -1, 7])
+
+# Solving the system
+solution2a = np.linalg.solve(A2, B2a)
+print(solution2a)
+```
+
+    ## [ 1.56  2.32 -1.36]
+
+2)  
 
 $$ \begin{cases}
 b_1 = -2 \\
@@ -279,18 +312,47 @@ z = -\frac{6}{25}
 \end{cases}
 $$
 
-## Practice
+``` python
+# Constants vector for b)
+B2b = np.array([-2, 3, 1])
 
-1. Solve the following systems of equations using the method from Example 1.
+# Solving the system
+solution2b = np.linalg.solve(A2, B2b)
+print(solution2b)
+```
 
-a)
+    ## [ 0.04  1.88 -0.24]
+
+## Practice 1
+
+Solve the following systems of equations using the method from Example
+1.
+
+### a)
 
 $$
 3x_1 - 5x_2 = 7 \\
 x_1 + 9x_2 = 11
 $$
 
-b)
+``` python
+import numpy as np
+
+# Coefficients matrix
+A1a = np.array([[3, -5],
+                [1, 9]])
+
+# Constants vector
+B1a = np.array([7, 11])
+
+# Solving the system
+solution1a = np.linalg.solve(A1a, B1a)
+print("Solution for Practice 1a:", solution1a)
+```
+
+    ## Solution for Practice 1a: [3.6875 0.8125]
+
+### b)
 
 $$
 3x_1 + 2x_2 - x_3 = 8 \\
@@ -298,9 +360,25 @@ $$
 6x_1 + x_3 = 2
 $$
 
-2. Solve the systems simultaneously using the method from Example 2.
+``` python
+# Coefficients matrix
+A1b = np.array([[ 3,  2, -1],
+                [ 2, -5,  1],
+                [ 6,  0,  1]])
 
-a)
+# Constants vector
+B1b = np.array([8, 3, 2])
+
+# Solving the system
+solution1b = np.linalg.solve(A1b, B1b)
+print("Solution for Practice 1b:", solution1b)
+```
+
+    ## Solution for Practice 1b: [ 1.40540541 -1.32432432 -6.43243243]
+
+## Practice 2
+
+Solve the systems simultaneously using the method from Example 2.
 
 $$
 3x_1 + 2x_2 - x_3 = b_1 \\
@@ -308,6 +386,35 @@ $$
 6x_1 + x_3 = b_3
 $$
 
-a) For $b_1 = 2$, $b_2 = 6$, $b_3 = 8$
+``` python
+# Coefficients matrix
+A2 = np.array([[ 3,  2, -1],
+               [ 2, -5,  1],
+               [ 6,  0,  1]])
+```
 
-b) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
+### a) For $b_1 = 2$, $b_2 = 6$, $b_3 = 8$
+
+``` python
+# Constants vector for a)
+B2a = np.array([2, 6, 8])
+
+# Solving the system
+solution2a = np.linalg.solve(A2, B2a)
+print("Solution for Practice 2a:", solution2a)
+```
+
+    ## Solution for Practice 2a: [ 1.24324324 -0.59459459  0.54054054]
+
+### b) For $b_1 = -2$, $b_2 = -6$, $b_3 = -8$
+
+``` python
+# Constants vector for b)
+B2b = np.array([-2, -6, -8])
+
+# Solving the system
+solution2b = np.linalg.solve(A2, B2b)
+print("Solution for Practice 2b:", solution2b)
+```
+
+    ## Solution for Practice 2b: [-1.24324324  0.59459459 -0.54054054]
