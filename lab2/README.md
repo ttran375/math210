@@ -325,14 +325,15 @@ print(solution2b)
 
 ## Practice 1
 
-Solve the following systems of equations using the method from Example
-1.
+Solve the following systems of equations using the method from Example 1.
 
 ### a)
 
 $$
+\begin{cases}
 3x_1 - 5x_2 = 7 \\
 x_1 + 9x_2 = 11
+\end{cases}
 $$
 
 ``` python
@@ -355,9 +356,11 @@ print("Solution for Practice 1a:", solution1a)
 ### b)
 
 $$
+\begin{cases}
 3x_1 + 2x_2 - x_3 = 8 \\
 2x_1 - 5x_2 + x_3 = 3 \\
 6x_1 + x_3 = 2
+\end{cases}
 $$
 
 ``` python
