@@ -258,6 +258,34 @@ $$ B + 3E^T = \begin{bmatrix}
 
 ## 4. Use SCILAB to solve the following system of equations and attach SCILAB output.
 
+$$
+\begin{cases} 
+2x - y + 7z - w = 20 \\
+x + 3y + z - 3w = 12 \\
+x - 3z + 5w = -14 \\
+2x + y + 4z - w = 13 
+\end{cases} 
+$$
+```{python}
+# Import necessary library for matrix operations
+import numpy as np
+
+# Define the coefficient matrix A and the constant vector b for Question 4
+A1 = np.array([[2, -1, 7, -1],
+               [1, 3, 1, -3],
+               [1, 0, -3, 5],
+               [2, 1, 4, -1]])
+
+b1 = np.array([20, 12, -14, 13])
+
+# Solve for x using numpy's linear algebra solver
+x1 = np.linalg.solve(A1, b1)
+
+# Display the solution
+print('Solution for Question 4:')
+print(x1)
+```
+
 ## 5. Use SCILAB to solve the following systems simultaneously and attach SCILAB output.
 
 $$
