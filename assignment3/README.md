@@ -18,6 +18,65 @@ $$
 \end{array} \right)
 $$
 
+1. $R3 = R3 - 3R2$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -1 & 5 & -6 \\
+0 & 1 & \frac{1}{2} & \frac{3}{2} \\
+0 & 0 & -\frac{29}{2} & \frac{29}{2}
+\end{array} \right)
+$$
+
+2. $R3 = -\frac{2}{29} \times R3$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -1 & 5 & -6 \\
+0 & 1 & \frac{1}{2} & \frac{3}{2} \\
+0 & 0 & 1 & -1
+\end{array} \right)
+$$
+
+3. $R1 = R1 - 5R3$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -1 & 0 & -1 \\
+0 & 1 & \frac{1}{2} & \frac{3}{2} \\
+0 & 0 & 1 & -1
+\end{array} \right)
+$$
+
+4. $R2 = R2 - \frac{1}{2}R3$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -1 & 0 & -1 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 1 & -1
+\end{array} \right)
+$$
+
+5. $R1 = R1 + R2$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & 0 & 0 & 1 \\
+0 & 1 & 0 & 2 \\
+0 & 0 & 1 & -1
+\end{array} \right)
+$$
+
+Thus, the solution is:
+
+$$
+\begin{cases}
+x = 1 \\
+y = 2 \\
+z = -1
+\end{cases}
+$$
 
 ## 2. Solve the Homogeneous System of Linear Equations [5 marks]
 
