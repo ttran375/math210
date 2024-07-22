@@ -299,10 +299,37 @@ $$
 ### a)
 
 $$a_1 = 1, \quad a_2 = 0, \quad a_3 = -\frac{1}{4} $$
+```{python}
+# Define the coefficient matrix A for Question 5
+A2 = np.array([[1, -2, 4],
+               [5, 3, 1],
+               [6, -2, -4]])
+
+# Define the constants vector b for part (a)
+b_a = np.array([1, 0, -1/4])
+
+# Solve for x using numpy's linear algebra solver
+x_a = np.linalg.solve(A2, b_a)
+
+# Display the solution
+print('Solution for part (a) of Question 5:')
+print(x_a)
+```
 
 ### b)
 
 $$a_1 = 5, \quad a_2 = 1, \quad a_3 = -2 $$
+```{python}
+# Define the constants vector b for part (b)
+b_b = np.array([5, 1, -2])
+
+# Solve for x using numpy's linear algebra solver
+x_b = np.linalg.solve(A2, b_b)
+
+# Display the solution
+print('Solution for part (b) of Question 5:')
+print(x_b)
+```
 
 ## 6. Use SCILAB to solve the following systems simultaneously and attach SCILAB output.
 
