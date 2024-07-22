@@ -168,11 +168,93 @@ E = \begin{bmatrix}
 
 ### (a) $2A \times D$
 
+$$ 2A = 2 \times \begin{bmatrix}
+  3 & 0 & 2 \\
+  -2 & 1 & -1 
+\end{bmatrix} = \begin{bmatrix}
+  6 & 0 & 4 \\
+  -4 & 2 & -2 
+\end{bmatrix} $$
+
+$$ 2A \times D = \begin{bmatrix}
+  6 & 0 & 4 \\
+  -4 & 2 & -2 
+\end{bmatrix} \times \begin{bmatrix}
+  1 & 4 \\
+  3 & 0 \\
+  1 & -3 
+\end{bmatrix} = \begin{bmatrix}
+  6 \times 1 + 0 \times 3 + 4 \times 1 & 6 \times 4 + 0 \times 0 + 4 \times (-3) \\
+  -4 \times 1 + 2 \times 3 + (-2) \times 1 & -4 \times 4 + 2 \times 0 + (-2) \times (-3) 
+\end{bmatrix} = \begin{bmatrix}
+  10 & 12 \\
+  0 & -10 
+\end{bmatrix} $$
+
 ### (b) $C^T$
+
+$$ C^T = \begin{bmatrix}
+  3 & -1 & 5 \\
+  1 & 0 & -2 \\
+  2 & 4 & 3 
+\end{bmatrix} $$
 
 ### (c) $g(B)$ where $g(x) = 3 - 2x^2$
 
+$$ B^2 = \begin{bmatrix}
+  -2 & 3 \\
+  4 & 0 
+\end{bmatrix} \times \begin{bmatrix}
+  -2 & 3 \\
+  4 & 0 
+\end{bmatrix} = \begin{bmatrix}
+  -2 \times -2 + 3 \times 4 & -2 \times 3 + 3 \times 0 \\
+  4 \times -2 + 0 \times 4 & 4 \times 3 + 0 \times 0 
+\end{bmatrix} = \begin{bmatrix}
+  16 & -6 \\
+  -8 & 12 
+\end{bmatrix} $$
+
+$$ 3 - 2B^2 = 3 - 2 \times \begin{bmatrix}
+  16 & -6 \\
+  -8 & 12 
+\end{bmatrix} = 3 - \begin{bmatrix}
+  32 & -12 \\
+  -16 & 24 
+\end{bmatrix} = \begin{bmatrix}
+  3 - 32 & 3 + 12 \\
+  3 + 16 & 3 - 24 
+\end{bmatrix} = \begin{bmatrix}
+  -29 & 15 \\
+  19 & -21 
+\end{bmatrix} $$
+
 ### (d) $B + 3E^T$
+
+$$ E^T = \begin{bmatrix}
+  1 & 0 \\
+  2 & -3 
+\end{bmatrix} \rightarrow 3E^T = 3 \times \begin{bmatrix}
+  1 & 0 \\
+  2 & -3 
+\end{bmatrix} = \begin{bmatrix}
+  3 & 0 \\
+  6 & -9 
+\end{bmatrix} $$
+
+$$ B + 3E^T = \begin{bmatrix}
+  -2 & 3 \\
+  4 & 0 
+\end{bmatrix} + \begin{bmatrix}
+  3 & 0 \\
+  6 & -9 
+\end{bmatrix} = \begin{bmatrix}
+  -2 + 3 & 3 + 0 \\
+  4 + 6 & 0 + (-9) 
+\end{bmatrix} = \begin{bmatrix}
+  1 & 3 \\
+  10 & -9 
+\end{bmatrix} $$
 
 ## 4. Use SCILAB to solve the following system of equations and attach SCILAB output.
 
