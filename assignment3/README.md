@@ -91,6 +91,54 @@ $$
 
 Use elementary row operations to solve the above system. Identify the free variable(s) if any.
 
+1. $R2 = R2 - 2R1$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -2 & 3 & 0 \\
+0 & 7 & -13 & 0
+\end{array} \right)
+$$
+
+2. $R2 = \frac{1}{7}R2$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & -2 & 3 & 0 \\
+0 & 1 & -\frac{13}{7} & 0
+\end{array} \right)
+$$
+
+3. $R1 = R1 + 2R2$
+
+$$
+\left( \begin{array}{ccc|c}
+1 & 0 & -\frac{5}{7} & 0 \\
+0 & 1 & -\frac{13}{7} & 0
+\end{array} \right)
+$$
+
+Solving the system of equations:
+
+$$
+x - \frac{5}{7}z = 0 \quad \rightarrow \quad x = \frac{5}{7}z
+$$
+
+$$
+y - \frac{13}{7}z = 0 \quad \rightarrow \quad y = \frac{13}{7}z
+$$
+
+Therefore, $z$ can take any value, so it is a free variable:
+
+$$
+\begin{cases}
+x = \frac{5}{7}t \\
+y = \frac{13}{7}t \\
+z = t
+\end{cases}
+$$
+
+
 ## 3. Matrix Operations [12 marks]
 
 Given the following matrices:
