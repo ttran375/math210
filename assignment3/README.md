@@ -78,6 +78,7 @@ z = -1
 \end{cases}
 $$
 
+
 ## 2. Solve the Homogeneous System of Linear Equations [5 marks]
 
 For the following system of homogeneous linear equations:
@@ -351,8 +352,60 @@ $$D = \begin{bmatrix}
 0 & 34 
 \end{bmatrix} $$
 
+```{python}
+# Define the matrices A and B for Question 6
+A3 = np.array([[1, 0, 0],
+               [0, -1, 0],
+               [0, 0, -1]])
+
+B = np.array([[-5/7, 7, -12],
+              [-1, 0, -5],
+              [3, -36, 7/11]])
+```
+
 ### a)
+
+$$(A \times B)^T $$
+```{python}
+# Compute the product A * B
+C = np.dot(A3, B)
+
+# Compute the transpose of the result
+C_T = C.T
+
+# Display the result
+print('Result of (A * B)^T:')
+print(C_T)
+```
 
 ### b)
 
+$$B^T \times D $$
+```{python}
+# Define the matrix D
+D = np.array([[4/5, -1],
+              [1, -4],
+              [0, 34]])
+
+# Compute the transpose of B
+B_T = B.T
+
+# Compute the product B_T * D
+E = np.dot(B_T, D)
+
+# Display the result
+print('Result of B^T * D:')
+print(E)
+```
+
 ### c)
+
+$$tr(B) $$
+```{python}
+# Compute the trace of matrix B
+trace_B = np.trace(B)
+
+# Display the result
+print('Trace of B:')
+print(trace_B)
+```
