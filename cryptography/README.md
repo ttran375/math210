@@ -44,6 +44,47 @@ B = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+$$ B = \begin{bmatrix} 1 & 0 \\
+2 & 3 \end{bmatrix} $$
+
+$$ \text{det}(B) = (1 \times 3) - (0 \times 2) = 3 $$
+
+$$ B^{-1} = \frac{1}{\text{det}(B)} \cdot \text{adj}(B) $$
+
+$$ \text{adj}(B) = \begin{bmatrix} 3 & 0 \\
+-2 & 1 \end{bmatrix} $$
+
+$$ B^{-1} = \frac{1}{3} \begin{bmatrix} 3 & 0 \\
+-2 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\
+-\frac{2}{3} & \frac{1}{3} \end{bmatrix} $$
+
+$$ \begin{bmatrix} 9 & 0 \\
+36 & 24 \\
+37 & 42 \\
+11 & 0 \\
+36 & 24 \\
+41 & 54 \\
+17 & 18 \\
+51 & 54 \\
+5 & 0 \\
+9 & 0 \\
+27 & 39 \end{bmatrix} \times \begin{bmatrix} 1 & 0 \\
+-\frac{2}{3} & \frac{1}{3} \end{bmatrix} = \begin{bmatrix} 9 & 0 \\
+20 & 8 \\
+9 & 14 \\
+11 & 0 \\
+20 & 8 \\
+5 & 18 \\
+5 & 6 \\
+15 & 18 \\
+5 & 0 \\
+9 & 0 \\
+1 & 13 \end{bmatrix} $$
+
+The decoded message is:
+
+**I THINK THEREFORE I AM**
+
 ``` python
 # Question 1
 encoded_message_q1 = [9, 0, 36, 24, 37, 42, 11, 0, 36, 24, 41, 54, 17, 18, 51, 54, 5, 0, 9, 0, 27, 39]
