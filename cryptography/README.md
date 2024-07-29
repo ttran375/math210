@@ -44,9 +44,6 @@ B = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-$$ B = \begin{bmatrix} 1 & 0 \\
-2 & 3 \end{bmatrix} $$
-
 $$ \text{det}(B) = (1 \times 3) - (0 \times 2) = 3 $$
 
 $$ B^{-1} = \frac{1}{\text{det}(B)} \cdot \text{adj}(B) $$
@@ -113,6 +110,127 @@ B =
 2 & 0 & -1
 \end{bmatrix}
 $$
+
+$$
+C_{11} = (-1)^{1+1} \det\begin{bmatrix}
+0 & 1 \\
+0 & -1
+\end{bmatrix} = (1) \left( (0 \times (-1)) - (1 \times 0) \right) = 1 \times 0 = 0
+$$
+
+$$
+C_{12} = (-1)^{1+2} \det\begin{bmatrix}
+-1 & 1 \\
+2 & -1
+\end{bmatrix} = (-1) \left( (-1 \times (-1)) - (1 \times 2) \right) = (-1) \left( 1 - 2 \right) = (-1) \times (-1) = 1
+$$
+
+$$
+C_{13} = (-1)^{1+3} \det\begin{bmatrix}
+-1 & 0 \\
+2 & 0
+\end{bmatrix} = (1) \left( (-1 \times 0) - (0 \times 2) \right) = 1 \times 0 = 0
+$$
+
+$$
+C_{21} = (-1)^{2+1} \det\begin{bmatrix}
+1 & 0 \\
+0 & -1
+\end{bmatrix} = (-1) \left( (1 \times (-1)) - (0 \times 0) \right) = (-1) \left( -1 \right) = 1
+$$
+
+$$
+C_{22} = (-1)^{2+2} \det\begin{bmatrix}
+1 & 0 \\
+2 & -1
+\end{bmatrix} = (1) \left( (1 \times (-1)) - (0 \times 2) \right) = 1 \times (-1) = -1
+$$
+
+$$
+C_{23} = (-1)^{2+3} \det\begin{bmatrix}
+1 & 1 \\
+2 & 0
+\end{bmatrix} = (-1) \left( (1 \times 0) - (1 \times 2) \right) = (-1) \left( 0 - 2 \right) = (-1) \times (-2) = 2
+$$
+
+$$
+C_{31} = (-1)^{3+1} \det\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix} = (1) \left( (1 \times 1) - (0 \times 0) \right) = 1 \times 1 = 1
+$$
+
+$$
+C_{32} = (-1)^{3+2} \det\begin{bmatrix}
+1 & 0 \\
+-1 & 1
+\end{bmatrix} = (-1) \left( (1 \times 1) - (0 \times (-1)) \right) = (-1) \left( 1 - 0 \right) = (-1) \times 1 = -1
+$$
+
+$$
+C_{33} = (-1)^{3+3} \det\begin{bmatrix}
+1 & 1 \\
+-1 & 0
+\end{bmatrix} = (1) \left( (1 \times 0) - (1 \times (-1)) \right) = 1 \left( 0 - (-1) \right) = 1 \times 1 = 1
+$$
+
+$$
+\text{Cof}(B) =
+\begin{bmatrix}
+0 & 1 & 0 \\
+1 & -1 & 2 \\
+1 & -1 & 1
+\end{bmatrix} \rightarrow
+\text{adj}(B) =
+\begin{bmatrix}
+0 & 1 & 1 \\
+1 & -1 & -1 \\
+0 & 2 & 1
+\end{bmatrix}
+$$
+
+$$
+\begin{align}
+B^{-1} &= \frac{1}{\det(B)} \text{adj}(B) \\
+&= 1 \times \begin{bmatrix}
+0 & 1 & 1 \\
+1 & -1 & -1 \\
+0 & 2 & 1
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+0 & 1 & 1 \\
+1 & -1 & -1 \\
+0 & 2 & 1
+\end{bmatrix}
+\end{align}
+$$
+
+$$
+\begin{bmatrix}
+45 & 22 & -11 \\
+31 & 5 & -6 \\
+5 & 9 & 9 \\
+-2 & 0 & 3 \\
+25 & 25 & 0
+\end{bmatrix} \times
+\begin{bmatrix}
+0 & 1 & 1 \\
+1 & -1 & -1 \\
+0 & 2 & 1
+\end{bmatrix} =
+\begin{bmatrix}
+22 & 1 & 12 \\
+5 & 14 & 20 \\
+9 & 14 & 5 \\
+0 & 4 & 1 \\
+25 & 0 & 0
+\end{bmatrix}
+$$
+
+The decoded message is:
+
+**VALENTINE DAY**
 
 ``` python
 # Question 2
