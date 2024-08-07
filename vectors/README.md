@@ -40,6 +40,8 @@ $$ \text{proj}_{\mathbf{v}} \mathbf{u} = \frac{\mathbf{u} \cdot \mathbf{v}}{\mat
 
 #### b) The projection of $\mathbf{u}$ orthogonal to $\mathbf{v}$
 
+\$\$ \\mathbf\{u\}\_\{\perp\} = \\mathbf\{u\} - \\text\{proj\}\_\{\\mathbf\{v\}\} \\mathbf\{u\} = (2, 0, 1) - \left( \frac{5}{14}, \frac{-5}{7}, \frac{15}{14} \right) = \left( \frac{23}{14}, \frac{5}{7}, \frac{-1}{14} \right) \$\$
+
 $$ \mathbf{u}_{\perp} = \mathbf{u} - \text{proj}_{\mathbf{v}} \mathbf{u} = (2, 0, 1) - \left( \frac{5}{14}, \frac{-5}{7}, \frac{15}{14} \right) = \left( \frac{23}{14}, \frac{5}{7}, \frac{-1}{14} \right) $$
 
 ## Question 3
