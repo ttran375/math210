@@ -174,10 +174,8 @@ $$
 = (-3, 0, 1)
 $$
 
-Now compute $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$:
-
 $$
-\mathbf{u} \cdot (-3, 0, 1) = (2)(-3) + (0)(0) + (1)(1) = -6 + 0 + 1 = -5
+\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = (2, 0 , 1) \cdot (-3, 0, 1) =  (2)(-3) + (0)(0) + (1)(1) = -6 + 0 + 1 = -5
 $$
 
 So, the volume of the parallelepiped is $|-5| = 5$.
