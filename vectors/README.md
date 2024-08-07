@@ -105,4 +105,12 @@ $$
 
 ## The cross product
 
-### Question 1
+Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -2, 3)$; $\mathbf{w} = (0, 1, 0)$; find:
+
+a) $\mathbf{v} \times \mathbf{u}$
+
+b) The area of a parallelogram constructed with the vectors $\mathbf{u}$ and $\mathbf{v}$
+
+c) The volume of a parallelepiped constructed with vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ starting from the same initial point
+
+d) $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$
