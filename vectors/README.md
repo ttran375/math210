@@ -10,7 +10,17 @@ b) The angle between $\mathbf{u}$ and $\mathbf{v}$
 
 #### a) $\mathbf{u} \cdot \mathbf{v}$
 
-$$ \mathbf{u} \cdot \mathbf{v} = (2)(1) + (0)(-2) + (1)(3) = 2 + 0 + 3 = 5 $$
+$$ \mathbf{u} \cdot \mathbf{v} = 2 \times 1 + 0 \times (-2) + 1 \times 3 = 5 $$
+
+#### b) The angle between $\mathbf{u}$ and $\mathbf{v}$
+
+$$\|\mathbf{u}\| = \sqrt{2^2 + 0^2 + 1^2} = \sqrt{5}$$
+
+$$\|\mathbf{v}\| = \sqrt{1 + 4 + 9} = \sqrt{14}$$
+
+$$ \cos \theta = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|} = \frac{5}{\sqrt{5} \times \sqrt{14}} = \frac{\sqrt{70}}{14} $$
+
+$$\theta = \cos^{-1} \left(\frac{\sqrt{70}}{14}\right)$$
 
 ## Question 2
 
