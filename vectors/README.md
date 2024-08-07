@@ -49,3 +49,22 @@ Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -
 a) $3\mathbf{u} - \mathbf{v}$
 
 b) Find values of $k$ for which: $\| k\mathbf{u} \| = 27$
+
+### Question 3
+
+Given vectors $\mathbf{u} = (2, 0, 1)$ and $\mathbf{v} = (1, -2, 3)$:
+
+#### a) $3\mathbf{u} - \mathbf{v}$
+
+$$ 3\mathbf{u} - \mathbf{v} = 3(2, 0, 1) - (1, -2, 3) = (5, 2, 0) $$
+
+#### b) Find values of $k$ for which $\| k\mathbf{u} \| = 27$
+
+$$ \| k\mathbf{u} \| = 27 $$
+$$ |k| \|\mathbf{u}\| = 27 $$
+
+$$ |k| \sqrt{5} = 27 $$
+
+$$ |k| = \frac{27\sqrt{5}}{5} $$
+
+$$ k = \pm \frac{27\sqrt{5}}{5} $$
