@@ -146,10 +146,6 @@ $$
 
 #### c) The volume of a parallelepiped constructed with vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ starting from the same initial point
 
-The volume of the parallelepiped is given by the scalar triple product $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$.
-
-First, compute $\mathbf{v} \times \mathbf{w}$:
-
 $$
 \mathbf{v} \times \mathbf{w} = \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
@@ -174,18 +170,10 @@ $$
 = (-3, 0, 1)
 $$
 
-$$
-\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = (2, 0 , 1) \cdot (-3, 0, 1) =  (2)(-3) + (0)(0) + (1)(1) = -6 + 0 + 1 = -5
-$$
-
-So, the volume of the parallelepiped is $|-5| = 5$.
+$$ V = \| \mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) \| = \| (2, 0 , 1) \cdot (-3, 0, 1) \| = \| (2)(-3) + (0)(0) + (1)(1) \| = 5 $$
 
 #### d) $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$
-
-From the previous part, we already calculated $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$:
 
 $$
 \mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = -5
 $$
-
-Thus, $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = -5$.
