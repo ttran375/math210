@@ -114,3 +114,80 @@ b) The area of a parallelogram constructed with the vectors $\mathbf{u}$ and $\m
 c) The volume of a parallelepiped constructed with vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ starting from the same initial point
 
 d) $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$
+
+#### a) $\mathbf{v} \times \mathbf{u}$
+
+$$
+\mathbf{v} \times \mathbf{u} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+1 & -2 & 3 \\
+2 & 0 & 1
+\end{vmatrix}
+$$
+
+$$
+= \mathbf{i} \left((-2)(1) - (3)(0)\right) - \mathbf{j} \left((1)(1) - (3)(2)\right) + \mathbf{k} \left((1)(0) - (-2)(2)\right)
+$$
+
+$$
+= \mathbf{i} (-2) - \mathbf{j} (1 - 6) + \mathbf{k} (0 + 4)
+$$
+
+$$
+= -2\mathbf{i} + 5\mathbf{j} + 4\mathbf{k} \\
+= (-2, 5, 4)
+$$
+
+#### b) The area of a parallelogram constructed with the vectors $\mathbf{u}$ and $\mathbf{v}$
+
+$$
+\text{A} = \|\mathbf{u} \times \mathbf{v}\| = \|\mathbf{v} \times \mathbf{u}\| = \|(-2, 5, 4)\| = \sqrt{(-2)^2 + 5^2 + 4^2} = 3\sqrt{5}
+$$
+
+#### c) The volume of a parallelepiped constructed with vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ starting from the same initial point
+
+The volume of the parallelepiped is given by the scalar triple product $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$.
+
+First, compute $\mathbf{v} \times \mathbf{w}$:
+
+$$
+\mathbf{v} \times \mathbf{w} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+1 & -2 & 3 \\
+0 & 1 & 0
+\end{vmatrix}
+$$
+
+$$
+= \mathbf{i} \left((-2)(0) - (3)(1)\right) - \mathbf{j} \left((1)(0) - (3)(0)\right) + \mathbf{k} \left((1)(1) - (-2)(0)\right)
+$$
+
+$$
+= \mathbf{i} (0 - 3) - \mathbf{j} (0 - 0) + \mathbf{k} (1 + 0)
+$$
+
+$$
+= -3\mathbf{i} + 0\mathbf{j} + 1\mathbf{k}
+$$
+
+$$
+= (-3, 0, 1)
+$$
+
+Now compute $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$:
+
+$$
+\mathbf{u} \cdot (-3, 0, 1) = (2)(-3) + (0)(0) + (1)(1) = -6 + 0 + 1 = -5
+$$
+
+So, the volume of the parallelepiped is $|-5| = 5$.
+
+#### d) $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$
+
+From the previous part, we already calculated $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})$:
+
+$$
+\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = -5
+$$
+
+Thus, $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = -5$.
