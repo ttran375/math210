@@ -1,6 +1,8 @@
-# Vectors. The dot product
+# Vectors
 
-## Question 1
+## The dot product
+
+### Question 1
 
 Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -2, 3)$
 
@@ -35,7 +37,7 @@ $$
 \end{align}
 $$
 
-## Question 2
+### Question 2
 
 Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -2, 3)$
 
@@ -68,7 +70,7 @@ $$
 \end{align}
 $$
 
-## Question 3
+### Question 3
 
 Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -2, 3)$
 
@@ -100,3 +102,7 @@ $$
 k &= \pm \frac{27\sqrt{5}}{5} \\
 \end{align}
 $$
+
+## The cross product
+
+### Question 1
