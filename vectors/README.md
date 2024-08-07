@@ -8,6 +8,10 @@ a) $\mathbf{u} \cdot \mathbf{v}$
 
 b) The angle between $\mathbf{u}$ and $\mathbf{v}$
 
+#### a) $\mathbf{u} \cdot \mathbf{v}$
+
+$$ \mathbf{u} \cdot \mathbf{v} = (2)(1) + (0)(-2) + (1)(3) = 2 + 0 + 3 = 5 $$
+
 ## Question 2
 
 Given the following vectors, find: $\mathbf{u} = (2, 0, 1)$; $\mathbf{v} = (1, -2, 3)$
