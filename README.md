@@ -44,6 +44,7 @@
 
 - In-Class Exercises: [The Inverse of a Matrix and Special Matrices](module10)
 - Labs: [Introduction to Scilab](lab1), [Systems of Equations](lab2)
+- Assignments: [Assignment 3](assignment3)
 
 ## Module 11
 
