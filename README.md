@@ -54,3 +54,4 @@
 ## Module 12
 
 - In-Class Exercises: [Review Quiz 2](module12)
+- Assignments: [Assignment 4](https://github.com/ttran375/math210-assignment4)
